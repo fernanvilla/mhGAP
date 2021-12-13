@@ -1,13 +1,36 @@
 ﻿<%@ Page Title="Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2 style="color:blueviolet"><%: Title %></h2>
+    
+<style type="text/css">
+span.listacirculo {
+  background: #8b1061;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+::marker {
+  content: "»";
+  font-size: 1.5em;
+  color: #8b1061;
+}
+</style>
+
+<h2 style="color:#8b1061"><%: Title %></h2>
     
 <center>
     <table style="width:80%">
         <tr>
             <td colspan ="2">
-                <h3 style="color:blueviolet">Sobre la Depresión</h3>
+                <h3 style="color:#8b1061">Sobre la Depresión</h3>
             </td>
         </tr>
         <tr>
@@ -15,6 +38,12 @@
                 <ul>
                     <li>
                         Las personas que sufren depresión experimentan una variedad de síntomas, como un estado de ánimo deprimido persistente o pérdida de interés y placer durante al menos dos semanas.
+                    </li>
+                    <li>
+                        Como se describe en este módulo, las personas con depresión tienen considerables dificultades en su funcionamiento cotidiano en el ámbito personal, familiar, social, educativo, ocupacional o de otro tipo.
+                    </li>
+                    <li>
+                        Muchas personas con depresión también padecen síntomas de ansiedad y síntomas somáticos sin explicación médica discernible.
                     </li>
                 </ul>
                 
@@ -43,7 +72,7 @@
     <table style="width:80%; text-align:left">
         <tr>
             <td>
-                <h3 style="color:blueviolet">Manifestaciones Comunes</h3>
+                <h3 style="color:#8b1061">Manifestaciones Comunes</h3>
 
                 <ul>
                     <li>
@@ -64,31 +93,31 @@
 <center>
     <table style="width:80%; text-align:left">
         <tr>
-            <td colspan="2" style="text-align:center">
-                <h4 style="color:blueviolet">Inicio del Tamizaje</h4>                
+            <td colspan="2" style="text-align:center; background:#8b1061">
+                <h4 style="color:white">Inicio del Tamizaje</h4>                
             </td>
         </tr>
         <tr>
             <td style="width:5%; text-align:center">
-                <h4 style="color:blueviolet">1</h4>  
+                <h4><span class="listacirculo">1</span></h4>  
             </td>
             <td style="width:95%; text-align:left">
-                <h4 style="color:blueviolet;">¿Tiene la Persona Depresión?</h4>                
+                <h4 style="color:#8b1061;">¿Tiene la Persona Depresión?</h4>                
             </td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
-            <td style="text-align:center">
+            <td style="text-align:left">
                  ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
-            <td style="text-align:center">
-                 <asp:CheckBox ID="verificar_1_1" runat="server" Text="Estado de ánimo deprimido persistente" />
+            <td style="text-align:left;">
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_1" runat="server" Text="&nbsp;Estado de ánimo deprimido persistente" />
                 <br />
-                <asp:CheckBox ID="verificar_1_2" runat="server" Text="Marcada disminución del interés o el placer en realizar actividades antes disfrutadas" />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_2" runat="server" Text="&nbsp;Marcada disminución del interés o el placer en realizar actividades antes disfrutadas" />
             </td>
         </tr>
         <tr>
