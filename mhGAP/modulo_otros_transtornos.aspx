@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_otros_transtornos.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -99,7 +99,7 @@ span.listacirculo {
 </center>
 <br />
 <center>
-    <table style="width:80%; text-align:left">
+    <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso1">
         <tr>
             <td colspan="2" style="text-align:center; background:#8b1061">
                 <h4 class="auto-style1">
@@ -115,6 +115,7 @@ span.listacirculo {
             </td>
         </tr>
     </table>
+
     <table style="width:80%; text-align:left" runat="server" id="pregunta1">
         <tr>
             <td style="width:5%; text-align:center">
@@ -135,66 +136,61 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 <asp:Button ID="cmdContinuar" runat="server" Text="Continuar" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:left">
-                 ¿Tiene o tuvo la persona varios de los otros síntomas siguientes durante al menos dos semanas?</td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:left;">
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_3" runat="server" Text="&nbsp;Alteraciones del sueño o dormir demasiado" />
-                <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_4" runat="server" Text="&nbsp;Cambio significativo del apetito o el peso (disminución o aumento)" />
-             <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_5" runat="server" Text="&nbsp;Creencia de que carece de méritos o de una culpabilidad excesiva" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_6" runat="server" Text="&nbsp;Fatiga o pérdida de energía" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_7" runat="server" Text="&nbsp;Disminución de la concentración" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_8" runat="server" Text="&nbsp;Indecisión" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_9" runat="server" Text="&nbsp;Agitación observable o inquietud física" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_10" runat="server" Text="&nbsp;Habla o se mueve más lentamente de lo usual" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_11" runat="server" Text="&nbsp;Desesperanza" />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_12" runat="server" Text="&nbsp;Pensamientos o actos suicidas" />
+                 <asp:Button ID="cmdContinuar_pregunta1" runat="server" Text="Continuar" OnClick="cmdContinuar_pregunta1_Click" />
             </td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 &nbsp;</td>
+                <asp:HyperLink ID="NegativaPregunta1" runat="server" Visible="false">HyperLink</asp:HyperLink></td>
         </tr>
-         <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:left">
-                 ¿Tiene la persona considerable dificultad en el funcionamiento diario en el ámbito personal, familiar, social, educativo, ocupacional o de otro tipo?</td>
+    </table>
+
+    <br />
+    <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#8b1061">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/necesitar.png" />Fase 1. Evaluación</h4>                
+            </td>
         </tr>
         <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:left;">
-                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_13" runat="server" Text="&nbsp;Si" />
-                <br />
-                </tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">2</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:#8b1061;">¿Hay otras explicaciones posibles de los síntomas?</h4>                
+            </td>
+        </tr>
     </table>
+    <!-- Aca van las preguntas de fase 1 paso 2 -->
+        <br />
+    <table style="width:80%; text-align:left" runat="server" id="fase2_protocolo1" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#8b1061">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/atencion-medica.png" />&nbsp;Fase 2. Manejo</h4>                
+            </td>
+        </tr>
+        <tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">1</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:#8b1061;">Protocolo: Depresión.</h4>                
+            </td>
+        </tr>
+    </table>
+
+
+<!-- No cambie nada de acá en adelante -->
     <br />
     <asp:HiddenField ID="txtPaciente" runat="server" OnValueChanged="txtPaciente_ValueChanged" />
     <asp:HiddenField ID="txtProfesional" runat="server" />
     <br />
 </center>
     <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/mikan933" title="mikan933">mikan933</a>,
-    <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a>, 
+    <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a>,<a href="https://www.freepik.com" title="Freepik">Freepik</a>,  
     <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 </asp:Content>
