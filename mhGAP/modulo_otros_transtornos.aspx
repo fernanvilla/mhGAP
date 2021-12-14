@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_otros_transtornos.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -115,13 +115,13 @@ span.listacirculo {
             </td>
         </tr>
     </table>
-    <br />
-    <table style="width:80%; text-align:left" runat="server" id="paso1pregunta1">
+
+    <table style="width:80%; text-align:left" runat="server" id="pregunta1">
         <tr>
             <td style="width:5%; text-align:center">
                 &nbsp;</td>
             <td style="text-align:left">
-                 <b>Pregunta 1.</b> ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
+                 Pregunta 1. ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
         </tr>
         <tr>
             <td>
@@ -143,59 +143,9 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                <asp:HyperLink ID="NegativaPregunta1" runat="server" Visible="False" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
+                <asp:HyperLink ID="NegativaPregunta1" runat="server" Visible="false">HyperLink</asp:HyperLink></td>
         </tr>
     </table>
-    <br />
-    <table style="width:80%; text-align:left" runat="server" id="paso1pregunta2" visible="false">
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="text-align:left">
-                 <b>Pregunta 2.</b>
-                 ¿Tiene o tuvo la persona varios de los otros síntomas siguientes durante al menos dos semanas?
-            </td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:left;">
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar201" runat="server" Text="&nbsp;Alteraciones del sueño o dormir demasiado" />
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar202" runat="server" Text="&nbsp;Cambio significativo del apetito o el peso (disminución o aumento)" />
-                <br /> 
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar203" runat="server" Text="&nbsp;Creencia de que carece de méritos o de una culpabilidad excesiva" />
-                <br /> 
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar204" runat="server" Text="&nbsp;Fatiga o pérdida de energía" />
-                <br /> 
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar205" runat="server" Text="&nbsp;Disminución de la concentración" />
-                <br /> 
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar206" runat="server" Text="&nbsp;Indecisión" />
-                <br /> 
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar207" runat="server" Text="&nbsp;Agitación observable o inquietud física" />
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar208" runat="server" Text="&nbsp;Habla o se mueve más lentamente de lo usual" />
-                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar209" runat="server" Text="&nbsp;Desesperanza" />
-                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar210" runat="server" Text="&nbsp;Pensamientos o actos suicidas" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:center">
-                 <asp:Button ID="cmdContinuar_pregunta2" runat="server" Text="Continuar" OnClick="cmdContinuar_pregunta2_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align:center">
-                <asp:HyperLink ID="NegativaPregunta2" runat="server" Visible="False" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
-        </tr>
-    </table>
-
 
     <br />
     <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
