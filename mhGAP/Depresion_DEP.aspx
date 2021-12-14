@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -22,15 +22,23 @@ span.listacirculo {
   font-size: 1.5em;
   color: #8b1061;
 }
+    .auto-style1 {
+        color: white;
+    }
+    .auto-style2 {
+        width: 64px;
+        height: 64px;
+    }
 </style>
 
-<h2 style="color:#8b1061"><%: Title %></h2>
+<h2 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">
+    <img src="img/cansancio.png" /><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">
         <tr>
             <td colspan ="2">
-                <h3 style="color:#8b1061">Sobre la Depresión</h3>
+                <h3 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">Sobre la Depresión</h3>
             </td>
         </tr>
         <tr>
@@ -72,7 +80,7 @@ span.listacirculo {
     <table style="width:80%; text-align:left">
         <tr>
             <td>
-                <h3 style="color:#8b1061">Manifestaciones Comunes</h3>
+                <h3 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">Manifestaciones Comunes</h3>
 
                 <ul>
                     <li>
@@ -94,7 +102,8 @@ span.listacirculo {
     <table style="width:80%; text-align:left">
         <tr>
             <td colspan="2" style="text-align:center; background:#8b1061">
-                <h4 style="color:white">Inicio del Tamizaje</h4>                
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/necesitar.png" />Fase 1. Evaluación</h4>                
             </td>
         </tr>
         <tr>
@@ -105,11 +114,13 @@ span.listacirculo {
                 <h4 style="color:#8b1061;">¿Tiene la Persona Depresión?</h4>                
             </td>
         </tr>
+    </table>
+    <table style="width:80%; text-align:left" runat="server" id="pregunta1">
         <tr>
-            <td>
+            <td style="width:5%; text-align:center">
                 &nbsp;</td>
             <td style="text-align:left">
-                 ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
+                 Pregunta 1. ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
         </tr>
         <tr>
             <td>
@@ -124,7 +135,8 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 &nbsp;</td>
+                 <asp:Button ID="cmdContinuar" runat="server" Text="Continuar" />
+            </td>
         </tr>
         <tr>
             <td>
@@ -177,6 +189,12 @@ span.listacirculo {
                 <br />
                 </tr>
     </table>
+    <br />
+    <asp:HiddenField ID="txtPaciente" runat="server" OnValueChanged="txtPaciente_ValueChanged" />
+    <asp:HiddenField ID="txtProfesional" runat="server" />
+    <br />
 </center>
-
+    <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/mikan933" title="mikan933">mikan933</a>,
+    <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a>, 
+    <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 </asp:Content>
