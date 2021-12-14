@@ -126,6 +126,56 @@ span.listacirculo {
             <td style="text-align:center">
                  &nbsp;</td>
         </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left">
+                 ¿Tiene o tuvo la persona varios de los otros síntomas siguientes durante al menos dos semanas?</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_3" runat="server" Text="&nbsp;Alteraciones del sueño o dormir demasiado" />
+                <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_4" runat="server" Text="&nbsp;Cambio significativo del apetito o el peso (disminución o aumento)" />
+             <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_5" runat="server" Text="&nbsp;Creencia de que carece de méritos o de una culpabilidad excesiva" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_6" runat="server" Text="&nbsp;Fatiga o pérdida de energía" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_7" runat="server" Text="&nbsp;Disminución de la concentración" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_8" runat="server" Text="&nbsp;Indecisión" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_9" runat="server" Text="&nbsp;Agitación observable o inquietud física" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_10" runat="server" Text="&nbsp;Habla o se mueve más lentamente de lo usual" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_11" runat="server" Text="&nbsp;Desesperanza" />
+                 <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_12" runat="server" Text="&nbsp;Pensamientos o actos suicidas" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                 &nbsp;</td>
+        </tr>
+         <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left">
+                 ¿Tiene la persona considerable dificultad en el funcionamiento diario en el ámbito personal, familiar, social, educativo, ocupacional o de otro tipo?</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_13" runat="server" Text="&nbsp;Si" />
+                <br />
+                </tr>
     </table>
 </center>
 
