@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Módulo de Psicosis (PSI)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="Psicosis_PSI.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Depresión (DEP)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="Depresion_DEP.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
-    <style type="text/css">
+<style type="text/css">
 span.listacirculo {
-  background: #003488;
+  background: #8b1061;
    border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -20,7 +20,7 @@ span.listacirculo {
 ::marker {
   content: "»";
   font-size: 1.5em;
-  color: #003488;
+  color: #8b1061;
 }
     .auto-style1 {
         color: white;
@@ -31,26 +31,27 @@ span.listacirculo {
     }
 </style>
 
-<h2 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">
-    <img src="img/psicosis.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+<h2 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">
+    <img src="img/cansancio.png" /><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">
         <tr>
             <td colspan ="2">
-                <h3 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">Sobre la Psicosis</h3>
+                <h3 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">Sobre la Depresión</h3>
             </td>
         </tr>
         <tr>
             <td style="text-align:left; width:50%; vertical-align:top">
                 <ul>
                     <li>
-                        El módulo sobre las psicosis abarca el manejo de dos trastornos de salud mental: las psicosis y los trastornos bipolares. Las personas con alguna psicosis o trastorno bipolar corren un alto riesgo de estar expuestas a la estigmatización, la discriminación y la violación de su derecho a vivir con dignidad.
+                        Las personas que sufren depresión experimentan una variedad de síntomas, como un estado de ánimo deprimido persistente o pérdida de interés y placer durante al menos dos semanas.
                     </li>
-                    <li> Las psicosis se caracterizan por la distorsión del pensamiento y de la percepción y por la perturbación de las emociones y los comportamientos. 
-                    </li>                    
                     <li>
-                        La persona también puede presentar un lenguaje incoherente o ilógico. Además, se pueden detectar síntomas como alucinaciones (escuchar voces o ver cosas que no existen); estados delirantes (creencias falsas fijas); anormalidades graves de la conducta (comportamiento desorganizado, agitación, excitación, inactividad o hiperactividad); alteraciones de las emociones (apatía pronunciada o incoherencia entre la emoción que la persona señala y la que se observa en la expresión facial y el lenguaje corporal)
+                        Como se describe en este módulo, las personas con depresión tienen considerables dificultades en su funcionamiento cotidiano en el ámbito personal, familiar, social, educativo, ocupacional o de otro tipo.
+                    </li>
+                    <li>
+                        Muchas personas con depresión también padecen síntomas de ansiedad y síntomas somáticos sin explicación médica discernible.
                     </li>
                 </ul>
                 
@@ -58,7 +59,10 @@ span.listacirculo {
             <td style="text-align:left; width:50%; vertical-align:top">
                 <ul>
                     <li>
-                        Los trastornos bipolares se caracterizan por episodios en los cuales el estado de ánimo y los niveles de actividad de la persona están significativamente alterados. En algunas ocasiones consiste en una elevación del estado de ánimo y un aumento de la energía y la actividad (manía) y, en otros casos, en una caída del estado de ánimo y una reducción de la energía y la actividad (depresión). Generalmente, la recuperación es completa entre un episodio y otro. Las personas que solo experimentan episodios maníacos también se incluyen en la categoría de los trastornos bipolares.
+                        La depresión generalmente se presenta junto con otros trastornos MNS así como con enfermedades físicas.
+                    </li>
+                    <li>
+                        El manejo de síntomas que no satisfagan plenamente los criterios para clasificar el trastorno como depresión es abordado en el módulo Otros padecimientos de salud mental importantes. Vaya al módulo OTR. 
                     </li>
                 </ul>
             </td>
@@ -76,20 +80,18 @@ span.listacirculo {
     <table style="width:80%; text-align:left">
         <tr>
             <td>
-                <h3 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">Manifestaciones Comunes</h3>
+                <h3 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">Manifestaciones Comunes</h3>
 
                 <ul>
                     <li>
-                          Cambios pronunciados de la conducta, descuido de las responsabilidades habituales relacionadas con el trabajo,  la escuela, las actividades domésticas o sociales.
+                        Múltiples síntomas físicos persistentes sin causa definida.
                     </li>
                     <li>
-                          Comportamiento agitado, agresivo; aumento o disminución de la actividad.</li>
+                        Poca energía, fatiga, problemas del sueño.</li>
                     <li>
-                        Creencias falsas fijas no compartidas por otros en la cultura de la persona.</li>
+                        Tristeza persistente o estado de ánimo deprimido, ansiedad.</li>
                     <li>
-                           Oye voces o ve cosas que no existen. </li>
-                    <li>
-                          No se da cuenta que tiene problemas de salud mental</li>
+                         Pérdida de interés o placer en actividades que son normalmente placenteras</li>
                 </ul>
             </td>
         </tr>
@@ -99,7 +101,7 @@ span.listacirculo {
 <center>
     <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso1">
         <tr>
-            <td colspan="2" style="text-align:center; background:#003488">
+            <td colspan="2" style="text-align:center; background:#8b1061">
                 <h4 class="auto-style1">
                     <img alt="" class="auto-style2" src="img/necesitar.png" />Fase 1. Evaluación</h4>                
             </td>
@@ -109,7 +111,7 @@ span.listacirculo {
                 <h4><span class="listacirculo">1</span></h4>  
             </td>
             <td style="width:95%; text-align:left">
-                <h4 style="color:#003488;">¿Hay otras explicaciones para los síntomas?</h4>                
+                <h4 style="color:#8b1061;">¿Tiene la Persona Depresión?</h4>                
             </td>
         </tr>
     </table>
@@ -119,18 +121,15 @@ span.listacirculo {
             <td style="width:5%; text-align:center">
                 &nbsp;</td>
             <td style="text-align:left">
-                 <b>Pregunta 1. EVALÚE SI EXISTEN TRASTORNOS FÍSICOS </b> </td>
+                 <b>Pregunta 1.</b> ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
             <td style="text-align:left;">
-                <ul>
-                    <li>
-                 De acuerdo con la historia clínica, el examen clínico o los resultados de laboratorio, ¿hay signos y síntomas que indiquen <b>delirio</b>  debido a una enfermedad física aguda, por ejemplo, infección, malaria cerebral, deshidratación, anomalías metabólicas (como hipoglucemia o hiponatremia), o <b>efectos secundarios de la medicación</b>, por ejemplo, a causa de algún medicamento antimalárico o esteroideo?             
-
-                    </li>
-                </ul>
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_1" runat="server" Text="&nbsp;Estado de ánimo deprimido persistente" />
+                <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="verificar_1_2" runat="server" Text="&nbsp;Marcada disminución del interés o el placer en realizar actividades antes disfrutadas" />
             </td>
         </tr>
         <tr>
@@ -201,7 +200,7 @@ span.listacirculo {
     <br />
     <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
         <tr>
-            <td colspan="2" style="text-align:center; background:#003488">
+            <td colspan="2" style="text-align:center; background:#8b1061">
                 <h4 class="auto-style1">
                     <img alt="" class="auto-style2" src="img/necesitar.png" />Fase 1. Evaluación</h4>                
             </td>
@@ -211,7 +210,7 @@ span.listacirculo {
                 <h4><span class="listacirculo">2</span></h4>  
             </td>
             <td style="width:95%; text-align:left">
-                <h4 style="color:#003488;">¿Hay otras explicaciones posibles de los síntomas?</h4>                
+                <h4 style="color:#8b1061;">¿Hay otras explicaciones posibles de los síntomas?</h4>                
             </td>
         </tr>
     </table>
@@ -219,7 +218,7 @@ span.listacirculo {
         <br />
     <table style="width:80%; text-align:left" runat="server" id="fase2_protocolo1" visible="true">
         <tr>
-            <td colspan="2" style="text-align:center; background:#003488">
+            <td colspan="2" style="text-align:center; background:#8b1061">
                 <h4 class="auto-style1">
                     <img alt="" class="auto-style2" src="img/atencion-medica.png" />&nbsp;Fase 2. Manejo</h4>                
             </td>
@@ -229,7 +228,7 @@ span.listacirculo {
                 <h4><span class="listacirculo">1</span></h4>  
             </td>
             <td style="width:95%; text-align:left">
-                <h4 style="color:#003488;">Protocolo: Depresión.</h4>                
+                <h4 style="color:#8b1061;">Protocolo: Depresión.</h4>                
             </td>
         </tr>
     </table>
