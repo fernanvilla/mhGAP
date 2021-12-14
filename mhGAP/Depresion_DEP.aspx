@@ -114,11 +114,13 @@ span.listacirculo {
                 <h4 style="color:#8b1061;">¿Tiene la Persona Depresión?</h4>                
             </td>
         </tr>
+    </table>
+    <table style="width:80%; text-align:left" runat="server" id="pregunta1">
         <tr>
-            <td>
+            <td style="width:5%; text-align:center">
                 &nbsp;</td>
             <td style="text-align:left">
-                 ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
+                 Pregunta 1. ¿Ha tenido la persona al menos uno de los siguientes síntomas básicos de la depresión durante al menos dos semanas?</td>
         </tr>
         <tr>
             <td>
@@ -133,7 +135,8 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 &nbsp;</td>
+                 <asp:Button ID="cmdContinuar" runat="server" Text="Continuar" />
+            </td>
         </tr>
     </table>
     <br />
