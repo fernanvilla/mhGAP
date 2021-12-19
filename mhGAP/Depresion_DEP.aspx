@@ -143,7 +143,7 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                <asp:HyperLink ID="NegativaPregunta1" runat="server" Visible="False" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
+                <asp:HyperLink ID="NegativaPregunta1" runat="server" Visible="False" class="btn btn-primary btn-lg" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
         </tr>
     </table>
     <br />
@@ -192,7 +192,7 @@ span.listacirculo {
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                <asp:HyperLink ID="NegativaPregunta2" runat="server" Visible="False" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
+                <asp:HyperLink ID="NegativaPregunta2" runat="server" Visible="False"   class="btn btn-primary btn-lg" NavigateUrl="~/modulo_otros_transtornos.aspx">Es improbable que sea Depresión vaya al Módulo OTR</asp:HyperLink></td>
         </tr>
     </table>
 
