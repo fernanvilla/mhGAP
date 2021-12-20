@@ -3,7 +3,7 @@
         <tr>
             <td colspan="2" style="text-align:center; background:_FASE_COLOR">
                 <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/_FASE_ICONO" />Fase&nbsp;_FASE_NUMERO.&nbsp;_FASE_NOMBRE</h4>                
+                    <img alt="" class="auto-style2" src="img/_FASE_ICONO" />&nbsp;Fase&nbsp;_FASE_NUMERO.&nbsp;_FASE_NOMBRE</h4>                
             </td>
         </tr>
     </table>
