@@ -1,0 +1,27 @@
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="Pregunta_Fase_Paso_Pregunta_Numero">
+        <tr>
+            <td style="width:5%; text-align:center">
+                &nbsp;</td>
+            <td style="text-align:left">
+                 <b>_Pregunta_Enunciado</b> </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                _Pregunta_Respuestas
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                 <asp:Button ID="cmdSI_NFASE_NPASO_NPREGUNTA" runat="server" Text="SÍ" OnClick="cmdSI_NFASE_NPASO_NPREGUNTA_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:Button ID="cmdNO_NFASE_NPASO_NPREGUNTA" runat="server" Text="NO" OnClick="cmdNO_NFASE_NPASO_NPREGUNTA_Click" />
+            </td>
+        </tr>
+     </table>  
+    <br />
+</center>

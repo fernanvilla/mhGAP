@@ -1,0 +1,7 @@
+depresion  #8b1061
+psicosis   #003488
+epilepsia  #0087c8
+trastornos #009f2e
+Demencia   #9ebc01
+Consumo    #f08900
+autolesion #de4e12

@@ -1,0 +1,9 @@
+    protected void cmdSI_NFASE_NPASO_NPREGUNTA_Click(object sender, EventArgs e)
+    {
+	//TODO
+    }
+
+    protected void cmdNO_NFASE_NPASO_NPREGUNTA_Click(object sender, EventArgs e)
+    {
+	//TODO
+    }

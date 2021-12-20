@@ -1,0 +1,10 @@
+<center>
+   <table style="width:80%; text-align:left" runat="server" id="tb_Otro_Modulo" Visible="true">
+     <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                <asp:HyperLink ID="irA_Otro_Modulo" runat="server" class="btn btn-primary btn-lg"  NavigateUrl="~/_Url_Otro_Modulo">_Otro_Modulo_Enunciado</asp:HyperLink></td>
+        </tr>
+    </table>
+</center>

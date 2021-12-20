@@ -1,0 +1,11 @@
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="_FASE_Numero" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:_FASE_Numero_Color">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/_ICONO" />_FASE_Numero_Nombre</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>
