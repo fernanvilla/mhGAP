@@ -1,0 +1,13 @@
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="tbPasof_FASE_NUMEROp_PASO_NUMERO" visible="true">
+        <tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">_PASO_NUMERO</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:_PASO_COLOR;">_PASO_ENUNCIADO</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>

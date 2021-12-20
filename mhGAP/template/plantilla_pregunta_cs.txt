@@ -1,9 +1,9 @@
-    protected void cmdSI_NFASE_NPASO_NPREGUNTA_Click(object sender, EventArgs e)
+    protected void cmdSIf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click(object sender, EventArgs e)
     {
 	//TODO
     }
 
-    protected void cmdNO_NFASE_NPASO_NPREGUNTA_Click(object sender, EventArgs e)
+    protected void cmdNOf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click(object sender, EventArgs e)
     {
 	//TODO
     }

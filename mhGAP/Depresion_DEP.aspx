@@ -233,7 +233,6 @@ span.listacirculo {
         </tr>
     </table>
 
-
 <!-- No cambie nada de acá en adelante -->
     <br />
     <asp:HiddenField ID="txtPaciente" runat="server" OnValueChanged="txtPaciente_ValueChanged" />

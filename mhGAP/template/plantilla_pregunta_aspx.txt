@@ -1,25 +1,25 @@
 <center>
-    <table style="width:80%; text-align:left" runat="server" id="Pregunta_Fase_Paso_Pregunta_Numero">
+    <table style="width:80%; text-align:left" runat="server" id="tbPreguntaf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO">
         <tr>
             <td style="width:5%; text-align:center">
                 &nbsp;</td>
             <td style="text-align:left">
-                 <b>_Pregunta_Enunciado</b> </td>
+                 <b>Pregunta&nbsp;_PREGUNTA_NUMERO.</b>&nbsp;_ENUNCIADO_PREGUNTA</td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
             <td style="text-align:left;">
-                _Pregunta_Respuestas
+                _PREGUNTA_RESPUESTAS
             </td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 <asp:Button ID="cmdSI_NFASE_NPASO_NPREGUNTA" runat="server" Text="SÍ" OnClick="cmdSI_NFASE_NPASO_NPREGUNTA_Click" />
+                 <asp:Button ID="cmdSIf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO" runat="server" Text="SÍ" OnClick="cmdSIf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                 <asp:Button ID="cmdNO_NFASE_NPASO_NPREGUNTA" runat="server" Text="NO" OnClick="cmdNO_NFASE_NPASO_NPREGUNTA_Click" />
+                 <asp:Button ID="cmdNOf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO" runat="server" Text="NO" OnClick="cmdNOf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
             </td>
         </tr>
      </table>  
