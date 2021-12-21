@@ -21,9 +21,9 @@
             <td>
                 &nbsp;</td>
             <td style="text-align:center">
-                 <asp:Button ID="cmdSIf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="SÍ" OnClick="cmdSIf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
+                 <asp:Button ID="cmdSIf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="SÍ" OnClick="cmdSIf_FASE_NUMEROp_PASO_NUMERO_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                 <asp:Button ID="cmdNOf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="NO" OnClick="cmdNOf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
+                 <asp:Button ID="cmdNOf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="NO" OnClick="cmdNOf_FASE_NUMEROp_PASO_NUMERO_Click" />
             </td>
         </tr>
      </table>  
