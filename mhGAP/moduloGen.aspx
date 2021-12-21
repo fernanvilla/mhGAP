@@ -107,28 +107,7 @@ span.listacirculo {
     </table>
     <br />
 </center>
-    <center>
-    <table style="width:80%; text-align:left" runat="server" id="tbFase1" visible="true">
-        <tr>
-            <td colspan="2" style="text-align:center; background:#f08900">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/depre.png" />Fase&nbsp;1.&nbsp;Evaluación</h4>                
-            </td>
-        </tr>
-    </table>
-    <br />
-</center>
-    <center>
-    <table style="width:80%; text-align:left" runat="server" id="tbFasetbFase1" visible="true">
-        <tr>
-            <td colspan="2" style="text-align:center; background:#f08900">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/depre.png" />Fase&nbsp;tbFase1.&nbsp;Evaluación</h4>                
-            </td>
-        </tr>
-    </table>
-    <br />
-</center>
+ 
 <center>
     <table style="width:80%; text-align:left" runat="server" id="_Paso_Numero" visible="true">
         <tr>
@@ -258,26 +237,10 @@ span.listacirculo {
     </table>
     <!-- Aca van las preguntas de fase 1 paso 2 -->
         <br />&#x1F44E; &#128721; &#128683; &#128657;  &#9889;
-    
-    <table style="width:80%; text-align:left" runat="server" id="fase2_protocolo1" visible="true">
-        <tr>
-            <td colspan="2" style="text-align:center; background:#003488">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/atencion-medica.png" />&nbsp;Fase 2. Manejo</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                <h4><span class="listacirculo">1</span></h4>  
-            </td>
-            <td style="width:95%; text-align:left">
-                <h4 style="color:#003488;">Protocolo: Depresión.</h4>                
-            </td>
-        </tr>
-    </table>
 
-
-    <center>
+  
+ <!-- FASE AGREGADA --> 
+<center>
     <table style="width:80%; text-align:left" runat="server" id="tbFase0" visible="true">
         <tr>
             <td colspan="2" style="text-align:center; background:#0087c8">
@@ -288,18 +251,88 @@ span.listacirculo {
     </table>
     <br />
 </center>
+ <!-- PASO AGREGADO --> 
 <center>
-    <table style="width:80%; text-align:left" runat="server" id="Table1" visible="true">
+    <table style="width:80%; text-align:left" runat="server" id="tbPasof0p1" visible="true">
+        <tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">1</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:#0087c8;">Paso: ¿Hay signos de alguna lesión en la cabeza o en el cuello?</h4>                
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                <b>Consejo Clinico:<b> Se deben realizar simultáneamente la evaluación y el manejo.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                 <asp:Button ID="cmdSIf0p1" runat="server" Text="SÍ" OnClick="cmdSIf0p1p_PREGUNTA_NUMERO_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:Button ID="cmdNOf0p1" runat="server" Text="NO" OnClick="cmdNOf0p1p_PREGUNTA_NUMERO_Click" />
+            </td>
+        </tr>
+     </table>  
+    <br />
+</center>
+
+ <!-- PASO AGREGADO --> 
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="tbPasof0p2" visible="true">
+        <tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">2</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:#0087c8;">Paso: Consideraciones</h4>                
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                <ul>
+		   <li>Examine LAS VÍAS RESPIRATORIAS, LA RESPIRACIÓN Y LA  CIRCULACIÓN. Asegúrese de que la persona no tiene nada en sus vías respiratorias, está respirando bien y tiene un pulso estable. </b>
+<li>Verifique la PRESIÓN ARTERIAL, la TEMPERATURA y la FRECUENCIARESPIRATORIA.</li>
+<li>Comience a tomar el tiempo que duran las convulsiones, si es posible.</li>
+<li>Asegúrese de que la persona está en un lugar seguro y, si es  posible, póngala de costado para facilitar la respiración; afloje la corbata o toda prenda colocada alrededor del cuello, quítele los  anteojos y, si hay, ponga algo blando bajo la cabeza. </li>
+<li> Instale la venoclisis para administrar medicamentos 
+o líquido si es posible.</li>
+<li>&#128721; <b>NO DEJE SOLA A LA PERSONA</b><li>
+		</ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                 <asp:Button ID="cmdSIf0p2" runat="server" Text="SÍ" OnClick="cmdSIf0p2p_PREGUNTA_NUMERO_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:Button ID="cmdNOf0p2" runat="server" Text="NO" OnClick="cmdNOf0p2p_PREGUNTA_NUMERO_Click" />
+            </td>
+        </tr>
+     </table>  
+    <br />
+</center>
+
+ <!-- FASE AGREGADA --> 
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="tbFase1" visible="true">
         <tr>
             <td colspan="2" style="text-align:center; background:#0087c8">
                 <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/urgencia.png" />&nbsp;Fase&nbsp;1.&nbsp;Evaluación</h4>                
+                    <img alt="" class="auto-style2" src="img/evaluacion.png" />&nbsp;Fase&nbsp;1.&nbsp;Evaluación</h4>                
             </td>
         </tr>
     </table>
     <br />
 </center>
-
 <!-- No cambie nada de acá en adelante -->
     <br />
     <asp:HiddenField ID="txtPaciente" runat="server" OnValueChanged="txtPaciente_ValueChanged" />

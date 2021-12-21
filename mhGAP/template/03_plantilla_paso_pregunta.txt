@@ -12,7 +12,7 @@
             <td>
                 &nbsp;</td>
             <td style="text-align:left;">
-                _ENUNCIADO_PREGUNTA
+                _PREGUNTA_RESPUESTAS
             </td>
         </tr>
         <tr>
