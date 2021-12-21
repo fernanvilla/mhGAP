@@ -108,6 +108,8 @@
             </p>
         </div>
     </div>
-
-    <div style="font-size:x-small">Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a> desde <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+    <div>
+        <img style="width:100%" src="img/Logos.jpg" />
+    </div>
+    <div style="font-size:x-small">Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.es/autores/becris" title="Becris">Becris</a>, <a href="https://www.flaticon.es/autores/iconixar" title="iconixar">iconixar</a>, <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a> desde <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>    
 </asp:Content>

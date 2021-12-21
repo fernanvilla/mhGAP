@@ -1,0 +1,31 @@
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="tbPasof_FASE_NUMEROp_PASO_NUMERO" visible="true">
+        <tr>
+            <td style="width:5%; text-align:center">
+                <h4><span class="listacirculo">_PASO_NUMERO</span></h4>  
+            </td>
+            <td style="width:95%; text-align:left">
+                <h4 style="color:_PASO_COLOR;">_PASO_ENUNCIADO</h4>                
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:left;">
+                <ul>
+		   _PREGUNTA_RESPUESTAS
+		</ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align:center">
+                 <asp:Button ID="cmdSIf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="SÍ" OnClick="cmdSIf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:Button ID="cmdNOf_FASE_NUMEROp_PASO_NUMERO" runat="server" Text="NO" OnClick="cmdNOf_FASE_NUMEROp_PASO_NUMEROp_PREGUNTA_NUMERO_Click" />
+            </td>
+        </tr>
+     </table>  
+    <br />
+</center>

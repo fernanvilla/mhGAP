@@ -107,7 +107,28 @@ span.listacirculo {
     </table>
     <br />
 </center>
-
+    <center>
+    <table style="width:80%; text-align:left" runat="server" id="tbFase1" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#f08900">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/depre.png" />Fase&nbsp;1.&nbsp;Evaluación</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>
+    <center>
+    <table style="width:80%; text-align:left" runat="server" id="tbFasetbFase1" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#f08900">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/depre.png" />Fase&nbsp;tbFase1.&nbsp;Evaluación</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>
 <center>
     <table style="width:80%; text-align:left" runat="server" id="_Paso_Numero" visible="true">
         <tr>
@@ -236,7 +257,8 @@ span.listacirculo {
         </tr>
     </table>
     <!-- Aca van las preguntas de fase 1 paso 2 -->
-        <br />
+        <br />&#x1F44E; &#128721; &#128683; &#128657;  &#9889;
+    
     <table style="width:80%; text-align:left" runat="server" id="fase2_protocolo1" visible="true">
         <tr>
             <td colspan="2" style="text-align:center; background:#003488">
