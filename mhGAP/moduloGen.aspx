@@ -277,6 +277,29 @@ span.listacirculo {
     </table>
 
 
+    <center>
+    <table style="width:80%; text-align:left" runat="server" id="tbFase0" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#0087c8">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/urgencia.png" />&nbsp;Fase&nbsp;0.&nbsp;Casos de Urgencia: La persona sufre convulsiones o está rigida y no responde.</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>
+<center>
+    <table style="width:80%; text-align:left" runat="server" id="Table1" visible="true">
+        <tr>
+            <td colspan="2" style="text-align:center; background:#0087c8">
+                <h4 class="auto-style1">
+                    <img alt="" class="auto-style2" src="img/urgencia.png" />&nbsp;Fase&nbsp;1.&nbsp;Evaluación</h4>                
+            </td>
+        </tr>
+    </table>
+    <br />
+</center>
+
 <!-- No cambie nada de acá en adelante -->
     <br />
     <asp:HiddenField ID="txtPaciente" runat="server" OnValueChanged="txtPaciente_ValueChanged" />
