@@ -31,6 +31,8 @@ span.listacirculo {
     }
 </style>
 
+
+
 <h2 style="color:#de4e12; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#de4e12">
     <img src="img/intimidar.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
     
