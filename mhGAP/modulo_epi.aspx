@@ -32,7 +32,7 @@ span.listacirculo {
 </style>
 
 <h2 style="color:#0087c8; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#0087c8">
-    <img src="img/epilepsia.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+    <img src="img/epilepsia.png"/><%= txtProfesional.Value %> Estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">

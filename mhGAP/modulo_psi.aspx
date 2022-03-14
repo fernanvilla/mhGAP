@@ -22,17 +22,10 @@ span.listacirculo {
   font-size: 1.5em;
   color: #003488;
 }
-    .auto-style1 {
-        color: white;
-    }
-    .auto-style2 {
-        width: 64px;
-        height: 64px;
-    }
-</style>
+    </style>
 
 <h2 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">
-    <img src="img/psicosis.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+    <img src="img/psicosis.png"/><%= txtProfesional.Value %> Estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">
@@ -96,61 +89,33 @@ span.listacirculo {
     </table>
 </center>
 <br />
-<center>
-    <br />
-</center>
- 
-<center>
-    <br />
-</center>
+<br />
 
-<center>
-    <br />
-</center>
-
-<center>
-
-
-
-
-
-
-    <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
+    <center>
+    <table style="width:80%; text-align:left">
         <tr>
-            <td colspan="2" style="text-align:center; background:#003488">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/necesitar.png" />Fase 1. Evaluación</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                <h4><span class="listacirculo">1</span></h4>  
-            </td>
-            <td style="width:95%; text-align:left">
-                <h4 style="color:#003488;">¿Hay otras explicaciones posibles de los síntomas?</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">
-                 
-                 <asp:Button ID="cmdSI_NFASE_NPASO_NPREGUNTA" runat="server" Text="SÍ" OnClick="cmdSI_NFASE_NPASO_NPREGUNTA_Click" />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                 <asp:Button ID="cmdNO_NFASE_NPASO_NPREGUNTA" runat="server" Text="NO" OnClick="cmdNO_NFASE_NPASO_NPREGUNTA_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">                 
-                <asp:Button ID="cmdContinuar_pregunta2" runat="server" Text="Continuar" OnClick="cmdContinuar_pregunta2_Click" />
+            <td>
+                <h3 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">Usar este Módulo</h3>
+
+                <ul>
+                    <li><a href="/rutas/M_dulodePsicosis_PSI_.html" target="_blank">
+                        Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
+                    </li>
+                    <li>
+                       O bien puedes usarlo a continuación.</li>
+                   
+                </ul>
             </td>
         </tr>
     </table>
-   
+</center>
 
-    
+<center>
+    <iframe src="/rutas/M_dulodePsicosis_PSI_.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
+
+</center>
+ 
+
 
 
 

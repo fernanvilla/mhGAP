@@ -122,6 +122,26 @@ span.listacirculo {
 </center>
 
 <br />
+
+    <center>
+    <table style="width:80%; text-align:left">
+        <tr>
+            <td>
+                <h3 style="color:#8b1061; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#8b1061">Usar este Módulo</h3>
+
+                <ul>
+                    <li><a href="/rutas/M_duloDepresi_n_DEP_.html" target="_blank">
+                        Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
+                    </li>
+                    <li>
+                       O bien puedes usarlo a continuación.</li>
+                   
+                </ul>
+            </td>
+        </tr>
+    </table>
+</center>
+
 <center>
     <iframe src="/rutas/M_duloDepresi_n_DEP_.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
 
