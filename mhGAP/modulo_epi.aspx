@@ -33,7 +33,7 @@ span.listacirculo {
 
 <h2 style="color:#0087c8; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#0087c8">
     <img src="img/epilepsia.png"/><%= txtProfesional.Value %> Estás en el <%: Title %></h2>
-    
+  
 <center>
     <table style="width:80%">
         <tr>
@@ -113,49 +113,33 @@ span.listacirculo {
 <center>
 
 
+ <center>
+    <table style="width:80%; text-align:left">
+        <tr>
+            <td>
+                <h3 style="color:#0087c8; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#0087c8">Usar este Módulo</h3>
 
-
-
-
-    <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
-        <tr>
-            <td colspan="2" style="text-align:center; background:#0087c8">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/urgencia.png" />CASOS DE URGENCIA</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align:center; font-family:Calibri;color:red">
-                <h4>LA PERSONA SUFRE CONVULSIONES O ESTÁ RÍGIDA Y NO RESPONDE              </h4>
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                <h4><span class="listacirculo">1</span></h4>  
-            </td>
-            <td style="width:95%; text-align:left">
-                <h4 style="color:#0087c8;">¿Hay signos de alguna lesión en la cabeza o en el cuello?</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">
-                 
-                 <asp:Button ID="cmdSI_NFASE_NPASO_NPREGUNTA" runat="server" Text="SÍ" OnClick="cmdSI_NFASE_NPASO_NPREGUNTA_Click" />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                 <asp:Button ID="cmdNO_NFASE_NPASO_NPREGUNTA" runat="server" Text="NO" OnClick="cmdNO_NFASE_NPASO_NPREGUNTA_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">                 
-                <asp:Button ID="cmdContinuar_pregunta2" runat="server" Text="Continuar" OnClick="cmdContinuar_pregunta2_Click" />
+                <ul>
+                    <li><a href="/rutas/M_duloEpilepsia_EPI_.html" target="_blank">
+                        Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
+                    </li>
+                    <li>
+                       O bien puedes usarlo a continuación.</li>
+                   
+                </ul>
             </td>
         </tr>
     </table>
-   
+</center>
+
+<center>
+    <iframe src="/rutas/M_duloEpilepsia_EPI_.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
+
+</center>
+
+
+
+    
 
     
 
