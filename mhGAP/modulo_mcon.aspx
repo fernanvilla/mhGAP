@@ -147,69 +147,28 @@ span.listacirculo {
 
 
 
+<table style="width:80%; text-align:left">
+        <tr>
+            <td>
+                <h3 style="color:#009f2e; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#009f2e">Usar este Módulo</h3>
 
-    <table style="width:80%; text-align:left" runat="server" id="fase1_evaluacion_paso2" visible="true">
-        <tr>
-            <td colspan="2" style="text-align:center; background:#009f2e">
-                <h4 class="auto-style1">
-                    <img alt="" class="auto-style2" src="img/evaluacion.png" />FASE 1. Evaluación</h4>                
-            </td>
-        </tr>
-   
-        <tr>
-            <td style="width:5%; text-align:center">
-                <h4><span class="listacirculo">1</span></h4>  
-            </td>
-            <td style="width:95%; text-align:left">
-                <h4 style="color:#009f2e;">Evalúe para detectar transtornos del desarrollo</h4>                
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:left">
-                <b> Evalúe todos los indicadores del desarrollo motor, cognitivo, social, de la comunicación y de la adaptación. 
-                </b>
-                <br />
                 <ul>
-                    <li>
-                          <b>Para los niños que están aprendiendo a caminar y los niños en edad preescolar: </b> ¿Ha tenido el niño dificultades en alcanzar los hitos del desarrollo adecuados para su edad en todas las áreas del desarrollo?
+                    <li><a href="/rutas/modulo_mcon.html" target="_blank">
+                        Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
                     </li>
-                </ul>
-                <ul>
                     <li>
-                    <b>Para los niños mayores y los adolescentes:</b> ¿Tienen dificultades en la escuela (en el aprendizaje, en leer y escribir), en comunicarse e interactuar con otros, en el autocuidado y las actividades domésticas diarias?
-                  </li>
+                       O bien puedes usarlo a continuación.</li>
+                   
                 </ul>
             </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">
-                 
-                 <asp:Button ID="cmdSI_NFASE_NPASO_NPREGUNTA" runat="server" Text="SÍ" OnClick="cmdSI_NFASE_NPASO_NPREGUNTA_Click" />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                 <asp:Button ID="cmdNO_NFASE_NPASO_NPREGUNTA" runat="server" Text="NO" OnClick="cmdNO_NFASE_NPASO_NPREGUNTA_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">                 
-                <asp:Button ID="cmdContinuar_pregunta2" runat="server" Text="Continuar" OnClick="cmdContinuar_pregunta2_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td style="width:5%; text-align:center">
-                &nbsp;</td>
-            <td style="width:95%; text-align:center">                 
-                &nbsp;</td>
         </tr>
     </table>
-   
+</center>
 
-    
+<center>
+    <iframe src="/rutas/modulo_mcon.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
+
+</center>
 
 
 

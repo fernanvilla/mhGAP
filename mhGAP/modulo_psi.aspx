@@ -98,7 +98,7 @@ span.listacirculo {
                 <h3 style="color:#003488; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#003488">Usar este Módulo</h3>
 
                 <ul>
-                    <li><a href="/rutas/M_dulodePsicosis_PSI_.html" target="_blank">
+                    <li><a href="/rutas/modulo_psi.html" target="_blank">
                         Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
                     </li>
                     <li>
@@ -111,7 +111,7 @@ span.listacirculo {
 </center>
 
 <center>
-    <iframe src="/rutas/M_dulodePsicosis_PSI_.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
+    <iframe src="/rutas/modulo_psi.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
 
 </center>
  

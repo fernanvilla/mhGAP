@@ -120,7 +120,7 @@ span.listacirculo {
                 <h3 style="color:#0087c8; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#0087c8">Usar este Módulo</h3>
 
                 <ul>
-                    <li><a href="/rutas/M_duloEpilepsia_EPI_.html" target="_blank">
+                    <li><a href="/rutas/modulo_epi.html" target="_blank">
                         Puedes abrirlo en una pestaña nueva haciendo clic aquí.</a>
                     </li>
                     <li>
@@ -133,7 +133,7 @@ span.listacirculo {
 </center>
 
 <center>
-    <iframe src="/rutas/M_duloEpilepsia_EPI_.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
+    <iframe src="/rutas/modulo_epi.html" frameborder='0' style='height:1000px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
 
 </center>
 
