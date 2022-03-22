@@ -1,11 +1,11 @@
-<!DOCTYPE html><html><head><title>Modulo Demencia</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
+<!DOCTYPE html><html><head><title>modulo_dem</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
 #backstage table.history td.actions{width:2.5em}#backstage table.history td.go{border-right:1px solid #000}
 #backstage ul.tabs{list-style:none;margin:8px;padding:0;display:flex;border:1px solid #000;font-size:12px}#backstage ul.tabs li{flex-grow:1;border-right:1px solid #000;text-align:center}#backstage ul.tabs li:last-child{border-right:none}#backstage ul.tabs li button{color:#000;text-decoration:none;display:block;width:100%;height:28px;padding:8px;border:none;border-radius:0}#backstage ul.tabs li button.active{background:#000;color:#dee2e6}#backstage .tab-content{max-height:calc(100vh - $backstage-tab-height);overflow:auto}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}body.backstage-visible #backdrop{justify-content:flex-start;max-width:67vw}#backstage{position:fixed;top:0;right:0;bottom:0;width:33vw;max-height:100vh;font-size:18px;background:#dee2e6;color:#000;transform:translateX(100%);box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%}#backstage:before{content:"";position:absolute;z-index:2;top:calc(50% - 25px);right:calc(100% - 4px);height:50px;width:4px;background:#dee2e6}@media screen and (max-width:425px){#backstage{width:calc(100vw - 25px)}}#backstage.open{transform:none}#backstage .toggle-visibility{position:absolute;z-index:1;top:calc(50% - 25px);right:100%;width:25px;height:50px;padding:0;background:#dee2e6;color:#000;border:none;border-top-left-radius:25px;border-bottom-left-radius:25px;border-top-right-radius:0;border-bottom-right-radius:0;box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-size:18px}#backstage button{color:#000;background:transparent;padding:8px;border-radius:16px;border:1px solid #000}#backstage button:hover{background:#e9ecef}#backstage p{padding:0 8px}#backstage li,#backstage p,#backstage td{font-size:12px}#backstage input,#backstage select{color:#000;background:transparent;border:1px solid #000;padding:8px}#backstage table{background:transparent;table-layout:fixed;border-collapse:collapse;width:calc(100% - 16px);margin:8px}#backstage th{text-align:left}#backstage td{position:relative;border:1px solid #000;padding:8px;vertical-align:top}#backstage td:first-child{border-left:none}#backstage td:last-child{border-right:none}#backstage td button,#backstage td input{background:none;border:none;border-radius:0;position:absolute;top:0;left:0;bottom:0;width:100%;padding:8px}#backstage textarea{background:transparent;border:1px solid #000;color:#000;padding:8px;width:100%;height:7.75em}#backstage .block{display:block;margin:8px;width:calc(100% - 16px)}#backstage .disabled{color:#868e96}#backstage .indented-input{margin-left:calc(10em + 8px);font-size:12px}#backstage .input-group{display:flex;align-items:center}#backstage .input-group label:first-child{text-align:right;margin-right:8px;width:10em}#backstage .input-group input,#backstage .input-group select{flex-grow:1}#backstage .segmented-button{display:flex}#backstage .segmented-button button{border-left:none;border-radius:0;margin:0;flex-grow:1}#backstage .segmented-button button:first-child{border-left:1px solid #000;border-top-left-radius:16px;border-bottom-left-radius:16px}#backstage .segmented-button button:last-child{border-top-right-radius:16px;border-bottom-right-radius:16px}#backstage .segmented-button .fixed{flex-grow:0;min-width:24px}#backstage .tab-content{max-height:calc(100vh - 28px);overflow:auto}
 .fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}.skip-animation{animation-delay:0s!important}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
 #page .warnings{list-style-type:none;padding-left:0;margin-left:0}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backdrop{min-height:100vh;align-items:center}#backdrop,#page{display:flex;justify-content:center}#page{flex-direction:column;width:40em;min-height:calc(100vh - 2em);max-width:calc(100vw - 2em);line-height:150%;margin:1em;padding:4em 4em 2em;position:relative}#page article{flex-grow:1;display:flex}#page article>:first-child{margin-top:0;width:100%}#page footer,#page header{display:flex}#page footer>div,#page header>div{flex-grow:1}#page footer p,#page header p{margin:.5em 0 0}#page footer .center,#page header .center{text-align:center}#page footer .right p,#page header .right p{text-align:right}#page header{margin-top:0}#page header.has-content{border-bottom:1px solid #000}#page header.has-content+article>article>div>p:first-child,#page header.has-content+article>div>p:first-child{margin-top:1em}#page footer{margin-bottom:0}#page footer.has-content{border-top:1px solid #000}#page hr{border:none}#page hr:after{content:"* \A0   * \A0   *";display:block;text-align:center}#page .error,#page .warning{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%;background:#fff5f5;color:#c92a2a;padding:.5em;border-left:4px solid #ffa8a8;position:relative;margin-bottom:1em;overflow:auto}#page .error :first-child,#page .warning :first-child{margin-top:0}#page .error :last-child,#page .warning :last-child{margin-bottom:0}#page .error a,#page .warning a{color:#c92a2a}#page .warning{background:#fff9db;color:#e67700}#page .warning a{color:#e67700}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p a{display:block;flex-grow:1;text-align:center;padding:.5em}@media screen and (max-width:768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}#spinner{position:absolute;bottom:0;right:0;opacity:0;transition:opacity .25s ease-in-out;pointer-events:none}#spinner.visible{display:block;opacity:1}
-*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="Modulo Demencia" startnode="1" creator="Twine" creator-version="2.3.16" ifid="1ADDE1D3-2AC4-447F-9932-5D3B556D90B6" zoom="1" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
+*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_dem" startnode="1" creator="Twine" creator-version="2.3.16" ifid="1ADDE1D3-2AC4-447F-9932-5D3B556D90B6" zoom="0.6" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
   background: #9ebc01;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -37,7 +37,7 @@ h4.pregunta{
 h3.titulo{
 	color:#9ebc01;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Pasaje sin título" tags="" position="405,171.5" size="100,100">config.header.left: &quot;Módulo Demencia (DEM) - Panorama Breve&quot;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Inicio" tags="" position="400,175" size="100,100">config.header.left: &quot;Módulo Demencia (DEM) - Panorama Breve&quot;
 config.header.right: &quot;[[Acerca de...]]&quot; 
 config.footer.left: &quot;{back link , label : &#39;Devolverse&#39; }&quot; 
 config.footer.right: &quot;{restart link, label: &#39;Reiniciar Ruta&#39;}&quot;
@@ -45,12 +45,13 @@ $vinculoOtroModulo: &quot;http://mhgap.analisis.info&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;
-Módulo Demencia (DEM) - Panorama Breve
+Módulo Demencia (DEM)
 &lt;/h3&gt;
 &lt;h3&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} 
-[[Ir a Evaluación]]&lt;/h3&gt;
+[[Clic para Comenzar la Evaluación|Ir a Evaluación]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
  &lt;li&gt;&lt;b&gt;Evalúe al paciente para detectar signos
 de demencia.&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;¿Hay otras explicaciones de los síntomas?&lt;/b&gt;
@@ -64,10 +65,13 @@ de demencia.&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;Descarte otros trastornos MNS.&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;Evalúe las necesidades de los cuidadores.&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Ir a Manejo]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Clic para Continuar con el Manejo|Ir a Manejo]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
  &lt;li&gt;&lt;b&gt;Protocolos de manejo&lt;/b&gt;&lt;/li&gt;
  &lt;ol&gt;
  	&lt;li&gt;Demencia, sin síntomas conductuales o psicológicos&lt;/li&gt;
@@ -76,11 +80,12 @@ de demencia.&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;Intervenciones psicosociales&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;Intervenciones farmacológicas&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}#[[Ir a Seguimiento]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}[[Clic para Continuar con el Seguimiento|Ir a Seguimiento]]&lt;/h3&gt;
 &lt;/center&gt;
 
-</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="189,1.5" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
+</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="142.33333333333331,112.66666666666667" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;
@@ -106,7 +111,7 @@ Desarrollado por el grupo de investigación &lt;a href=&quot;http://senda.group&
 
  &lt;div style=&quot;font-size:x-small&quot;&gt;Iconos diseñados por &lt;a href=&quot;https://www.flaticon.es/autores/mikan933&quot; title=&quot;mikan933&quot; target=&quot;_blank&quot;&gt;mikan933&lt;/a&gt;,
     &lt;a href=&quot;https://www.flaticon.es/autores/flat-icons&quot; title=&quot;Flat Icons&quot; target=&quot;_blank&quot;&gt;Flat Icons&lt;/a&gt;,&lt;a href=&quot;https://www.freepik.com&quot; title=&quot;Freepik&quot; target=&quot;_blank&quot;&gt;Freepik&lt;/a&gt;,  
-    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Ir a Evaluación" tags="" position="271,312.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Ir a Evaluación" tags="" position="271,312" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Manifestaciones Comunes de la Demencia
@@ -173,7 +178,7 @@ adaptadas a la cultura si las hay.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Dificultades Desempeño]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="4" name="Ir a Manejo" tags="" position="571,236.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="4" name="Ir a Manejo" tags="" position="571,236" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 Protocolo &amp;#10102; de Manejo. &amp;#128204;[[Demencia: SIN síntomas conductuales o psicológicos.|Protocolo 1 Manejo]]
@@ -191,7 +196,7 @@ Protocolo &amp;#10103; de Manejo. &amp;#128204;[[Demencia: CON síntomas conduct
 &lt;/table&gt;
 &lt;br /&gt;
 
-</tw-passagedata><tw-passagedata pid="5" name="Ir a Seguimiento" tags="" position="861,697.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="5" name="Ir a Seguimiento" tags="" position="861,697" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt; EVALÚE PARA DETERMINAR
@@ -226,7 +231,7 @@ si hubiera)?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Continuar Manejo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="6" name="Demencia Improbable" tags="" position="33,350.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="6" name="Demencia Improbable" tags="" position="33,350" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Es improbable que se trate de DEMENCIA.
@@ -244,7 +249,7 @@ Es improbable que se trate de DEMENCIA.
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="7" name="Dificultades Desempeño" tags="" position="259,443.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="7" name="Dificultades Desempeño" tags="" position="259,443" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 La persona tiene problemas de memoria o de orientación.
@@ -266,7 +271,7 @@ La persona tiene problemas de memoria o de orientación.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Paso 2 Evaluación]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="8" name="Paso 2 Evaluación" tags="" position="436,462.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="8" name="Paso 2 Evaluación" tags="" position="436,462" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; ¿Hay otras explicaciones para los síntomas?
@@ -296,7 +301,7 @@ progresado lentamente durante al menos
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Depresion Moderada]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="9" name="Pregunta Caracteristicas" tags="" position="251,576.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="9" name="Pregunta Caracteristicas" tags="" position="251,576" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 NO han estado presentes los síntomas y NO han
@@ -328,7 +333,7 @@ hora, el día, el mes, el año y el lugar.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Sospecha Delirio]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="10" name="Depresion Moderada" tags="" position="642,489.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="10" name="Depresion Moderada" tags="" position="642,489" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 La persona tiene problemas de memoria o de orientación.
@@ -350,7 +355,7 @@ La persona tiene problemas de memoria o de orientación.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Tratar Depresion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Sospecha Delirio" tags="" position="25,616.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Sospecha Delirio" tags="" position="25,616" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 Sospeche que pueda ser DELIRIO
@@ -386,7 +391,7 @@ de una carencia de vitaminas o una anomalía electrolítica.&lt;/li&gt;
 &lt;br /&gt;
 
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="12" name="Tratar Depresion" tags="" position="25,493.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="12" name="Tratar Depresion" tags="" position="25,493" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 La persona tiene Depresión Moderada o Grave
@@ -406,7 +411,7 @@ criterios para diagnosticar demencia. [[Vaya al PASO 1|Ir a Evaluación]]
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="13" name="Sospecha Demencia Paso 3" tags="" position="436,596.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="13" name="Sospecha Demencia Paso 3" tags="" position="436,596" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -444,7 +449,7 @@ incluida la infección por el VIH/SIDA&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Derivar Especialista]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Alimentacion Deficiete" tags="" position="345,710.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Alimentacion Deficiete" tags="" position="345,710" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;¿Tiene la persona una ingesta
@@ -462,7 +467,7 @@ desnutrición o anemia?&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Fortificar Alimentacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Derivar Especialista" tags="" position="152,688.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Derivar Especialista" tags="" position="152,688" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Características extrañas.
@@ -481,7 +486,7 @@ especialista.&lt;/span&gt; &lt;/i&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="16" name="Enfermedad Cardiovascular" tags="" position="362,839.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="16" name="Enfermedad Cardiovascular" tags="" position="362,839" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;¿Tiene la persona factores de riesgo de enfermedades
@@ -510,7 +515,7 @@ transitorio&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Reduzca Factores]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Fortificar Alimentacion" tags="" position="611,664.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Fortificar Alimentacion" tags="" position="611,664" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -536,7 +541,7 @@ alimentos y el seguimiento del peso.&lt;/b&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="18" name="Paso 4" tags="" position="161,824.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="18" name="Paso 4" tags="" position="161,824" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;4&lt;/span&gt; Evalúe las necesidades de los cuidadores.
@@ -568,7 +573,7 @@ o muestra estar bajo presión?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Intervencion Psicosocial]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="19" name="Reduzca Factores" tags="" position="549,803.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="19" name="Reduzca Factores" tags="" position="549,803" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -601,7 +606,7 @@ la reducción peso en casos de obesidad.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 4|Paso 4]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="20" name="Animo Deprimido" tags="" position="57,951.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="20" name="Animo Deprimido" tags="" position="57,951" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;br /&gt;
 &lt;b&gt;&amp;#11088;¿Está el cuidador experimentando un estado de ánimo deprimido?
@@ -615,7 +620,7 @@ la reducción peso en casos de obesidad.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Evaluar Depresion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Intervencion Psicosocial" tags="" position="343,951.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Intervencion Psicosocial" tags="" position="524.6666666666667,969.3333333333334" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -640,7 +645,7 @@ disponibles.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Animo Deprimido]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Afronta Perdida" tags="" position="32,1108.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Afronta Perdida" tags="" position="118.66666666666667,1109.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;br /&gt;
 &lt;b&gt;&amp;#11088;¿El cuidador afronta una pérdida de ingresos o gastos
@@ -655,7 +660,7 @@ adicionales debido a las necesidades de la atención?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Apoyo Economico]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Evaluar Depresion" tags="" position="353,1069.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Evaluar Depresion" tags="" position="724.6666666666667,1005.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -681,7 +686,7 @@ conductual.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Afronta Perdida]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="24" name="Paso 5" tags="" position="30,1245.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="24" name="Paso 5" tags="" position="370,1083.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;5&lt;/span&gt; ¿Tiene la persona ALGUNO de los siguientes síntomas CONDUCTUALES o PSICOLÓGICOS de la demencia?
@@ -724,7 +729,7 @@ o muestra estar bajo presión?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Recomendaciones Pre Protocolo 2]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="25" name="Apoyo Economico" tags="" position="361,1187.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="25" name="Apoyo Economico" tags="" position="946,1012" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -749,7 +754,7 @@ de discapacidad.&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 5]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="26" name="Protocolo 1 Manejo" tags="" position="937,88.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="26" name="Protocolo 1 Manejo" tags="" position="937,88" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -783,7 +788,7 @@ efectos secundarios). &amp;#128204;[[Ir a Para casos de demencia sin síntomas c
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 2|Protocolo 2 Manejo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="27" name="Recomendaciones Pre Protocolo 2" tags="" position="364,1315.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="27" name="Recomendaciones Pre Protocolo 2" tags="" position="1144,1018.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;SI HAY RIESGO INMINENTE DE SUICIDIO&lt;/span&gt; &lt;/b&gt;
@@ -814,7 +819,7 @@ Y TRÁTELO antes de proseguir al protocolo.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Protocolo 2 de Manejo|Protocolo 2 Manejo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="28" name="Protocolo 2 Manejo" tags="" position="794,369.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="28" name="Protocolo 2 Manejo" tags="" position="794,369" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -846,7 +851,7 @@ síntomas persisten o si hay riesgo inminente de daño. &amp;#128204;[[Ir a Medi
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Manejo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="29" name="Intervencion 2.1" tags="" position="1277,10.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="29" name="Intervencion 2.1" tags="" position="1277,10" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Psicoeducación.
@@ -888,7 +893,7 @@ estresante para el cuidador.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="30" name="Intervencion 2.4" tags="" position="1273,330.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="30" name="Intervencion 2.4" tags="" position="1273,330" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Intervenciones para mejorar
@@ -928,7 +933,7 @@ con los que no está familiarizado y que le causan confusión.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="31" name="Intervencion 2.3" tags="" position="1271,223.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="31" name="Intervencion 2.3" tags="" position="1271,223" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Promueva el funcionamiento
@@ -987,7 +992,7 @@ es factible.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="32" name="Intervencion 2.5" tags="" position="1267,435.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="32" name="Intervencion 2.5" tags="" position="1267,435" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Apoyo a los cuidadores
@@ -1038,7 +1043,7 @@ o no gubernamental).&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="33" name="Intervencion 2.6" tags="" position="1270,544.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="33" name="Intervencion 2.6" tags="" position="1270,544" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Farmacológicas. Para casos de demencia
@@ -1083,7 +1088,7 @@ considere administrar memantina.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Intervencion 2.2" tags="" position="1273,115.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Intervencion 2.2" tags="" position="1273,115" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Trate los síntomas conductuales
@@ -1120,7 +1125,7 @@ especialmente cuando se siente agitada.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="35" name="Intervencion 2.7" tags="" position="1270,659.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="35" name="Intervencion 2.7" tags="" position="1270,659" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Farmacológicas. Medicación antipsicótica
@@ -1158,7 +1163,7 @@ extrapiramidales.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="36" name="No Estable" tags="" position="726,838.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="36" name="No Estable" tags="" position="726,838" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1195,7 +1200,7 @@ o considere medicamentos alternativos según proceda.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 2|Paso 2 Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="37" name="Continuar Manejo" tags="" position="957,847.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="37" name="Continuar Manejo" tags="" position="1385.3333333333335,783.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1223,7 +1228,7 @@ como mínimo cada 3 meses.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 2|Paso 2 Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="38" name="Paso 2 Seguimiento" tags="" position="820,1008.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="38" name="Paso 2 Seguimiento" tags="" position="1066.6666666666667,841.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; REALICE EVALUACIONES DE RUTINA.
@@ -1263,7 +1268,7 @@ inminente de autolesión/suicidio&lt;/b&gt; &amp;#128204;&lt;a href=&#39;{$vincu
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="39" name="Paso 3 Seguimiento" tags="" position="826,1146.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="39" name="Paso 3 Seguimiento" tags="" position="1584.3333333333335,889.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Seguimiento&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; REALIZAR INTERVENCIONES PSICOSOCIALES.
@@ -1287,7 +1292,7 @@ psicosocial.&lt;/b&gt;
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="40" name="Intervenciones Psicosociales" tags="" position="975,1226.5" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="40" name="Intervenciones Psicosociales" tags="" position="1901.6666666666667,742.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Demencia (DEM) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales.

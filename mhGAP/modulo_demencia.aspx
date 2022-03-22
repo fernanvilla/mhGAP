@@ -61,7 +61,7 @@ span.listacirculo {
 </style>
 
 <h2 style="color:#9ebc01; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#9ebc01">
-    <img src="img/demencia.png" /><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+    <img src="img/demencia.png" />Estás en el <%: Title %></h2>
     
     <!-- Tabla Sobre la depresión -->
 <center>

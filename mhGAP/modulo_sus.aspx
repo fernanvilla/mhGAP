@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Trastornos por el Consumo de Sustancias (SUS)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_sus.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Trastornos por el Consumo de Sustancias (SUS)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_sus.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -22,17 +22,10 @@ span.listacirculo {
   font-size: 1.5em;
   color: #f08900;
 }
-    .auto-style1 {
-        color: white;
-    }
-    .auto-style2 {
-        width: 64px;
-        height: 64px;
-    }
-</style>
+    </style>
 
 <h2 style="color:#f08900; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#f08900">
-    <img src="img/borracho.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+    <img src="img/borracho.png"/>Estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">
@@ -125,7 +118,7 @@ span.listacirculo {
                         Traumatismos
                     </li>
                     <li>
-                        Infecciones asociadas con el consumo de drogas por vía intravenosa (infección por el VIH/SIDA, hepatitis C) Hepatitis C)
+                        Infecciones asociadas con el consumo de drogas por vía intravenosa (infección por el VIH/SIDA, hepatitis C) 
                     </li>
                 </ul>
             </td>

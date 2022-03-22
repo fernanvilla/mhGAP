@@ -1,11 +1,11 @@
-<!DOCTYPE html><html><head><title>Módulo Epilepsia (EPI)</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
+<!DOCTYPE html><html><head><title>modulo_epi</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
 #backstage table.history td.actions{width:2.5em}#backstage table.history td.go{border-right:1px solid #000}
 #backstage ul.tabs{list-style:none;margin:8px;padding:0;display:flex;border:1px solid #000;font-size:12px}#backstage ul.tabs li{flex-grow:1;border-right:1px solid #000;text-align:center}#backstage ul.tabs li:last-child{border-right:none}#backstage ul.tabs li button{color:#000;text-decoration:none;display:block;width:100%;height:28px;padding:8px;border:none;border-radius:0}#backstage ul.tabs li button.active{background:#000;color:#dee2e6}#backstage .tab-content{max-height:calc(100vh - $backstage-tab-height);overflow:auto}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}body.backstage-visible #backdrop{justify-content:flex-start;max-width:67vw}#backstage{position:fixed;top:0;right:0;bottom:0;width:33vw;max-height:100vh;font-size:18px;background:#dee2e6;color:#000;transform:translateX(100%);box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%}#backstage:before{content:"";position:absolute;z-index:2;top:calc(50% - 25px);right:calc(100% - 4px);height:50px;width:4px;background:#dee2e6}@media screen and (max-width:425px){#backstage{width:calc(100vw - 25px)}}#backstage.open{transform:none}#backstage .toggle-visibility{position:absolute;z-index:1;top:calc(50% - 25px);right:100%;width:25px;height:50px;padding:0;background:#dee2e6;color:#000;border:none;border-top-left-radius:25px;border-bottom-left-radius:25px;border-top-right-radius:0;border-bottom-right-radius:0;box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-size:18px}#backstage button{color:#000;background:transparent;padding:8px;border-radius:16px;border:1px solid #000}#backstage button:hover{background:#e9ecef}#backstage p{padding:0 8px}#backstage li,#backstage p,#backstage td{font-size:12px}#backstage input,#backstage select{color:#000;background:transparent;border:1px solid #000;padding:8px}#backstage table{background:transparent;table-layout:fixed;border-collapse:collapse;width:calc(100% - 16px);margin:8px}#backstage th{text-align:left}#backstage td{position:relative;border:1px solid #000;padding:8px;vertical-align:top}#backstage td:first-child{border-left:none}#backstage td:last-child{border-right:none}#backstage td button,#backstage td input{background:none;border:none;border-radius:0;position:absolute;top:0;left:0;bottom:0;width:100%;padding:8px}#backstage textarea{background:transparent;border:1px solid #000;color:#000;padding:8px;width:100%;height:7.75em}#backstage .block{display:block;margin:8px;width:calc(100% - 16px)}#backstage .disabled{color:#868e96}#backstage .indented-input{margin-left:calc(10em + 8px);font-size:12px}#backstage .input-group{display:flex;align-items:center}#backstage .input-group label:first-child{text-align:right;margin-right:8px;width:10em}#backstage .input-group input,#backstage .input-group select{flex-grow:1}#backstage .segmented-button{display:flex}#backstage .segmented-button button{border-left:none;border-radius:0;margin:0;flex-grow:1}#backstage .segmented-button button:first-child{border-left:1px solid #000;border-top-left-radius:16px;border-bottom-left-radius:16px}#backstage .segmented-button button:last-child{border-top-right-radius:16px;border-bottom-right-radius:16px}#backstage .segmented-button .fixed{flex-grow:0;min-width:24px}#backstage .tab-content{max-height:calc(100vh - 28px);overflow:auto}
 .fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}.skip-animation{animation-delay:0s!important}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
 #page .warnings{list-style-type:none;padding-left:0;margin-left:0}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backdrop{min-height:100vh;align-items:center}#backdrop,#page{display:flex;justify-content:center}#page{flex-direction:column;width:40em;min-height:calc(100vh - 2em);max-width:calc(100vw - 2em);line-height:150%;margin:1em;padding:4em 4em 2em;position:relative}#page article{flex-grow:1;display:flex}#page article>:first-child{margin-top:0;width:100%}#page footer,#page header{display:flex}#page footer>div,#page header>div{flex-grow:1}#page footer p,#page header p{margin:.5em 0 0}#page footer .center,#page header .center{text-align:center}#page footer .right p,#page header .right p{text-align:right}#page header{margin-top:0}#page header.has-content{border-bottom:1px solid #000}#page header.has-content+article>article>div>p:first-child,#page header.has-content+article>div>p:first-child{margin-top:1em}#page footer{margin-bottom:0}#page footer.has-content{border-top:1px solid #000}#page hr{border:none}#page hr:after{content:"* \A0   * \A0   *";display:block;text-align:center}#page .error,#page .warning{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%;background:#fff5f5;color:#c92a2a;padding:.5em;border-left:4px solid #ffa8a8;position:relative;margin-bottom:1em;overflow:auto}#page .error :first-child,#page .warning :first-child{margin-top:0}#page .error :last-child,#page .warning :last-child{margin-bottom:0}#page .error a,#page .warning a{color:#c92a2a}#page .warning{background:#fff9db;color:#e67700}#page .warning a{color:#e67700}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p a{display:block;flex-grow:1;text-align:center;padding:.5em}@media screen and (max-width:768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}#spinner{position:absolute;bottom:0;right:0;opacity:0;transition:opacity .25s ease-in-out;pointer-events:none}#spinner.visible{display:block;opacity:1}
-*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="Módulo Epilepsia (EPI)" startnode="1" creator="Twine" creator-version="2.3.16" ifid="B3FF90E4-90A1-4273-88D4-B0AF19AA8036" zoom="1" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
+*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_epi" startnode="1" creator="Twine" creator-version="2.3.16" ifid="B3FF90E4-90A1-4273-88D4-B0AF19AA8036" zoom="0.6" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
   background: #0087c8;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -45,20 +45,21 @@ $vinculoOtroModulo: &quot;http://mhgap.analisis.info&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;
-Módulo Epilepsia (EPI) - Panorama Breve
+Módulo Epilepsia (EPI)
 &lt;/h3&gt;
 &lt;/center&gt;
-
-&lt;b&gt;La manifestación aguda de crisis convulsivas
-indica la necesidad de tratamiento y manejo de casos de urgencia&lt;/b&gt;
+&lt;span style=&quot;font-size:small; color:red&quot;&gt;
+&lt;i&gt;&amp;#10071;La manifestación aguda de crisis convulsivas indica la necesidad de tratamiento y manejo de casos de urgencia.&lt;/i&gt; &amp;#128204;[[Clic para Ir a la Atención de Casos de Urgencia|Casos Urgencia]]
+&lt;/span&gt;
 
 
 &lt;center&gt;
 &lt;h3&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} 
-[[Ir a Evaluación]]&lt;/h3&gt;
+[[Clic para Comenzar la Evaluación|Ir a Evaluación]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
- &lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:red&quot;&gt;CASOS DE URGENCIA:&lt;/span&gt; Evaluación y tratamiento de convulsiones agudas. &amp;#128204;[[Ir a la Atención de Casos de Urgencia|Casos Urgencia]]&lt;/b&gt;&lt;/li&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
+ &lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:red&quot;&gt;CASOS DE URGENCIA:&lt;/span&gt; Evaluación y tratamiento de convulsiones agudas. &amp;#128204;[[Clic para Ir a la Atención de Casos de Urgencia|Casos Urgencia]]&lt;/b&gt;&lt;/li&gt;
  	&lt;li&gt; Determine si la persona tiene crisis convulsivas. &lt;/li&gt;
 	&lt;li&gt;Evalúe a la persona para determinar una  
 causa aguda (por ejemplo, neuroinfección, 
@@ -68,23 +69,31 @@ las causas subyacentes (por medio de la historia clínica o del examen).&lt;/li&
  &lt;li&gt; Evalúe a la persona para detectar si hay
 trastornos MNS prioritarios concurrentes.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+
+
+
+
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Ir a Manejo]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Clic para Continuar con el Manejo|Ir a Manejo]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
  &lt;li&gt;&lt;b&gt;Protocolo de manejo y grupos 
  especiales de población&lt;/b&gt;&lt;/li&gt;
  &lt;ol&gt;
  	&lt;li&gt;Epilepsia&lt;/li&gt;
-	&lt;li&gt;. Grupos especiales de población (mujeres en edad 
+	&lt;li&gt;Grupos especiales de población (mujeres en edad 
     fecunda, niños y adolescentes y personas con infección   
              por el VIH)&lt;/li&gt;
  &lt;/ol&gt;
  &lt;li&gt;&lt;b&gt;Intervenciones psicosociales&lt;/b&gt;&lt;/li&gt;
- &lt;li&gt;&lt;b&gt;Intervenciones farmacológicas&lt;/b&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Intervenciones farmacológicas.&lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}#[[Ir a Seguimiento]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}#[[Clic para Continuar con el Seguimiento|Ir a Seguimiento]]&lt;/h3&gt;
 &lt;/center&gt;
 &lt;br/&gt;
 </tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="108,66" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
@@ -505,7 +514,7 @@ URGENTEMENTE AL HOSPITAL. &amp;#128657;&lt;/span&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="12" name="NO tiene Venoclisis" tags="" position="546,911" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br/&gt;</tw-passagedata><tw-passagedata pid="12" name="NO tiene Venoclisis" tags="" position="864.3333333333334,751" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -528,7 +537,7 @@ niños, 1 mg por año de edad).
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 5|Paso 5 Urgencias]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Tiene Venoclisis" tags="" position="696,911" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Tiene Venoclisis" tags="" position="1164.3333333333335,732.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -560,7 +569,7 @@ por vía intravenosa).
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 5|Paso 5 Urgencias]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Paso 5 Urgencias" tags="" position="645,1035" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Paso 5 Urgencias" tags="" position="2000,736.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -575,7 +584,7 @@ por vía intravenosa).
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Segunda Dosis" tags="" position="511,1043" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Segunda Dosis" tags="" position="1866,744.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -599,7 +608,7 @@ de la medicación de urgencia.
 &lt;/table&gt;
 &lt;br /&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Paso 6 Urgencias" tags="" position="360,1043" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Paso 6 Urgencias" tags="" position="1715,744.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -614,7 +623,7 @@ de la medicación de urgencia.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Derivar Paciente" tags="" position="372,1179" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Derivar Paciente" tags="" position="1673.6666666666667,182.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -643,7 +652,7 @@ DE LA MEDICACIÓN DE URGENCIA.
 &lt;/table&gt;
 &lt;br /&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Paso 7 Urgencias" tags="" position="512,1175" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Paso 7 Urgencias" tags="" position="1813.6666666666667,178.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -674,7 +683,7 @@ establecimiento de salud.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Paso 8 Urgencias]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="19" name="Paso 10 Urgencias" tags="" position="436,1324" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="19" name="Paso 10 Urgencias" tags="" position="1737.6666666666667,327.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -717,7 +726,7 @@ Epilepsia comprobada (antecedentes de crisis convulsivas)
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="20" name="Paso 8 Urgencias" tags="" position="666,1172" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="20" name="Paso 8 Urgencias" tags="" position="1919.3333333333335,391.99999999999994" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -750,7 +759,7 @@ en un establecimiento de salud. &amp;#128657;&lt;/i&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 9|Paso 9 Urgencias]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Paso 9 Urgencias" tags="" position="810,1162" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Paso 9 Urgencias" tags="" position="1946.6666666666665,578.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -788,7 +797,7 @@ intramuscular (la misma dosis que por vía intravenosa)
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Persisten Convulsiones" tags="" position="943,1239" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Persisten Convulsiones" tags="" position="1802.9999999999998,0" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -815,7 +824,7 @@ respiratoria, hipotensión, arritmia.&lt;/b&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Derivar a Especialista" tags="" position="436,1475" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Derivar a Especialista" tags="" position="1737.6666666666667,478.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1183,7 +1192,7 @@ a fuerza o reflejos.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Derivar Especialista]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Paso 4 Evaluacion" tags="" position="195,1030" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Paso 4 Evaluacion" tags="" position="1550,731.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1214,7 +1223,7 @@ Y TRATE&lt;/span&gt;  antes de pasar al Protocolo de Manejo. &amp;#128204;&lt;a 
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Protocolo de Manejo|Ir a Manejo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="35" name="Derivar Especialista" tags="" position="33,1027" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="35" name="Derivar Especialista" tags="" position="1388,728.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Epilepsia (EPI) - Casos de Urgencia&quot;
 --
 &lt;center&gt;
 &lt;h4&gt;

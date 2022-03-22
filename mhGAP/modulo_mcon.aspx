@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Trastornos Mentales y Conductuales del Niño y El Adolescente (MCON)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_mcon.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Módulo de Trastornos Mentales y Conductuales del Niño y El Adolescente (MCON)" Language="C#" MasterPageFile="~/Site.Master" MaintainScrollPositionOnPostback="true" AutoEventWireup="true" CodeFile="modulo_mcon.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -22,17 +22,10 @@ span.listacirculo {
   font-size: 1.5em;
   color: #009f2e;
 }
-    .auto-style1 {
-        color: white;
-    }
-    .auto-style2 {
-        width: 64px;
-        height: 64px;
-    }
-</style>
+    </style>
 
 <h2 style="color:#009f2e; border-bottom-style:inset; border-bottom-width:thin;border-bottom-color:#009f2e">
-    <img src="img/amigos.png"/><%= txtProfesional.Value %>, estás en el <%: Title %></h2>
+    <img src="img/amigos.png"/>Estás en el <%: Title %></h2>
     
 <center>
     <table style="width:80%">

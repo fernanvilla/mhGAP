@@ -1,11 +1,11 @@
-<!DOCTYPE html><html><head><title>Módulo de Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON)</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
+<!DOCTYPE html><html><head><title>modulo_mcon</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
 #backstage table.history td.actions{width:2.5em}#backstage table.history td.go{border-right:1px solid #000}
 #backstage ul.tabs{list-style:none;margin:8px;padding:0;display:flex;border:1px solid #000;font-size:12px}#backstage ul.tabs li{flex-grow:1;border-right:1px solid #000;text-align:center}#backstage ul.tabs li:last-child{border-right:none}#backstage ul.tabs li button{color:#000;text-decoration:none;display:block;width:100%;height:28px;padding:8px;border:none;border-radius:0}#backstage ul.tabs li button.active{background:#000;color:#dee2e6}#backstage .tab-content{max-height:calc(100vh - $backstage-tab-height);overflow:auto}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}body.backstage-visible #backdrop{justify-content:flex-start;max-width:67vw}#backstage{position:fixed;top:0;right:0;bottom:0;width:33vw;max-height:100vh;font-size:18px;background:#dee2e6;color:#000;transform:translateX(100%);box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%}#backstage:before{content:"";position:absolute;z-index:2;top:calc(50% - 25px);right:calc(100% - 4px);height:50px;width:4px;background:#dee2e6}@media screen and (max-width:425px){#backstage{width:calc(100vw - 25px)}}#backstage.open{transform:none}#backstage .toggle-visibility{position:absolute;z-index:1;top:calc(50% - 25px);right:100%;width:25px;height:50px;padding:0;background:#dee2e6;color:#000;border:none;border-top-left-radius:25px;border-bottom-left-radius:25px;border-top-right-radius:0;border-bottom-right-radius:0;box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-size:18px}#backstage button{color:#000;background:transparent;padding:8px;border-radius:16px;border:1px solid #000}#backstage button:hover{background:#e9ecef}#backstage p{padding:0 8px}#backstage li,#backstage p,#backstage td{font-size:12px}#backstage input,#backstage select{color:#000;background:transparent;border:1px solid #000;padding:8px}#backstage table{background:transparent;table-layout:fixed;border-collapse:collapse;width:calc(100% - 16px);margin:8px}#backstage th{text-align:left}#backstage td{position:relative;border:1px solid #000;padding:8px;vertical-align:top}#backstage td:first-child{border-left:none}#backstage td:last-child{border-right:none}#backstage td button,#backstage td input{background:none;border:none;border-radius:0;position:absolute;top:0;left:0;bottom:0;width:100%;padding:8px}#backstage textarea{background:transparent;border:1px solid #000;color:#000;padding:8px;width:100%;height:7.75em}#backstage .block{display:block;margin:8px;width:calc(100% - 16px)}#backstage .disabled{color:#868e96}#backstage .indented-input{margin-left:calc(10em + 8px);font-size:12px}#backstage .input-group{display:flex;align-items:center}#backstage .input-group label:first-child{text-align:right;margin-right:8px;width:10em}#backstage .input-group input,#backstage .input-group select{flex-grow:1}#backstage .segmented-button{display:flex}#backstage .segmented-button button{border-left:none;border-radius:0;margin:0;flex-grow:1}#backstage .segmented-button button:first-child{border-left:1px solid #000;border-top-left-radius:16px;border-bottom-left-radius:16px}#backstage .segmented-button button:last-child{border-top-right-radius:16px;border-bottom-right-radius:16px}#backstage .segmented-button .fixed{flex-grow:0;min-width:24px}#backstage .tab-content{max-height:calc(100vh - 28px);overflow:auto}
 .fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}.skip-animation{animation-delay:0s!important}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
 #page .warnings{list-style-type:none;padding-left:0;margin-left:0}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backdrop{min-height:100vh;align-items:center}#backdrop,#page{display:flex;justify-content:center}#page{flex-direction:column;width:40em;min-height:calc(100vh - 2em);max-width:calc(100vw - 2em);line-height:150%;margin:1em;padding:4em 4em 2em;position:relative}#page article{flex-grow:1;display:flex}#page article>:first-child{margin-top:0;width:100%}#page footer,#page header{display:flex}#page footer>div,#page header>div{flex-grow:1}#page footer p,#page header p{margin:.5em 0 0}#page footer .center,#page header .center{text-align:center}#page footer .right p,#page header .right p{text-align:right}#page header{margin-top:0}#page header.has-content{border-bottom:1px solid #000}#page header.has-content+article>article>div>p:first-child,#page header.has-content+article>div>p:first-child{margin-top:1em}#page footer{margin-bottom:0}#page footer.has-content{border-top:1px solid #000}#page hr{border:none}#page hr:after{content:"* \A0   * \A0   *";display:block;text-align:center}#page .error,#page .warning{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%;background:#fff5f5;color:#c92a2a;padding:.5em;border-left:4px solid #ffa8a8;position:relative;margin-bottom:1em;overflow:auto}#page .error :first-child,#page .warning :first-child{margin-top:0}#page .error :last-child,#page .warning :last-child{margin-bottom:0}#page .error a,#page .warning a{color:#c92a2a}#page .warning{background:#fff9db;color:#e67700}#page .warning a{color:#e67700}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p a{display:block;flex-grow:1;text-align:center;padding:.5em}@media screen and (max-width:768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}#spinner{position:absolute;bottom:0;right:0;opacity:0;transition:opacity .25s ease-in-out;pointer-events:none}#spinner.visible{display:block;opacity:1}
-*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="Módulo de Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON)" startnode="1" creator="Twine" creator-version="2.3.16" ifid="BC46952B-840D-4409-9F08-1929F84056EE" zoom="1" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
+*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_mcon" startnode="1" creator="Twine" creator-version="2.3.16" ifid="BC46952B-840D-4409-9F08-1929F84056EE" zoom="0.6" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
   background: #009f2e;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -37,20 +37,25 @@ h4.pregunta{
 h3.titulo{
 	color:#009f2e;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Pasaje sin título" tags="" position="640,252" size="100,100">config.header.left: &quot;Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Panorama Breve&quot;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Inicio" tags="" position="600,77" size="100,100">config.header.left: &quot;Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Panorama Breve&quot;
 config.header.right: &quot;[[Acerca de...]]&quot; 
 config.footer.left: &quot;{back link , label : &#39;Devolverse&#39; }&quot; 
 config.footer.right: &quot;{restart link, label: &#39;Reiniciar Ruta&#39;}&quot;
 $vinculoOtroModulo: &quot;http://mhgap.analisis.info&quot;
 --
+
+
+
+
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;
-Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Panorama Breve
+Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON)
 &lt;/h3&gt;
 &lt;h3&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} 
-[[Ir a Evaluación]]&lt;/h3&gt;
+[[Clic para Comenzar la Evaluación|Ir a Evaluación]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
  &lt;li&gt;&lt;b&gt;Evalúe los problemas en el desarrollo.&lt;/b&gt;&lt;/li&gt;
  &lt;li&gt;&lt;b&gt;Investigue si hay problemas de falta
 de atención o exceso de actividad.&lt;/b&gt;&lt;/li&gt;
@@ -65,10 +70,13 @@ MNS prioritarios.&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Evalúe el entorno doméstico.&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Evalúe el entorno escolar.&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Ir a Manejo]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Clic para Continuar con el Manejo|Ir a Manejo]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
  &lt;li&gt;&lt;b&gt;Protocolos de manejo&lt;/b&gt;&lt;/li&gt;
  &lt;ol&gt;
  	&lt;li&gt;Retraso/trastorno del desarrollo&lt;/li&gt;
@@ -82,11 +90,12 @@ MNS prioritarios.&lt;/b&gt;&lt;/li&gt;
  &lt;/ol&gt;
  &lt;li&gt;&lt;b&gt;Intervenciones psicosociales&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}#[[Ir a Seguimiento]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}[[Clic para Continuar con el Seguimiento|Ir a Seguimiento]]&lt;/h3&gt;
 &lt;/center&gt;
 
-</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="529,87" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
+</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="375.66666666666663,27" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;
@@ -112,7 +121,7 @@ Desarrollado por el grupo de investigación &lt;a href=&quot;http://senda.group&
 
  &lt;div style=&quot;font-size:x-small&quot;&gt;Iconos diseñados por &lt;a href=&quot;https://www.flaticon.es/autores/mikan933&quot; title=&quot;mikan933&quot; target=&quot;_blank&quot;&gt;mikan933&lt;/a&gt;,
     &lt;a href=&quot;https://www.flaticon.es/autores/flat-icons&quot; title=&quot;Flat Icons&quot; target=&quot;_blank&quot;&gt;Flat Icons&lt;/a&gt;,&lt;a href=&quot;https://www.freepik.com&quot; title=&quot;Freepik&quot; target=&quot;_blank&quot;&gt;Freepik&lt;/a&gt;,  
-    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Ir a Evaluación" tags="" position="350,325" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Ir a Evaluación" tags="" position="265.66666666666663,66.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Manifestaciones Comunes de los Trastornos Mentales y Conductuales del Niño y el Adolescente
@@ -181,7 +190,7 @@ diarias?&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Con Dificultades]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="4" name="Ir a Manejo" tags="" position="622,402" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="4" name="Ir a Manejo" tags="" position="638.6666666666666,317" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 Protocolo &amp;#10102; de Manejo. &amp;#128204;[[Retraso trastorno del desarrollo.|Protocolo 1 Manejo]]
@@ -219,7 +228,7 @@ Protocolo &amp;#10107; de Manejo. &amp;#128204;[[Trastorno emocional o depresió
 &lt;/table&gt;
 &lt;br /&gt;
 
-</tw-passagedata><tw-passagedata pid="5" name="Ir a Seguimiento" tags="" position="924,395" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="5" name="Ir a Seguimiento" tags="" position="940.6666666666666,310" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Segumiento Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON)
@@ -240,7 +249,7 @@ Segumiento Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON)
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br/&gt;
-</tw-passagedata><tw-passagedata pid="6" name="Cuadro 1" tags="" position="105,254" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="6" name="Cuadro 1" tags="" position="65,113.33333333333334" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 MANIFESTACIONES COMUNES DE LOS TRASTORNOS MENTALES Y CONDUCTUALES DEL NIÑO Y EL ADOLESCENTE POR GRUPO ETARIO
@@ -405,7 +414,7 @@ y las actividades.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="7" name="Con Dificultades" tags="" position="438,507" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="7" name="Con Dificultades" tags="" position="424.6666666666667,202" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Tiene Dificultades. Sospeche que existe un RETRASO/TRASTORNO del DESARROLLO
@@ -430,7 +439,7 @@ una infección en el oído y por VIH/SIDA&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trate Trastornos]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="8" name="Paso 2 Evaluacion" tags="" position="62,662" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="8" name="Paso 2 Evaluacion" tags="" position="50.33333333333333,403.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; EVALÚE PARA DETECTAR PROBLEMAS DE
@@ -458,7 +467,7 @@ FALTA DE ATENCIÓN O DE HIPERACTIVIDAD
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Sintomas Persistentes]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="9" name="Evaluar Deficiencia" tags="" position="283,524" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="9" name="Evaluar Deficiencia" tags="" position="259.66666666666663,210.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;Evalúe al niño para determinar si existen deficiencias visuales o auditivas:&lt;/b&gt;
@@ -492,7 +501,7 @@ FALTA DE ATENCIÓN O DE HIPERACTIVIDAD
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Consulta Especialista]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="10" name="Trate Trastornos" tags="" position="565,638" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="10" name="Trate Trastornos" tags="" position="778.3333333333334,474.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;Trate los trastornos usando las directrices de la
@@ -512,7 +521,7 @@ chartbooklet/en/&#39; target=&quot;_blank&quot;&gt;Vaya a la página (en inglés
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Evaluar Deficiencia]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Protocolo 1 Manejo" tags="" position="1135,597" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Protocolo 1 Manejo" tags="" position="1210,268.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -568,7 +577,7 @@ tres meses o más frecuentes, de ser necesario
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="12" name="Consulta Especialista" tags="" position="312,676" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="12" name="Consulta Especialista" tags="" position="300.33333333333337,417.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;
@@ -582,7 +591,7 @@ tres meses o más frecuentes, de ser necesario
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 2|Paso 2 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Paso 3 Evaluacion" tags="" position="54,1086" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Paso 3 Evaluacion" tags="" position="16.666666666666668,657.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;3&lt;/span&gt; EVALÚE PARA DETERMINAR SI EXISTE UN TRASTORNO CONDUCTUAL
@@ -616,7 +625,7 @@ o desafiantes, por ejemplo: &lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trastorno Conductual Probable]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Sintomas Persistentes" tags="" position="309,790" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Sintomas Persistentes" tags="" position="924,591.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;¿Son los síntomas persistentes, graves, y causan considerables dificultades en el funcionamiento diario? ¿Son afirmativas las respuestas a TODAS las siguientes preguntas?&lt;/b&gt;
@@ -641,7 +650,7 @@ o desafiantes, por ejemplo: &lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Tdah Probable]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Tdah Improbable" tags="" position="530,848" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Tdah Improbable" tags="" position="915,457.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -660,7 +669,7 @@ de que sean PROBLEMAS DE CONDUCTA
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 3|Paso 3 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Tdah Probable" tags="" position="141,866" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Tdah Probable" tags="" position="127.66666666666667,556" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -686,7 +695,7 @@ DE QUE SEA TDAH
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trate Enfermedad Fisica]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Trate Enfermedad Fisica" tags="" position="391,1047" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Trate Enfermedad Fisica" tags="" position="461.00000000000006,341.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3&gt;
@@ -703,7 +712,7 @@ DE QUE SEA TDAH
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 3|Paso 3 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Protocolo 2 Manejo" tags="" position="1059,726" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Protocolo 2 Manejo" tags="" position="1329,349.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -748,7 +757,7 @@ Ofrezca hacer un seguimiento.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="19" name="Protocolo 3 Manejo" tags="" position="1037,840" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="19" name="Protocolo 3 Manejo" tags="" position="1205.3333333333335,395" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -813,7 +822,7 @@ meses o más frecuentes, de ser necesario.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="20" name="Trastorno Conductual Improbable" tags="" position="188,1195" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="20" name="Trastorno Conductual Improbable" tags="" position="16.666666666666668,835" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -833,7 +842,7 @@ CONDUCTUAL
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 4|Paso 4 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Trastorno Conductual Probable" tags="" position="462,1177" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="21" name="Trastorno Conductual Probable" tags="" position="171.99999999999997,720.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 
 
@@ -888,7 +897,7 @@ nivel del desarrollo del niño o el adolescente?&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trastorno Conductual]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Paso 4 Evaluacion" tags="" position="72,1469" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Paso 4 Evaluacion" tags="" position="198.66666666666666,874" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;4&lt;/span&gt; EVALÚE PARA DETERMINAR SI HAY TRASTORNOS EMOCIONALES (malestar prolongado, incapacitante, que incluye tristeza, ansiedad o irritabilidad)
@@ -919,7 +928,7 @@ nivel del desarrollo del niño o el adolescente?&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Dificultades Funcionamiento Diario]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Problemas de Comportamiento" tags="" position="231,1329" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Problemas de Comportamiento" tags="" position="586,789" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -939,7 +948,7 @@ COMPORTAMIENTO
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 4|Paso 4 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="24" name="Trastorno Conductual" tags="" position="465,1326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="24" name="Trastorno Conductual" tags="" position="570,491" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -958,7 +967,7 @@ TRASTORNO CONDUCTAL
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 4|Paso 4 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="25" name="Protocolo 4 Manejo" tags="" position="993,951" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="25" name="Protocolo 4 Manejo" tags="" position="1326.3333333333333,472.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1016,7 +1025,7 @@ sea factible. &amp;#128204;[[Ver Tratamientos psicológicos breves|Intervencion 
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="26" name="Paso 5 Evaluacion" tags="" position="71,1868" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="26" name="Paso 5 Evaluacion" tags="" position="412.66666666666674,873" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;5&lt;/span&gt; EVALÚE AL PACIENTE PARA DETERMINAR SI EXISTEN OTROS POSIBLES TRASTORNOS MNS PRIORITARIOS
@@ -1046,7 +1055,7 @@ paciente antes de proseguir. &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/m
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Evalue MNS]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="27" name="Dificultades Funcionamiento Diario" tags="" position="456,1458" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="27" name="Dificultades Funcionamiento Diario" tags="" position="561,623" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 
 
@@ -1107,7 +1116,7 @@ meses a 2 años de edad)&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Considere Trastorno Emocional]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="28" name="Problemas Emocionales" tags="" position="653,1445" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="28" name="Problemas Emocionales" tags="" position="758,610" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1128,7 +1137,7 @@ EMOCIONALES
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 5|Paso 5 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="29" name="Considere Trastorno Emocional" tags="" position="336,1554" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="29" name="Considere Trastorno Emocional" tags="" position="441.00000000000006,719" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1162,7 +1171,7 @@ o exacerbarlos.
 &lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Recomendar Protocolo 6]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trate Enfermedad Fisica 2]]&amp;#128072;&lt;/td&gt;</tw-passagedata><tw-passagedata pid="30" name="Protocolo 5 Manejo" tags="" position="952,1066" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Trate Enfermedad Fisica 2]]&amp;#128072;&lt;/td&gt;</tw-passagedata><tw-passagedata pid="30" name="Protocolo 5 Manejo" tags="" position="1213.6666666666667,521" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1200,7 +1209,7 @@ en la comunidad.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="31" name="Recomendar Protocolo 6" tags="" position="132,1641" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="31" name="Recomendar Protocolo 6" tags="" position="370.33333333333337,525.9999999999998" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4&gt;
@@ -1218,7 +1227,7 @@ Enfermedades infecciosas (incluida la infección por el VIH/SIDA), Anemia, Obesi
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Evaluar Depresion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="32" name="Trate Enfermedad Fisica 2" tags="" position="503,1595" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="32" name="Trate Enfermedad Fisica 2" tags="" position="1080.3333333333335,623.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3&gt;
@@ -1235,7 +1244,7 @@ Enfermedades infecciosas (incluida la infección por el VIH/SIDA), Anemia, Obesi
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Evaluar Depresion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="33" name="Evaluar Depresion" tags="" position="633,1705" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="33" name="Evaluar Depresion" tags="" position="1221.3333333333335,673.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1255,7 +1264,7 @@ En los adolescentes, evalúe para determinar si existe depresión moderada o gra
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Sintomas Adicionales]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Protocolo 6 Manejo" tags="" position="1050,1199" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="34" name="Protocolo 6 Manejo" tags="" position="1321.6666666666667,594" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1324,7 +1333,7 @@ vez al mes o más frecuentes, de ser necesario.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="35" name="Sintomas Adicionales" tags="" position="421,1757" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="35" name="Sintomas Adicionales" tags="" position="1019.3333333333333,785.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;&amp;#11088;¿Ha tenido el adolescente varios de los siguientes síntomas adicionales la mayoría de los días en las 2 últimas semanas?&lt;/b&gt;
@@ -1376,7 +1385,7 @@ o de otro tipo? &lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Sufre Depresion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="36" name="Sufre Depresion" tags="" position="632,1870" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="36" name="Sufre Depresion" tags="" position="1292,889.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1411,7 +1420,7 @@ importante. &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/Depresion_DEP&#39;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 5|Paso 5 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="37" name="Paso 6 Evaluacion" tags="" position="69,2025" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="37" name="Paso 6 Evaluacion" tags="" position="732.3333333333334,858.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;6&lt;/span&gt; EVALÚE EL ENTORNO DOMÉSTICO
@@ -1445,7 +1454,7 @@ agresiones&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Derivar Paciente]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="38" name="Evalue MNS" tags="" position="425,1907" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="38" name="Evalue MNS" tags="" position="1141.6666666666667,816.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1467,7 +1476,7 @@ MNS concurrentes.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 6|Paso 6 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="39" name="Consejos Clinicos" tags="" position="0,2175" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="39" name="Consejos Clinicos" tags="" position="1430,634.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 
 &lt;ul&gt;
@@ -1556,7 +1565,7 @@ niño o al adolescente) o métodos muy rigurosos de disciplina.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="40" name="Trastorno MNS" tags="" position="286,2094" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="40" name="Trastorno MNS" tags="" position="1726,613.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1588,7 +1597,7 @@ conductuales o del desarrollo
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Evalue MNS Cuidadores]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="41" name="Derivar Paciente" tags="" position="543,1988" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="41" name="Derivar Paciente" tags="" position="873,727.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1641,7 +1650,7 @@ Garantice un seguimiento apropiado.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Trastorno MNS]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="42" name="Oportunidades Juego" tags="" position="156,2236" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="42" name="Oportunidades Juego" tags="" position="1586,695.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1669,7 +1678,7 @@ de sustancias.&lt;/i&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Brinde Informacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="43" name="Evalue MNS Cuidadores" tags="" position="692,2099" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="43" name="Evalue MNS Cuidadores" tags="" position="1903.6666666666667,560.6666666666665" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1689,7 +1698,7 @@ de los cuidadores
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Manejo. Apoyo a los Cuidadores|Intervencion 2.6]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="44" name="Paso 7 Evaluacion" tags="" position="81,2386" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="44" name="Paso 7 Evaluacion" tags="" position="1461,812.6666666666665" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;h4 class=&quot;pregunta&quot;&gt;
 &lt;span class=&quot;listacirculo&quot;&gt;7&lt;/span&gt; EVALÚE EL ENTORNO ESCOLAR
@@ -1709,7 +1718,7 @@ de los cuidadores
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Asiste Escuela]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="45" name="Brinde Informacion" tags="" position="386,2231" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="45" name="Brinde Informacion" tags="" position="1846,690.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1741,7 +1750,7 @@ servicios.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar al Paso 7|Paso 7 Evaluacion]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="46" name="Recomendar Servicios Educativos" tags="" position="107,2562" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="46" name="Recomendar Servicios Educativos" tags="" position="1635.3333333333333,860.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1767,7 +1776,7 @@ medida de lo posible.
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="47" name="Asiste Escuela" tags="" position="375,2411" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="47" name="Asiste Escuela" tags="" position="1815,822.6666666666665" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1804,7 +1813,7 @@ según su desarrollo.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Inconvenientes Escuela]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="48" name="Inconvenientes Escuela" tags="" position="576,2409" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="48" name="Inconvenientes Escuela" tags="" position="2006,868.9999999999999" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -1836,7 +1845,7 @@ razones de la ausencia.
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="49" name="Intervencion 2.7" tags="" position="1773,1000" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="49" name="Intervencion 2.7" tags="" position="1659.6666666666667,435.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Póngase en contacto con los
@@ -1895,7 +1904,7 @@ participe en las actividades escolares y facilitar el aprendizaje, la inclusión
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="50" name="Intervencion 2.1" tags="" position="1705,159" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="50" name="Intervencion 2.1" tags="" position="1666.6666666666667,50.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Orientación para promover
@@ -1954,7 +1963,7 @@ comunidad y otras actividades sociales.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="51" name="Intervencion 2.2" tags="" position="1769,286" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="51" name="Intervencion 2.2" tags="" position="1797.3333333333333,54.333333333333314" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Psicoeducación para la persona
@@ -2008,7 +2017,7 @@ mutuamente
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="52" name="Intervencion 2.3" tags="" position="1785,428" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="52" name="Intervencion 2.3" tags="" position="1660,203" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Orientación para mejorar el
@@ -2063,7 +2072,7 @@ ejemplo, con las tareas u otras habilidades para la vida).&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="53" name="Intervencion 2.6" tags="" position="1808,841" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="53" name="Intervencion 2.6" tags="" position="1799.6666666666667,314.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Apoyo a los cuidadores.
@@ -2099,7 +2108,7 @@ y familiares.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="54" name="Intervencion 2.8" tags="" position="1732,1170" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="54" name="Intervencion 2.8" tags="" position="1827,433.33333333333326" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Tratamientos psicológicos breves.
@@ -2121,7 +2130,7 @@ que lo soliciten.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="55" name="Intervencion 2.5" tags="" position="1807,694" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="55" name="Intervencion 2.5" tags="" position="1652,315.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Psicoeducación para problemas
@@ -2184,7 +2193,7 @@ ayuda de inmediato.&lt;/li&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="56" name="Intervenciones Psicosociales" tags="" position="1065,219" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="56" name="Intervenciones Psicosociales" tags="" position="1081.6666666666667,183" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Intervenciones Psicosociales
@@ -2206,7 +2215,7 @@ Intervenciones Psicosociales
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="57" name="Intervencion 2.4" tags="" position="1777,565" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="57" name="Intervencion 2.4" tags="" position="1820.3333333333333,195" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Manejo&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 &amp;#128588;Intervenciones Psicosociales. Psicoeducación para el retraso
@@ -2280,7 +2289,7 @@ derechos humanos y la dignidad.&lt;/b&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="58" name="No hay Mejoria" tags="" position="770,150" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="58" name="No hay Mejoria" tags="" position="786.6666666666666,65" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
 --
 &lt;center&gt;
   &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -2393,7 +2402,7 @@ a otros adultos.
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;br/&gt;
-</tw-passagedata><tw-passagedata pid="59" name="Si hay Mejoria" tags="" position="897,166" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="59" name="Si hay Mejoria" tags="" position="913.6666666666666,81" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos Mentales y Conductuales del Niño y el Adolescente (MCON) - Seguimiento&quot;
 --
 &lt;center&gt;
   &lt;h4 class=&quot;pregunta&quot;&gt;

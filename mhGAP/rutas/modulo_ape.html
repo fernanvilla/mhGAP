@@ -1,12 +1,12 @@
-<!DOCTYPE html><html><head><title>modulo_sus</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
+<!DOCTYPE html><html><head><title>modulo_ape</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
 #backstage table.history td.actions{width:2.5em}#backstage table.history td.go{border-right:1px solid #000}
 #backstage ul.tabs{list-style:none;margin:8px;padding:0;display:flex;border:1px solid #000;font-size:12px}#backstage ul.tabs li{flex-grow:1;border-right:1px solid #000;text-align:center}#backstage ul.tabs li:last-child{border-right:none}#backstage ul.tabs li button{color:#000;text-decoration:none;display:block;width:100%;height:28px;padding:8px;border:none;border-radius:0}#backstage ul.tabs li button.active{background:#000;color:#dee2e6}#backstage .tab-content{max-height:calc(100vh - $backstage-tab-height);overflow:auto}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}body.backstage-visible #backdrop{justify-content:flex-start;max-width:67vw}#backstage{position:fixed;top:0;right:0;bottom:0;width:33vw;max-height:100vh;font-size:18px;background:#dee2e6;color:#000;transform:translateX(100%);box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%}#backstage:before{content:"";position:absolute;z-index:2;top:calc(50% - 25px);right:calc(100% - 4px);height:50px;width:4px;background:#dee2e6}@media screen and (max-width:425px){#backstage{width:calc(100vw - 25px)}}#backstage.open{transform:none}#backstage .toggle-visibility{position:absolute;z-index:1;top:calc(50% - 25px);right:100%;width:25px;height:50px;padding:0;background:#dee2e6;color:#000;border:none;border-top-left-radius:25px;border-bottom-left-radius:25px;border-top-right-radius:0;border-bottom-right-radius:0;box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-size:18px}#backstage button{color:#000;background:transparent;padding:8px;border-radius:16px;border:1px solid #000}#backstage button:hover{background:#e9ecef}#backstage p{padding:0 8px}#backstage li,#backstage p,#backstage td{font-size:12px}#backstage input,#backstage select{color:#000;background:transparent;border:1px solid #000;padding:8px}#backstage table{background:transparent;table-layout:fixed;border-collapse:collapse;width:calc(100% - 16px);margin:8px}#backstage th{text-align:left}#backstage td{position:relative;border:1px solid #000;padding:8px;vertical-align:top}#backstage td:first-child{border-left:none}#backstage td:last-child{border-right:none}#backstage td button,#backstage td input{background:none;border:none;border-radius:0;position:absolute;top:0;left:0;bottom:0;width:100%;padding:8px}#backstage textarea{background:transparent;border:1px solid #000;color:#000;padding:8px;width:100%;height:7.75em}#backstage .block{display:block;margin:8px;width:calc(100% - 16px)}#backstage .disabled{color:#868e96}#backstage .indented-input{margin-left:calc(10em + 8px);font-size:12px}#backstage .input-group{display:flex;align-items:center}#backstage .input-group label:first-child{text-align:right;margin-right:8px;width:10em}#backstage .input-group input,#backstage .input-group select{flex-grow:1}#backstage .segmented-button{display:flex}#backstage .segmented-button button{border-left:none;border-radius:0;margin:0;flex-grow:1}#backstage .segmented-button button:first-child{border-left:1px solid #000;border-top-left-radius:16px;border-bottom-left-radius:16px}#backstage .segmented-button button:last-child{border-top-right-radius:16px;border-bottom-right-radius:16px}#backstage .segmented-button .fixed{flex-grow:0;min-width:24px}#backstage .tab-content{max-height:calc(100vh - 28px);overflow:auto}
 .fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}.skip-animation{animation-delay:0s!important}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
 #page .warnings{list-style-type:none;padding-left:0;margin-left:0}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backdrop{min-height:100vh;align-items:center}#backdrop,#page{display:flex;justify-content:center}#page{flex-direction:column;width:40em;min-height:calc(100vh - 2em);max-width:calc(100vw - 2em);line-height:150%;margin:1em;padding:4em 4em 2em;position:relative}#page article{flex-grow:1;display:flex}#page article>:first-child{margin-top:0;width:100%}#page footer,#page header{display:flex}#page footer>div,#page header>div{flex-grow:1}#page footer p,#page header p{margin:.5em 0 0}#page footer .center,#page header .center{text-align:center}#page footer .right p,#page header .right p{text-align:right}#page header{margin-top:0}#page header.has-content{border-bottom:1px solid #000}#page header.has-content+article>article>div>p:first-child,#page header.has-content+article>div>p:first-child{margin-top:1em}#page footer{margin-bottom:0}#page footer.has-content{border-top:1px solid #000}#page hr{border:none}#page hr:after{content:"* \A0   * \A0   *";display:block;text-align:center}#page .error,#page .warning{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%;background:#fff5f5;color:#c92a2a;padding:.5em;border-left:4px solid #ffa8a8;position:relative;margin-bottom:1em;overflow:auto}#page .error :first-child,#page .warning :first-child{margin-top:0}#page .error :last-child,#page .warning :last-child{margin-bottom:0}#page .error a,#page .warning a{color:#c92a2a}#page .warning{background:#fff9db;color:#e67700}#page .warning a{color:#e67700}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p a{display:block;flex-grow:1;text-align:center;padding:.5em}@media screen and (max-width:768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}#spinner{position:absolute;bottom:0;right:0;opacity:0;transition:opacity .25s ease-in-out;pointer-events:none}#spinner.visible{display:block;opacity:1}
-*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_sus" startnode="1" creator="Twine" creator-version="2.3.16" ifid="67E5BDC5-4C6C-4DD6-84CC-F1EDCEB2A286" zoom="0.6" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
-  background: #f08900;
+*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_ape" startnode="1" creator="Twine" creator-version="2.3.16" ifid="C0A588E7-BD8A-480A-8E1E-7EF771E2597F" zoom="1" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
+  background: #002856;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -20,24 +20,28 @@
 }
 
 table.cuadro, th.cuadro, td.cuadro, tr.cuadro {
-  border: 1px solid #f08900;
+  border: 1px solid #002856;
   border-collapse: collapse;
 }
 
 ::marker {
   content: "»";
   font-size: 1.5em;
-  color: #f08900;
+  color: #002856;
 }
 
 h4.pregunta{
-	color:#f08900;
+	color:#002856;
 }
 
 h3.titulo{
-	color:#f08900;
+	color:#002856;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Inicio" tags="" position="338,51" size="100,100">config.header.left: &quot;Módulo Trastornos por el Consumo de Sustancias (SUS)&quot;
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="497,85" size="100,100">config.header.left: &quot;Módulo Atención y Prácticas Esenciales de Salud (APE)&quot;
 config.header.right: &quot;[[Acerca de...]]&quot; 
 config.footer.left: &quot;{back link , label : &#39;Devolverse&#39; }&quot; 
 config.footer.right: &quot;{restart link, label: &#39;Reiniciar Ruta&#39;}&quot;
@@ -45,55 +49,30 @@ $vinculoOtroModulo: &quot;http://mhgap.analisis.info&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;
-Módulo Trastornos por el Consumo de Sustancias (SUS)
+Módulo Atención y Prácticas Esenciales de Salud (APE)
 &lt;/h3&gt;
-&lt;h3&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} 
-[[Clic para Comenzar la Evaluación|Ir a Evaluación]]&lt;/h3&gt;
 &lt;/center&gt;
-
-
-&lt;span style=&quot;font-size:small&quot;&gt;
-&lt;ul&gt;Panorama Breve:
-&lt;li&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;CASOS DE URGENCIA:&lt;/span&gt;¿Se sospecha que es una intoxicación o abstinencia? &amp;#128204;[[Clic para Ir a Casos de Urgencia|Ir a Casos de Urgencia]]
-  &lt;ul&gt;
-  &lt;li&gt;¿Parece la persona sedada?&lt;/li&gt;
-  &lt;li&gt;¿Parece la persona sobreestimulada, ansiosa
-o agitada?&lt;/li&gt;
-  &lt;li&gt;¿Parece la persona confundida?&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;A. PRINCIPIOS GENERALES &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Use habilidades de comunicación eficaces.&lt;/li&gt;
+	&lt;li&gt;Promueva el respeto y la dignidad.&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a esta Sección|A Principios Generales]]&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;¿La persona consume sustancias psicoactivas?&lt;/li&gt;
-&lt;li&gt;¿Resulta nocivo el consumo?&lt;/li&gt;
-&lt;li&gt;¿La persona sufre dependencia
-de la sustancia?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/span&gt;
 
-&lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Clic para Continuar con el Manejo|Ir a Manejo]]&lt;/h3&gt;
-&lt;/center&gt;
-&lt;span style=&quot;font-size:small&quot;&gt;
-&lt;ul&gt;Panorama Breve:
- &lt;li&gt;&lt;b&gt;Protocolos de manejo&lt;/b&gt;&lt;/li&gt;
- &lt;ol&gt;
- 	&lt;li&gt;Consumo perjudicial&lt;/li&gt;
-	&lt;li&gt;Dependencia&lt;/li&gt;
-	&lt;li&gt;Abstinencia de alcohol&lt;/li&gt;
-	&lt;li&gt;Abstinencia de opioides&lt;/li&gt;
-	&lt;li&gt;Tratamiento de mantenimiento con agonistas opioides&lt;/li&gt;
-	&lt;li&gt;Abstinencia de benzodiazepinas&lt;/li&gt;
-
- &lt;/ol&gt;
- &lt;li&gt;&lt;b&gt;Intervenciones psicosociales&lt;/b&gt;&lt;/li&gt;
- &lt;li&gt;&lt;b&gt;Intervenciones farmacológicas.&lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
-
-&lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}[[Clic para Continuar con el Seguimiento|Ir a Seguimiento]]&lt;/h3&gt;
-&lt;/center&gt;
-
-</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="140,19" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Evalúe la salud física.&lt;/li&gt;
+	&lt;li&gt;Realice una evaluación para determinar si existe un trastorno
+      mental, neurológico o por consumo de sustancias (MNS).&lt;/li&gt;
+	&lt;li&gt;Trate los trastornos MNS.&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a esta Sección|B Elementos Esenciales]]&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</tw-passagedata><tw-passagedata pid="2" name="Acerca de..." tags="" position="234,24" size="100,100">config.header.left:&quot;&amp;#10024; Acerca de ...&quot;
 --
 &lt;ul&gt;
 &lt;li&gt;
@@ -119,2683 +98,627 @@ Desarrollado por el grupo de investigación &lt;a href=&quot;http://senda.group&
 
  &lt;div style=&quot;font-size:x-small&quot;&gt;Iconos diseñados por &lt;a href=&quot;https://www.flaticon.es/autores/mikan933&quot; title=&quot;mikan933&quot; target=&quot;_blank&quot;&gt;mikan933&lt;/a&gt;,
     &lt;a href=&quot;https://www.flaticon.es/autores/flat-icons&quot; title=&quot;Flat Icons&quot; target=&quot;_blank&quot;&gt;Flat Icons&lt;/a&gt;,&lt;a href=&quot;https://www.freepik.com&quot; title=&quot;Freepik&quot; target=&quot;_blank&quot;&gt;Freepik&lt;/a&gt;,  
-    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Ir a Evaluación" tags="" position="377,223" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Manifestaciones Comunes de  los Trastornos por el Consumo de Sustancias
-&lt;/h3&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;La persona parece afectada por el alcohol u otra sustancia
-(olor a alcohol, dificultad para articular palabras,
-comportamiento errático, sedación)&lt;/li&gt;
-&lt;li&gt;Signos de uso reciente de drogas (marcas recientes de
-inyecciones, infección cutánea&lt;/li&gt;
-&lt;li&gt;Signos y síntomas de efectos conductuales agudos,
-manifestaciones de abstinencia o efectos del uso prolongado
-&amp;#128204;[[vaya a la sección de Sustancias Psicoactivas|Cuadro 1]]&lt;/li&gt;
-&lt;li&gt;Deterioro del funcionamiento social (por ejemplo, dificultades
-en el trabajo o el hogar, apariencia descuidada)&lt;/li&gt;
-&lt;li&gt;Signos de hepatopatía crónica (enzimas hepáticas anormales),
-piel y ojos ictéricos (amarillos), bordes hepáticos palpables y
-dolorosos (en la hepatopatía temprana), ascitis (el abdomen
-está distendido y lleno de líquido), nevos aráneos (vasos
-sanguíneos similares a arañas visibles en la superficie de la piel)
-y estado mental alterado (encefalopatía hepática)&lt;/li&gt;
-&lt;li&gt;Problemas con el equilibrio, al caminar y coordinar los
-movimientos y nistagmo&lt;/li&gt;
-&lt;li&gt;Resultados incidentales: anemia macrocítica, recuento
-plaquetario bajo, volumen corpuscular medio elevado&lt;/li&gt;
-&lt;li&gt;Manifestación de urgencia debida a sobredosis o abstinencia
-de sustancias, o a intoxicación con sustancias. La persona
-puede parecer sedada, sobreestimulada, agitada, ansiosa o
-confundida&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Las personas con trastornos debidos al uso de sustancias
-tal vez no informen acerca de los problemas por el uso de
-sustancias. Investigue si hay:&lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;Pedidos recurrentes de medicamentos psicoactivos,
-incluidos analgésicos&lt;/li&gt;
-	&lt;li&gt;Traumatismos&lt;/li&gt;
-	&lt;li&gt;Infecciones asociadas con el consumo de drogas por vía
-intravenosa (infección por el VIH/SIDA, hepatitis C)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr/&gt;
-
-&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; ¡Evite los estereotipos! A todas las personas que se presentan a los establecimientos de atención de salud se les debe preguntar si consumen tabaco y alcohol.
-
-&lt;hr/&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt; ¿La persona consume sustancias?
-&lt;/h4&gt;
-
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; Al tomar nota de la historia clínica, pregunte: 
-  &lt;ul&gt;
-  &lt;li&gt;¿Cómo comenzó la persona a
-consumir sustancias?&lt;/li&gt;
-  &lt;li&gt;¿Cuándo comenzó a
-consumirlas?&lt;/li&gt;
-  &lt;li&gt;¿Qué estaba sucediendo en su
-vida en ese momento?&lt;/li&gt;
-  &lt;li&gt;¿Alguien en su familia o su
-círculo social consume
-sustancias?&lt;/li&gt;
-  &lt;li&gt;¿Ha tratado de reducir su uso?
-¿Por qué? ¿Qué sucedió?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&amp;#11088;Pregunte acerca del consumo de tabaco, alcohol y medicamentos
-psicoactivos de prescripción. Según el entorno y la manifestación,
-considere la posibilidad de preguntar acerca del uso de cannabis
-y otros consumos de sustancias. 
-&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Fin Modulo]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Paso 2 Evaluacion]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="4" name="Ir a Manejo" tags="" position="872.6666666666666,102" size="100,100">
-config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10102; de Manejo. &amp;#128204;[[Consumo perjudicial de sustancias.|Protocolo 1 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10103; de Manejo. &amp;#128204;[[Dependencia|Protocolo 2 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10104; de Manejo. &amp;#128204;[[Abstinencia de alcohol|Protocolo 3 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10105; de Manejo. &amp;#128204;[[Abstinencia de opioides|Protocolo 4 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10106; de Manejo. &amp;#128204;[[Tratamiento de mantenimiento con agonistas opioides|Protocolo 5 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Protocolo &amp;#10107; de Manejo. &amp;#128204;[[Abstinencia de benzodiazepinas|Protocolo 6 Manejo]]
-&lt;/h4&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&amp;#128204;[[INTERVENCIONES PSICOSOCIALES|Intervenciones]]
-&lt;/h4&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-
-</tw-passagedata><tw-passagedata pid="5" name="Ir a Seguimiento" tags="" position="1774.6666666666667,100.66666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Seguimiento.&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Seguimiento Módulo Trastornos por el Consumo de Sustancias (SUS)
-&lt;/h3&gt;&lt;/center&gt;
-&lt;hr/&gt;
-&lt;span style=&quot;color:red&quot;&gt;Recomendaciones sobre la Frecuencia de Contacto&lt;/span&gt; 
-&lt;ul&gt;
-&lt;li&gt;
-   &lt;b&gt;Uso perjudicial:&lt;/b&gt; Sesión de
-seguimiento en un mes.
-Posteriormente, sesiones de
-seguimiento según sea necesario.
-&lt;/li&gt;
-&lt;li&gt;
- &lt;b&gt;Dependencia:&lt;/b&gt; Consultas de
-seguimiento varias veces por
-semana en las dos primeras
-semanas, luego semanalmente en
-el primer mes. Una vez que haya
-una mejoría, disminuya la
-frecuencia a una vez por mes y,
-posteriormente, según sea
-necesario.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr/&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt;Evalúe para Determinar si hay Mejoría
-&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;En cada consulta, evalúe:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;La cantidad y la frecuencia del consumo de sustancias, la salud mental,
-la salud física, los factores de riesgo y de protección (por ejemplo, relaciones,
-alojamiento, empleo, etc.)&lt;/li&gt;
-  &lt;li&gt;Pregunte acerca de los factores que conducen al consumo de sustancias
-y las consecuencias de ese consumo.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Casos:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&amp;#128204;[[CONSUMO DE SUSTANCIAS EN CURSO|Consumo]]&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[SUSPENSIÓN RECIENTE DEL CONSUMO O CAMBIO A UN CONSUMO NO PERJUDICIAL|Suspension Reciente]]&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[SUSPENSIÓN PROLONGADA O CONSUMO NO PERJUDICIAL|Suspension Prolongada]]&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[SIGNOS DE CONSUMO CRÓNICO DE SUSTANCIAS Y ESTUDIOS QUE SE DEBEN CONSIDERAR|Consumo Cronico]]&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-</tw-passagedata><tw-passagedata pid="6" name="Ir a Casos de Urgencia" tags="" position="107,287" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;&lt;h3&gt;&lt;span style=&quot;color:red&quot;&gt;
-Casos de Urgencia
-&lt;/span&gt;&lt;/h3&gt;&lt;/center&gt;
-&lt;i&gt;Si no está presente ninguna manifestación de urgencia, &amp;#128204;[[vaya a la sección Evaluación|Ir a Evaluación]]&lt;/i&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;MANIFESTACIONES DE LOS CASOS DE URGENCIA POR TRASTORNOS
-DEBIDOS AL CONSUMO DE SUSTANCIAS&lt;/span&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Intoxicación con alcohol:&lt;/b&gt; olor a alcohol en el aliento,
-dificultad para articular palabras, comportamiento
-desinhibido; alteración del estado de conciencia, de la
-cognición, la percepción, la afectividad o el
-comportamiento&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Sobredosis de opiáceos:&lt;/b&gt; la persona no responde o la
-respuesta es mínima, tiene una frecuencia respiratoria
-lenta, pupilas diminutas&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Abstinencia de alcohol u otro sedante:&lt;/b&gt; temblor en
-las manos, sudor, vómitos, aumento del pulso y la
-presión arterial, agitación, cefalea, náuseas, ansiedad;
-crisis convulsivas y confusión en los casos graves&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Intoxicación con estimulantes:&lt;/b&gt; pupilas dilatadas,
-excitación, pensamientos desenfrenados, pensamiento
-desordenado, comportamiento extraño, consumo
-reciente de sustancias psicoactivas, pulso y presión
-arterial elevados, comportamiento agresivo, errático o
-violento&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Delirio asociado con el uso de sustancias:&lt;/b&gt;
-confusión, alucinaciones, pensamientos desenfrenados,
-ansiedad, agitación, desorientación, normalmente
-asociado a la intoxicación con estimulantes o a la
-abstinencia de alcohol (u otro sedante)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr/&gt;
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt; ¿Parece la persona sedada?
-&lt;/h4&gt;
-
-&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt;Sospeche que se trata de una
-intoxicación o sobredosis
-con sedantes en una persona
-con somnolencia idiopática
-y ritmo respiratorio lento.
-&lt;hr/&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Paso 2 Urgencias]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Sospecha Intoxicacion]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="7" name="Paso 2 Urgencias" tags="" position="42.666666666666664,566" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; ¿Parece la persona sobreestimulada,
-ansiosa o agitada?
-&lt;/h4&gt;
-
-&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt;Sospeche que se trata de una
-intoxicación o sobredosis
-con sedantes en una persona
-con somnolencia idiopática
-y ritmo respiratorio lento.
-&lt;hr/&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Paso 3 Urgencias]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Evaluar Tratar P2]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="8" name="Sospecha Intoxicacion" tags="" position="142,460" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que sea una
-INTOXICACIÓN CON SEDANTES
-(alcohol, opioides, otros sedantes)
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Examine las vías respiratorias,
-la respiración, la circulación.
-&lt;/li&gt;
-&lt;li&gt;Preste apoyo respiratorio inicial.
-&lt;/li&gt;
-&lt;li&gt;Suministre oxígeno.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&amp;#11088;¿La persona apenas responde, no responde
-o tiene insuficiencia respiratoria?
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Examine Pupilas]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Atencion Apoyo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="9" name="Examine Pupilas" tags="" position="236,601" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Examine las Pupilas
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Pupilas diminutas&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;  Sospeche que pueda ser una
-SOBREDOSIS DE OPIÁCEOS&lt;/span&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Pupilas normales. &lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Es menos probable que se trate
-de una sobredosis de opiáceos.&lt;/li&gt;
-  &lt;li&gt;Considere la posibilidad de una
-sobredosis de alcohol u otros
-sedantes, o de otras causas
-médicas (por ejemplo,
-traumatismo craneoencefálico,
-infección o hipoglucemia).&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Recomendaciones:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&amp;#128137; Administre 0,4-2 mg de naloxona por vía intravenosa,
-intramuscular, intranasal o subcutánea.&lt;/li&gt;
-  &lt;li&gt;Continúe con el apoyo respiratorio.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&amp;#11088;&lt;b&gt;¿Respondió la persona a la naloxona en 2 minutos?&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Segunda Dosis]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Observacion Persona]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="10" name="Atencion Apoyo" tags="" position="506,442" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-La persona apenas responde, no responde
-o tiene insuficiencia respiratoria
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Atención de apoyo.
-&lt;/li&gt;
-&lt;li&gt;Vigile los signos vitales.
-&lt;/li&gt;
-&lt;li&gt;Coloque a la persona de costado para prevenir la
-aspiración.
-&lt;/li&gt;
-&lt;li&gt;Suministre oxígeno si es factible.
-&lt;/li&gt;
-&lt;li&gt;Considere proporcionar rehidratación por vía
-intravenosa, pero no le dé líquidos por vía oral
-mientras está sedada.
-&lt;/li&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;Observe a la persona hasta que se haya recuperado
-totalmente o sea transportada al hospital.&lt;/span&gt; 
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Examine Pupilas]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Segunda Dosis" tags="" position="396,681" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-La Persona NO respondió a la naloxona en 2 minutos.
-&lt;/h4&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Recomendaciones:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;ADMINISTRE UNA SEGUNDA DOSIS DE
-NALOXONA&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Observe a la persona hasta que se haya
-recuperado por completo o sea
-transportada al hospital&amp;#128657;.&lt;/span&gt;  
-  
-  &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 2 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="12" name="Observacion Persona" tags="" position="503,579" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-La Persona respondió a la naloxona en 2 minutos.
-&lt;/h4&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Recomendaciones:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Observe a la persona durante 1 ó 2 horas
-y repita la dosis de naloxona según sea
-necesario.&lt;/li&gt;
-  &lt;li&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Continúe la reanimación y observe a la persona
-hasta que se haya recuperado plenamente
-o sea transportada al hospital&amp;#128657;.&lt;/span&gt;  
-  
-  &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 2 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Paso 3 Urgencias" tags="" position="17.666666666666664,763.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;3&lt;/span&gt; ¿Parece la persona estar confundida?
-&lt;/h4&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Condiciones Medicas]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Evaluar Tratar P2" tags="" position="560,739" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Evalúar y Tratar.
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Evalúe los siguientes casos:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona recientemente ha
-dejado de beber o de usar
-sedantes y ahora muestra alguno
-de los siguientes signos:&lt;/b&gt; temblores,
-sudor, vómitos, aumento de la presión
-arterial y la frecuencia cardíaca,
-y agitación. &amp;#128204;[[Tratamiento|Tratamiento 2A]]&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha usado
-recientemente estimulantes
-(cocaína, estimulantes tipo
-anfetaminas) y muestra algunos
-de los siguientes signos:&lt;/b&gt; pupilas
-dilatadas, ansiedad, agitación,
-hiperexcitación, pensamientos
-desenfrenados, aumento del pulso
-y de la presión arterial.  &amp;#128204;[[Tratamiento|Tratamiento 2B]]&lt;/li&gt;
-   &lt;li&gt;&lt;b&gt;La persona ha dejado
-recientemente de usar opioides
-Sospeche que pueda ser y muestra
-algunos de los siguientes signos:&lt;/b&gt;
-pupilas dilatadas, dolores musculares,
-cólicos, cefalea, náuseas, vómitos,
-diarrea, lagrimeo y secreción nasal,
-ansiedad, agitación. &amp;#128204;[[Tratamiento|Tratamiento 2C]]&lt;/li&gt;
-
-  &lt;li&gt;&lt;b&gt;DESCARTE OTRAS CAUSAS MÉDICAS
-Y TRASTORNOS MNS PRIORITARIOS.&lt;/b&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 3|Paso 3 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Tratamiento 2A" tags="" position="782.3333333333334,515" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona recientemente ha
-dejado de beber o de usar
-sedantes y ahora muestra alguno
-de los siguientes signos:&lt;/b&gt; temblores,
-sudor, vómitos, aumento de la presión
-arterial y la frecuencia cardíaca,
-y agitación.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que pueda
-ser ABSTINENCIA
-DE ALCOHOL, DE
-BENZODIAZEPINAS
-O DE OTROS SEDANTES
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;TRATE LA ABSTINENCIA&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Si la persona tiene temblores, sudor o alteraciones de los signos vitales,
-administre 10-20 mg de diazepam por vía oral y transfiera a la persona al
-hospital o al establecimiento para desintoxicación, si es posible.&lt;/li&gt;
-  &lt;li&gt;Observe y repita las dosis según sea necesario de acuerdo con los signos
-continuos de abstinencia (temblores, sudor, presión arterial y frecuencia
-cardíaca elevadas).&lt;/li&gt;
-  &lt;li&gt;Solo cuando existe abstinencia de alcohol: administre 100 mg/diarios
-de tiamina durante cinco días.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#10071;&amp;#128657;TRANSFIERA DE INMEDIATO A UN HOSPITAL
-si están presentes los siguientes trastornos:&lt;/span&gt;  &lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Otros problemas médicos graves, por ejemplo, encefalopatía hepática,
-hemorragia gastrointestinal o traumatismo craneoencefálico.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt; Crisis convulsivas:&lt;/b&gt;  administre primero 10-20 mg de diazepam por vía oral,
-intravenosa o rectal.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Delirio:&lt;/b&gt; administre primero 10-20 mg de diazepam por vía oral, intravenosa
-o rectal. Si es grave y el paciente no responde al diazepam, administre un
-medicamento antipsicótico como el haloperidol, 1-2,5 mg por vía oral o
-intramuscular. Continúe tratando otros signos de abstinencia (temblores,
-sudor, alteración de los signos vitales) con diazepam por vía oral,
-intravenosa o rectal.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 3 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Tratamiento 2B" tags="" position="781,629" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha usado
-recientemente estimulantes
-(cocaína, estimulantes tipo
-anfetaminas) y muestra algunos
-de los siguientes signos:&lt;/b&gt; pupilas
-dilatadas, ansiedad, agitación,
-hiperexcitación, pensamientos
-desenfrenados, aumento del pulso
-y de la presión arterial.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche una
-INTOXICACIÓN
-AGUDA CON
-ESTIMULANTES
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Tratamiento&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Administre 5-10 mg de diazepam por vía oral, intravenosa o rectal en
-dosis tituladas hasta que la persona esté tranquila y levemente sedada.&lt;/li&gt;
-  &lt;li&gt;Si los síntomas psicóticos no responden al diazepam, considere
-administrar un medicamento antipsicótico, como el haloperidol,
-1-2,5 mg por vía oral o intramuscular. Trate al paciente hasta que
-desaparezcan los síntomas. Si persisten los síntomas &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI).&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Para el manejo de personas con comportamiento agresivo o agitado, &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI).&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Si la persona tiene dolor de pecho, taquiarritmias u otros
-signos neurológicos, LLÉVELA AL HOSPITAL.&lt;/b&gt; &amp;#128657;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Durante la fase de posintoxicación, esté alerta para detectar
-pensamientos o actos suicidas. Si hay ideación suicida, &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_autolesion&#39; target=&quot;_blank&quot;&gt;Vaya al módulo Autolesión / Suicidio (SUI).&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 3 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Tratamiento 2C" tags="" position="781.3333333333334,757.3333333333334" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha dejado
-recientemente de usar opioides
-Sospeche que pueda ser y muestra
-algunos de los siguientes signos:&lt;/b&gt;
-pupilas dilatadas, dolores musculares,
-cólicos, cefalea, náuseas, vómitos,
-diarrea, lagrimeo y secreción nasal,
-ansiedad, agitación.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que pueda
-ser ABSTINENCIA
-AGUDA DE
-OPIOIDES
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;TRATE LA ABSTINENCIA DE OPIOIDES&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;20 mg de metadona, con una dosis complementaria de 5-10 mg 4
-horas después, de ser necesario.&lt;/li&gt;
-  &lt;li&gt;4-8 mg de buprenorfina, con una dosis complementaria 12 horas
-después, de ser necesario.&lt;/li&gt;
-  &lt;li&gt;Si no se cuenta con metadona o buprenorfina, se puede usar
-cualquier opioide en el estado agudo, por ejemplo, 10-20 mg de
-sulfato de morfina como una dosis inicial, con una dosis adicional de
-10 mg, de ser necesario. También considere usar agonistas alfaadrenérgicos,
-como la clonidina o la lofexidina.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Una vez que la persona está estable, &amp;#128204;[[vaya a la seccion de manejo|Ir a Manejo]]&lt;/b&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Continuar|Paso 3 Urgencias]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Condiciones Medicas" tags="" position="239.66666666666666,814" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-La persona parece estar confundida.
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&amp;#11088;¿Existen condiciones médicas que podrían explicar
-la confusión? Por ejemplo:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Traumatismo craneoencefálico&lt;/li&gt;
-  &lt;li&gt;Hipoglucemia&lt;/li&gt;
-  &lt;li&gt;Neumonía u otras infecciones&lt;/li&gt;
-  &lt;li&gt;Encefalopatía hepática&lt;/li&gt;
-  &lt;li&gt;Accidentes cerebrovasculares
-(ACV)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Evaluar Tratar P3]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Derivar Persona]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="19" name="Evaluar Tratar P3" tags="" position="466.33333333333337,863.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Evalúar y Tratar.
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Evalúe los siguientes casos:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha dejado de beber
-en la última semana:&lt;/b&gt;confusión,
-alucinaciones, pensamientos
-desenfrenados, ansiedad, agitación,
-desorientación, normalmente
-asociados con intoxicación con
-estimulantes o abstinencia del
-consumo de alcohol (u otro sedante).  &amp;#128204;[[Tratamiento|Tratamiento 3A]]&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha estado bebiendo
-excesivamente en los últimos días
-Y tiene alguno de los siguientes
-signos: nistagmo&lt;/b&gt; (movimiento
-involuntario, rápido y repetitivo de
-los ojos); &lt;b&gt;oftalmoplejía&lt;/b&gt; (debilidad o parálisis
-de uno o más de los músculos que
-controlan los movimientos oculares);
-o &lt;b&gt;ataxia&lt;/b&gt; (movimientos no
-coordinados). &amp;#128204;[[Tratamiento|Tratamiento 3B]]&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha usado estimulantes
-en los últimos días:&lt;/b&gt; pupilas dilatadas,
-excitación, pensamientos
-desenfrenados, pensamiento
-desordenado, comportamiento
-extraño, uso reciente de sustancias
-psicoactivas, aumento del pulso y la
-presión arterial, comportamiento
-agresivo, errático o violento. &amp;#128204;[[Tratamiento|Tratamiento 3C]]&lt;/li&gt;
-  &lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; Después del tratamiento de la manifestación
-de urgencia, VAYA a las secciones &amp;#128204;[[Evaluación|Ir a Evaluación]] y a los protocolos de &amp;#128204;[[Manejo|Ir a Manejo]], según proceda.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a la Sección de Evaluación|Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="20" name="Derivar Persona" tags="" position="622.3333333333334,870.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Existen condiciones médicas que podrían explicar
-la confusión.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Trate la enfermedad física
-y DERIVE a la persona al hospital.&lt;/span&gt;  &amp;#128657;&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;br /&gt;
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="21" name="Tratamiento 3A" tags="" position="838,880.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;La persona ha dejado de beber
-en la última semana:&lt;/b&gt;confusión,
-alucinaciones, pensamientos
-desenfrenados, ansiedad, agitación,
-desorientación, normalmente
-asociados con intoxicación con
-estimulantes o abstinencia del
-consumo de alcohol (u otro sedante).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que se
-trata de DELIRIO
-POR ABSTINENCIA
-DE ALCOHOL O
-BENZODIAZEPINAS.
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Tratamiento&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Si la persona muestra otros signos de abstinencia de alcohol
-(temblores, sudores, alteración de los signos vitales):&lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;
-	Trate al paciente con diazepam, 10-20 mg por vía
-oral.
-  	&lt;/li&gt;
-	&lt;li&gt;
-	&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;TRANSFIERA A LA PERSONA AL HOSPITAL.&lt;/span&gt;  
-  	&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Trate el delirio&lt;/b&gt; con antipsicóticos como el haloperidol, 1-2,5
-mg por vía oral o intramuscular.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="22" name="Tratamiento 3B" tags="" position="973,856.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;li&gt;&lt;b&gt;La persona ha estado bebiendo
-excesivamente en los últimos días
-Y tiene alguno de los siguientes
-signos: nistagmo&lt;/b&gt; (movimiento
-involuntario, rápido y repetitivo de
-los ojos); &lt;b&gt;oftalmoplejía&lt;/b&gt; (debilidad o parálisis
-de uno o más de los músculos que
-controlan los movimientos oculares);
-o &lt;b&gt;ataxia&lt;/b&gt; (movimientos no
-coordinados).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que sufra
-ENCEFALOPATÍA DE
-WERNICKE
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Tratamiento&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Trate con tiamina, 100-500 mg 2 o 3 veces al día por vía intravenosa
-o intramuscular durante 3 a 5 días.&lt;/b&gt;
-&lt;/li&gt;
-	&lt;li&gt;
-	&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;TRANSFIERA A LA PERSONA AL HOSPITAL.&lt;/span&gt;  
-  	&lt;/li&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="23" name="Tratamiento 3C" tags="" position="1101.0000000000002,826.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Urgencias&quot;
---
-
-&lt;li&gt;&lt;b&gt;La persona ha estado bebiendo
-excesivamente en los últimos días
-Y tiene alguno de los siguientes
-signos: nistagmo&lt;/b&gt; (movimiento
-involuntario, rápido y repetitivo de
-los ojos); &lt;b&gt;oftalmoplejía&lt;/b&gt; (debilidad o parálisis
-de uno o más de los músculos que
-controlan los movimientos oculares);
-o &lt;b&gt;ataxia&lt;/b&gt; (movimientos no
-coordinados).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-Sospeche que se
-trata de una
-INTOXICACIÓN CON
-ESTIMULANTES
-&lt;/h4&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Tratamiento&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Trate con diazepam, 5-10 mg por vía oral, intravenosa o rectal,
-hasta que el paciente esté levemente sedado.&lt;/b&gt;
-&lt;/li&gt;
-	&lt;li&gt;
-	Si los síntomas psicóticos &lt;b&gt;no responden al diazepam, considere
-administrar un antipsicótico, como el haloperidol, 1-2,5 mg
-por vía oral o intramuscular.&lt;/b&gt; 
-  	&lt;/li&gt;
-		&lt;li&gt;
-Si los síntomas psicóticos &lt;b&gt;persisten,&lt;/b&gt; &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI).&lt;/a&gt; 
-  	&lt;/li&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Evaluación]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="24" name="Cuadro 1" tags="" position="597,143" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-SUSTANCIAS PSICOACTIVAS: EFECTOS CONDUCTUALES AGUDOS, CARACTERÍSTICAS DE LA ABSTINENCIA Y EFECTOS DEL USO
-PROLONGADOS
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-
-&lt;li&gt;&lt;b&gt;Alcohol&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Olor a alcohol en el aliento, dificultad para articular las
-palabras, comportamiento desinhibido, agitación,
-vómitos, paso inseguro.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Temblores, espasmos, náuseas y vómitos, aumento de la
-frecuencia cardíaca y la presión arterial, crisis
-convulsivas, agitación, confusión, alucinaciones.
-Potencialmente mortales.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Pérdida de volumen cerebral, reducción de la capacidad
-cognoscitiva, deterioro del juicio, pérdida de equilibrio,
-fibrosis hepática, gastritis, anemia, mayor riesgo de
-algunos tipos de cáncer y una serie de otros problemas
-médicos.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Benzodiazepinas&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Dificultad para articular las palabras, comportamiento
-desinhibido, paso inseguro.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Ansiedad, insomnio, temblores, espasmos, náuseas y
-vómitos, aumento de la frecuencia cardíaca y la presión
-arterial, crisis convulsivas, agitación, confusión,
-alucinaciones.
-Potencialmente mortales.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Deterioro de la memoria, mayor riesgo de caídas en los
-ancianos, riesgo de una sobredosis mortal de sedantes.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Opioides&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Pupilas diminutas, somnolencia y se queda dormido, disminución del estado de conciencia, lentitud al hablar.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Pupilas dilatadas, ansiedad, náuseas y vómitos, diarrea, cólicos abdominales, molestias y dolores musculares, cefaleas, ojos lacrimosos y secreción nasal, bostezos,
-piloerección (“piel de gallina”), aumento de la frecuencia
-cardíaca y la presión arterial.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Estreñimiento, riesgo de sobredosis mortal de sedantes,
-hipogonadismo, adaptaciones en la respuesta a las
-recompensas, el aprendizaje y el estrés.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Tabaco&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Excitación, aumento de la atención, la concentración y
-memoria, disminución de la ansiedad y el apetito, efectos
-similares a los de los estimulantes.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Irritabilidad, hostilidad, ansiedad, disforia, estado de
-ánimo deprimido, frecuencia cardíaca elevada, aumento
-del apetito.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Enfermedad pulmonar (en los fumadores de tabaco),
-enfermedades cardiovasculares, riesgo de padecer cáncer
-y otros efectos sobre la salud.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Cocaína, metanfetaminas y
-estimulantes tipo anfetaminas&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Pupilas dilatadas, aumento de la presión arterial y la
-frecuencia cardíaca, excitación, euforia, hiperactividad,
-habla rápida, pensamientos desenfrenados,
-pensamiento desordenado, paranoia, se muestra
-agresivo, errático, violento.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Fatiga, aumento del apetito, estado de ánimo deprimido,
-irritabilidad.
-Vigile la presencia de pensamientos suicidas.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Hipertensión, mayor riesgo de accidentes
-cerebrovasculares (ACV), arritmias, cardiopatías, ansiedad,
-depresión.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Khat&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Estado de alerta, euforia y excitación leve.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Letargia, estado de ánimo deprimido, irritabilidad.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Los usuarios de Khat a menudo dedican una parte
-considerable del día a mascar hojas del arbusto Catha
-edulis; estreñimiento, riesgo de padecer trastornos de
-salud mental como psicosis.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Cannabis&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Pupilas normales, conjuntiva roja, retraso en la
-capacidad de respuesta, euforia, relajación.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Estado de ánimo deprimido o lábil, ansiedad,
-irritabilidad, perturbación del sueño (puede no haber
-ninguna característica claramente observable).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Mayor riesgo de padecer problemas de salud mental,
-como ansiedad, paranoia y psicosis, falta de motivación,
-dificultad para concentrarse; mayor riesgo de padecer
-vasospasmos que conducen al infarto de miocardio y al
-accidente cerebrovascular.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Tramadol&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Efectos opioides (sedación, euforia, etc.) seguidos de
-efectos estimulantes (excitación y, en dosis elevadas,
-crisis convulsivas).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Efectos de la abstinencia predominantemente de
-opioides, pero también síntomas de abstinencia de
-algunos inhibidores de la recaptación de norepinefrina y
-serotonina (estado de ánimo deprimido, letargia).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Dependencia de opioides, riesgo de crisis convulsivas,
-alteraciones del sueño.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Disolventes volátiles&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Mareos, desorientación, euforia, desvanecimiento,
-alucinaciones, delirios, falta de coordinación, trastornos
-visuales, ansiólisis, sedación.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Mayor sensibilidad a crisis convulsivas.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Disminución de la función cognitiva y demencia,
-neuropatía periférica, otras secuelas neurológicas, mayor
-riesgo de arritmias que causan muerte súbita.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;Alucinógenos&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Aumento de la frecuencia cardíaca, la presión arterial y
-la temperatura corporal; reducción del apetito, náuseas
-y vómitos, falta de coordinación motora, dilatación
-papilar, alucinaciones.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;No hay datos&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Episodios psicóticos agudos o crónicos, escenas
-retrospectivas o re-experimentación de los efectos del
-medicamento mucho tiempo después de haber terminado
-su uso.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;b&gt;MDMA (“éxtasis”)&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Conductuales Agudos: &lt;/b&gt;Aumento de la confianza en sí mismo, empatía,
-comprensión, sensación de intimidad, comunicación,
-euforia, energía.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Características de la Abstinencia: &lt;/b&gt;Náuseas, rigidez muscular, cefalea, pérdida del apetito,
-visión borrosa, sensación de sequedad en la boca,
-insomnio, depresión, ansiedad, fatiga, dificultad para
-concentrarse.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos del Uso Prolongado: &lt;/b&gt;Neurotóxico, provoca consecuencias conductuales y
-fisiológicas, depresión.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39; }&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="25" name="Fin Modulo" tags="" position="724,256" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Destaque los beneficios para la salud
-de no consumir sustancias psicoactivas.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-
-&lt;br /&gt;
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="26" name="Paso 2 Evaluacion" tags="" position="707,400" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt; ¿Es perjudicial el consumo de la sustancia? &lt;br /&gt;
-Para cada sustancia consumida, evalúe:
-&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Frecuencia y cantidad del consumo&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;i&gt;(Sugerencia - Pregunte: “¿Cuántos días por semana consume esta sustancia? ¿Qué cantidad consume al día?”)&lt;/i&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Conductas perjudiciales.&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;i&gt;(Sugerencia - Pregunte: “¿Su consumo de sustancias psicoactivas le causa algún problema?”)&lt;/i&gt;&lt;/li&gt;
-  &lt;li&gt;Traumatismos y accidentes&lt;/li&gt;
-  &lt;li&gt;Conducir mientras está intoxicado&lt;/li&gt;
-  &lt;li&gt;Inyección de drogas, agujas compartidas,
-reutilización de las agujas&lt;/li&gt;
-  &lt;li&gt;Problemas en las relaciones como resultado del uso&lt;/li&gt;
-  &lt;li&gt;Actividad sexual mientras estaba intoxicado, que fue
-riesgosa o posteriormente lamentada&lt;/li&gt;
-  &lt;li&gt;Problemas legales o económicos&lt;/li&gt;
-  &lt;li&gt;Incapacidad para cuidar a los hijos en forma responsable&lt;/li&gt;
-  &lt;li&gt;Violencia hacia otras personas&lt;/li&gt;
-  &lt;li&gt;Desempeño deficiente en la educación o el empleo&lt;/li&gt;
-  &lt;li&gt;Desempeño deficiente en las funciones sociales esperadas
-(por ejemplo, la crianza de los hijos)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 3|Paso 3 Evaluacion]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="27" name="Paso 3 Evaluacion" tags="" position="928,408" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-&lt;span class=&quot;listacirculo&quot;&gt;3&lt;/span&gt; ¿Es probable la DEPENDENCIA?
-&lt;/h4&gt;
-
-
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#11088;&lt;b&gt;Para cada sustancia psicoactiva consumida, pregunte acerca de las siguientes características de la dependencia:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Niveles altos de consumo frecuente de sustancias&lt;/li&gt;
-  &lt;li&gt;Un ansia intensa o compulsión de consumir la
-sustancia&lt;/li&gt;
-  &lt;li&gt;Dificultad para autorregular el consumo de esa sustancia a pesar de los riesgos y las consecuencias
-perjudiciales&lt;/li&gt;
-  &lt;li&gt;Aumento de los niveles de tolerancia al consumo y
-síntomas de abstinencia al interrumpir el consumo&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Consejo Sin Dependencia]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Probable Dependencia]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="28" name="Consejo Sin Dependencia" tags="" position="914,559" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Sin probable dependencia a una sustancia psicoactiva.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; Los patrones de consumo de sustancias que indican dependencia
-incluyen:
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;TABACO:&lt;/b&gt; fumar varias veces al día, a menudo comienza en la
-mañana.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;ALCOHOL:&lt;/b&gt; más de 6 bebidas estándar por vez y consumo diario.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;PASTILLAS DE PRESCRIPCIÓN:&lt;/b&gt; tomar una dosis de medicación
-mayor que la prescrita y mentir para conseguir recetas.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;CANNABIS:&lt;/b&gt; al menos 1 g de cannabis al día.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&amp;#11088; Considerando las respuestas dadas por la persona a las preguntas anteriores. ¿Es perjudicial el consumo de la sustancia?
-&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Fin 2 Modulo]]&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Es Perjudicial]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="29" name="Probable Dependencia" tags="" position="1059,334" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Es probable la dependencia de la sustancia psicoactiva.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;SI HAY RIESGO INMINENTE DE
-SUICIDIO,&lt;/span&gt; EVALÚE Y TRATE A LA
-PERSONA antes de proseguir, &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_autolesion&#39; target=&quot;_blank&quot;&gt;Vaya al módulo Autolesión / Suicidio (SUI).&lt;/a&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;li&gt;Continúe al &amp;#128204;[[Protocolo 2 de Manejo|Protocolo 2 Manejo]]&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;br /&gt;
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Protocolo 2 de Manejo|Protocolo 2 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="30" name="Protocolo 2 Manejo" tags="" position="1239.6666666666667,192.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10103;. &lt;br/&gt;&lt;b&gt;Dependencia&lt;/b&gt;
-&lt;/h4&gt;
+    &lt;a href=&quot;https://www.flaticon.es/autores/eucalyp&quot; title=&quot;Eucalyp&quot; target=&quot;_blank&quot;&gt;Eucalyp&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.es/&quot; title=&quot;Flaticon&quot; target=&quot;_blank&quot;&gt;www.flaticon.es&lt;/a&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="A Principios Generales" tags="" position="352,149" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
 &lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SI LA PERSONA ES DEPENDIENTE DE OPIOIDES:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;El tratamiento de mantenimiento es en general más eficaz que la desintoxicación.&lt;/li&gt;
-  &lt;li&gt;Evalúe la gravedad de la dependencia y, si procede, proporcione a la persona el tratamiento
-de mantenimiento con agonistas opioides, también conocido como terapia sustitutiva de
-opioides, o derívela a otro establecimiento de salud para que lo reciba después de la
-desintoxicación. Vaya al Protocolo &amp;#10106; de Manejo. &amp;#128204;[[Tratamiento de mantenimiento con agonistas opioides|Protocolo 5 Manejo]]&lt;/li&gt;
-  &lt;li&gt;En los casos restantes, organice la desintoxicación planificada, de ser necesario. Vaya al Protocolo &amp;#10105; de Manejo. &amp;#128204;[[Abstinencia de opioides|Protocolo 4 Manejo]]&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SI LA PERSONA ES DEPENDIENTE DE LAS BENZODIAZEPINAS:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;La cesación súbita puede causar crisis convulsivas y delirio. Considere la posibilidad de
-reducir gradualmente la dosis de benzodiazepina con una dispensación supervisada, o una
-reducción más rápida en un entorno de hospitalización. Vaya al Protocolo &amp;#10107; de Manejo. &amp;#128204;[[Abstinencia de benzodiazepinas|Protocolo 6 Manejo]].&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SI LA PERSONA ES DEPENDIENTE DEL ALCOHOL:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;La cesación súbita del consumo de alcohol puede causar crisis convulsivas y delirio; sin
-embargo, si la persona está dispuesta a dejar de consumir bebidas alcohólicas, facilíteselo.
-Determine el entorno apropiado para cesar el consumo del alcohol y organice la
-desintoxicación durante la hospitalización, de ser necesario. Vaya al Protocolo &amp;#10104; de Manejo. &amp;#128204;[[Abstinencia de alcohol|Protocolo 3 Manejo]]&lt;/li&gt;
-  &lt;li&gt;Recomiende el consumo de tiamina en una dosis de 100 mg/día por vía oral.&lt;/li&gt;
-  &lt;li&gt;Considere una intervención farmacológica para prevenir la recaída en el consumo perjudicial
-de alcohol; los medicamentos incluyen acamprosato, naltrexona y disulfiram. También se
-puede usar baclofeno; sin embargo, sus efectos sedantes y el riesgo de abuso hacen que
-sea mejor reservarlo para entornos de especialistas. Con estos medicamentos, una
-respuesta eficaz puede incluir una reducción de la cantidad y la frecuencia del consumo de
-alcohol, cuando no la abstinencia completa. &amp;#128204;[[vaya al la sección de Medicamentos|Cuadro 1 Medicamentos]].&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;PARA TODAS LAS OTRAS SUSTANCIAS:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Recomiende la suspensión total del consumo de la sustancia psicoactiva y exprese su
-intención de apoyar a la persona para que lo haga. Pregúntele si está preparada para
-hacerlo.&lt;/li&gt;
-  &lt;li&gt;Investigue las ESTRATEGIAS PARA REDUCIR O SUSPENDER POR COMPLETO EL
-CONSUMO DE SUSTANCIAS y las ESTRATEGIAS PARA REDUCIR EL DAÑO.&lt;/li&gt;
-   &lt;li&gt;Considere la posibilidad de derivar a la persona a grupos de ayuda de compañeros o
-comunidades terapéuticas residenciales o de rehabilitación, si los hay.&lt;/li&gt;
-    &lt;li&gt;Aborde las necesidades alimentarias, de vivienda y laborales.&lt;/li&gt;
-	 &lt;li&gt;Evalúe y trate cualquier comorbilidad física o de salud mental, idealmente después de 2 ó 3
-semanas de abstinencia, ya que algunos problemas se resolverán con la abstinencia.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;EN TODOS LOS CASOS:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Proporcione psicoeducación&lt;/li&gt;
-  &lt;li&gt;Organice los servicios de desintoxicación de ser necesario o el tratamiento en un
-establecimiento de hospitalización cuando sea factible. Trate los síntomas de abstinencia según
-sea necesario.&lt;/li&gt;
-  &lt;li&gt;Proporcione una intervención breve usando la entrevista motivacional para alentar a la
-persona a participar en el tratamiento de su dependencia de sustancias.&lt;/li&gt;
-  &lt;li&gt;Considere el tratamiento psicosocial a largo plazo para las personas con problemas
-relacionados con su consumo de sustancias, si no responden a las intervenciones breves
-iniciales. Las terapias psicológicas basadas en datos científicos para los trastornos por uso
-de sustancias incluyen programas estructurados individuales y de grupo, que se llevan a
-cabo durante 6-12 semanas o más y que emplean técnicas como la terapia cognitivo
-conductual, la terapia de refuerzo motivacional, la terapia de manejo de contingencias, el
-enfoque de refuerzo comunitario y la terapia familiar. Los métodos de apoyo social
-basados en la evidencia incluyen el apoyo para el empleo y el alojamiento.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 3|Protocolo 3 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="31" name="Fin 2 Modulo" tags="" position="912,715" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-Proporcione psicoeducación acerca de los
-riesgos de los diferentes grados de consumo
-de cada sustancia.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-
-&lt;br /&gt;
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="32" name="Es Perjudicial" tags="" position="1076,528" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Evaluación&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-El consumo de la sustancia es perjudicial para la persona.
-&lt;/h3&gt;&lt;/center&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;i&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;SI HAY RIESGO INMINENTE DE
-SUICIDIO,&lt;/span&gt; EVALÚE Y TRATE A LA
-PERSONA antes de proseguir, &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_autolesion&#39; target=&quot;_blank&quot;&gt;Vaya al módulo Autolesión / Suicidio (SUI).&lt;/a&gt;&lt;/i&gt;
-&lt;/li&gt;
-&lt;li&gt;Continúe al &amp;#128204;[[Protocolo 1 de Manejo|Protocolo 1 Manejo]]&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;br /&gt;
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Protocolo 1 de Manejo|Protocolo 1 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-</tw-passagedata><tw-passagedata pid="33" name="Protocolo 1 Manejo" tags="" position="1233.6666666666667,64.66666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
 &lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10102;. &lt;br/&gt;&lt;b&gt;Consumo perjudicial de sustancias&lt;/b&gt;
-&lt;/h4&gt;
-&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
- Proporcione psicoeducación y destaque que el grado o patrón de consumo de sustancias le está causando daños
-a la salud. &amp;#128204;[[Ir a Psicoeducación|Intervencion 2.1]]
-&lt;/li&gt;
-&lt;li&gt;Explore las motivaciones de la persona para consumir sustancias. Realice una entrevista motivacional. &amp;#128204;[[Ir a Entrevista motivacional (intervención breve)|Intervencion 2.2]]&lt;/li&gt;
-&lt;li&gt;Aconseje abandonar por completo el consumo de la sustancia o consumirla en una cantidad no perjudicial, si la hay.
-Exprese su intención de apoyar a la persona para hacer esto. Pregúntele si está preparada para hacer este cambio.&lt;/li&gt;
-&lt;li&gt;Investigue las &amp;#128204;[[Estrategias para la reducción y la suspensión del consumo|Intervencion 2.3]] y las &amp;#128204;[[Estrategias para impedir el daño causado por el consumo de drogas y tratar afecciones relacionadas|Intervencion 2.5]]&lt;/li&gt;
-&lt;li&gt;Aborde las necesidades alimentarias, de vivienda y laborales.&lt;/li&gt;
-&lt;li&gt;Efectúe el seguimiento.&lt;/li&gt;
-&lt;li&gt;Si la persona es un adolescente o una mujer en edad fecunda, embarazada o que amamanta, &amp;#128204;[[Ir a Grupos especiales de población|Grupos Especiales]].&lt;/li&gt;
-
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 2|Protocolo 2 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="34" name="Protocolo 3 Manejo" tags="" position="1247.6666666666667,311.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10104;. &lt;br/&gt;&lt;b&gt;Abstinencia de alcohol&lt;/b&gt;
-&lt;/h4&gt;
-&lt;/center&gt;
-
-
-
-&lt;ul&gt;
-&lt;li&gt; 
-Proporcione un entorno lo más tranquilo y no estimulante posible, luminoso durante el día y
-suficientemente iluminado de noche para prevenir caídas si la persona despierta de noche.
-&lt;/li&gt;
-&lt;li&gt; 
-Garantice la ingestión adecuada de líquidos y que se satisfagan las necesidades de
-electrolitos, como el potasio y el magnesio.
-&lt;/li&gt;
-&lt;li&gt; 
-&lt;b&gt;ABORDE LA DESHIDRATACIÓN:&lt;/b&gt; Mantenga la hidratación adecuada, incluida la
-hidratación por vía intravenosa de ser necesario, y promueva la ingesta oral de líquidos.
-Asegúrese de dar tiamina antes de la glucosa para evitar precipitar la encefalopatía de
-Wernicke.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Intervención farmacológica.&lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt; 
-  &lt;ul&gt;
-  &lt;li&gt;Cuando sea apropiado, trate los síntomas de abstinencia de alcohol. En el caso de una
-desintoxicación planificada, prevenga los síntomas de abstinencia usando diazepam.
-Las dosis y la duración del tratamiento con diazepam varían según la gravedad del síndrome
-de abstinencia.&lt;/li&gt;
-  &lt;li&gt;Administre diazepam en una dosis inicial de hasta 40 mg/día (10 mg cuatro veces al día ó
-20 mg dos veces al día) durante 3-7 días, por vía oral. Reduzca gradualmente las dosis o la
-frecuencia tan pronto mejoren los síntomas. Supervise a la persona con frecuencia, ya que
-cada persona puede responder de un modo distinto a esta medicación.&lt;/li&gt;
-  &lt;li&gt;En el &lt;b&gt;entorno hospitalario,&lt;/b&gt; se puede administrar diazepam con mayor frecuencia (por
-ejemplo, cada hora) y en dosis diarias mayores, hasta 120 mg/día por vía oral durante los 3
-primeros días de ser necesario, conforme a una evaluación frecuente de los síntomas de
-abstinencia y del estado mental de la persona.&lt;/li&gt;
-  &lt;li&gt;En las personas con &lt;b&gt;deterioro del metabolismo hepático,&lt;/b&gt; (por ejemplo, personas con
-signos de hepatopatía o ancianos), use inicialmente una dosis única baja de 5-10 mg por vía
-oral., ya que las benzodiazepinas pueden tener una acción de duración más prolongada en
-estos grupos de población. Como alternativa, una benzodiazepina de acción más breve
-como el &lt;b&gt;oxazepam puede ser usada en vez del diazepam.&lt;/b&gt;  &amp;#128204;[[vaya al la sección de Medicamentos|Cuadro 1 Medicamentos]]. &lt;/li&gt;
-  &lt;li&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Precaución: &lt;/span&gt;  &lt;b&gt;Tenga cuidado al iniciar o aumentar las dosis de las benzodiazepinas, ya que
-pueden causar depresión respiratoria. Tome precauciones&lt;/b&gt; en personas con
-enfermedad respiratoria o encefalopatía hepática.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;PREVENCIÓN Y TRATAMIENTO DE LA ENCEFALOPATÍA DE WERNICKE:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Los consumidores crónicos de alcohol corren el riesgo de sufrir la
-&lt;b&gt;encefalopatía de Wernicke,&lt;/b&gt; un síndrome de deficiencia de tiamina
-caracterizado por confusión, nistagmo, oftalmoplejía (dificultad con los
-movimientos oculares) y ataxia (movimientos no coordinados).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Para prevenir este síndrome, a todas las personas con una historia de
-consumo crónico de alcohol se les debe administrar tiamina en una
-dosis de 100 mg/diarios por vía oral. Administre la tiamina antes de
-administrar glucosa para evitar precipitar la encefalopatía de Wernicke.&lt;/b&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; &lt;b&gt;Para la cesación planificada del uso de alcohol, evalúe el riesgo de la
-abstinencia grave. Pregunte: &lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;¿Ha habido episodios pasados de síntomas graves de abstinencia, incluidas crisis
-convulsivas o delirio?&lt;/li&gt;
-  &lt;li&gt;¿Hay otros problemas médicos o psiquiátricos importantes?&lt;/li&gt;
-  &lt;li&gt;¿Se manifiestan características importantes de la abstinencia en las 6 horas
-posteriores a la última bebida ingerida por la persona?&lt;/li&gt;
-  &lt;li&gt;¿Han fracasado los intentos de suspensión del consumo de pacientes ambulatorios
-en el pasado?&lt;/li&gt;
-  &lt;li&gt;¿No tiene la persona hogar ni ningún apoyo social?
-&lt;b&gt;Si el riesgo es alto, la desintoxicación hospitalaria es preferible
-a la desintoxicación ambulatoria.&lt;/b&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; &lt;b&gt;Principios generales que se deben aplicar durante el tratamiento de cualquier tipo de abstinencia&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Mantenga la hidratación.&lt;/li&gt;
-  &lt;li&gt;Trate los síntomas específicos de abstinencia a medida que surjan. Por
-ejemplo, trate las náuseas con antieméticos; el dolor, con analgésicos
-sencillos; y el insomnio, con sedantes livianos.&lt;/li&gt;
-  &lt;li&gt;Permita a la persona salir del establecimiento de tratamiento si desea
-hacerlo.&lt;/li&gt;
-  &lt;li&gt;Continúe el tratamiento y el apoyo después de la desintoxicación.&lt;/li&gt;
-  &lt;li&gt;Se pueden presentar síntomas depresivos en el período posterior a la
-intoxicación, durante o después de la abstinencia, o la persona puede
-tener una depresión preexistente. Esté alerta al riesgo de suicidio.&lt;/li&gt;
-  &lt;li&gt;Ofrézcales a todas las personas tratamiento, apoyo y seguimiento
-continuos después de una desintoxicación exitosa, independientemente
-del entorno en el cual se realizó la desintoxicación.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 4|Protocolo 4 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="35" name="Protocolo 4 Manejo" tags="" position="1248.6666666666667,426.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10105;. &lt;br/&gt;&lt;b&gt;Abstinencia de opioides.&lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
-&lt;/h4&gt;
-&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;PRECAUCIÓN&lt;/span&gt;  Debe tomar precauciones antes de poner en práctica la abstinencia de
-opioides, especialmente cuando ha habido uso de inyecciones. Cuando se decide iniciar la
-abstinencia, informe a la persona qué puede esperar, incluidos los síntomas y su duración.
-Por ejemplo, la abstinencia genera una tolerancia inferior a los opioides. Esto significa que
-si la persona reanuda el uso de opioides en su dosis usual después de un período de
-abstinencia, ella está expuesta a un mayor riesgo de sobredosis. Debido a este riesgo, es
-mejor iniciar la abstinencia cuando hay un plan para la admisión en un programa de
-rehabilitación residencial u otro programa de apoyo psicosocial. Como alternativa, se
-puede considerar ofrecer a la persona la terapia sustitutiva de opioides con metadona o
-buprenorfina; vea la sección de tratamientos de mantenimiento con agonistas opioides
-(vea el Protocolo &amp;#10106; de Manejo. &amp;#128204;[[Tratamiento de mantenimiento con agonistas opioides|Protocolo 5 Manejo]]) y seleccione una de las siguientes opciones farmacológicas para el
-manejo:
- &lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Buprenorfina:&lt;/b&gt; La buprenorfina se administra por vía sublingual en dosis de 4 a 16 mg por
-día durante 3 a 14 días para el tratamiento de la abstinencia. Antes de que se inicie el
-tratamiento con buprenorfina, es importante esperar hasta que los signos y los síntomas de
-la abstinencia de opioides se vuelvan evidentes: por lo menos 8 horas después de la última
-dosis de heroína y 24-48 horas después de la última dosis de metadona; de lo contrario, hay
-un riesgo de que la misma buprenorfina precipite un síndrome de abstinencia. Se debe tener un cuidado especial con las personas que toman otros medicamentos sedantes.
- &lt;/li&gt;
- &lt;li&gt;&lt;b&gt;Metadona:&lt;/b&gt; La metadona se administra por vía oral en una dosis inicial de 15-20 mg que,
-de ser necesario, se aumenta a 30 mg por día. Luego reduzca gradualmente la dosis, hasta
-eliminarla por completo en el transcurso de 3 a 10 días. Del mismo modo que la
-buprenorfina, se debe tener especial cuidado con las personas que toman otros
-medicamentos sedantes.
- &lt;/li&gt;
- &lt;li&gt;&lt;b&gt;Clonidina o lofexidina:&lt;/b&gt; Si no se dispone de medicamentos de sustitución de opioides, se
-puede usar clonidina o lofexidina para controlar algunos síntomas de abstinencia de
-opioides, como la sobreexcitación. Se administran en dosis de 0,1 a 0,15 mg 3 veces al día
-por vía oral, y son dosificadas según el peso corporal. Pueden causar mareos y sedación.
-Vigile estrechamente la presión arterial. Otros síntomas de abstinencia también deben ser
-tratados, por ejemplo, las náuseas, con antieméticos, el dolor, con analgésicos sencillos y el
-insomnio, con sedantes livianos.
- &lt;/li&gt;
- &lt;li&gt;&lt;b&gt;Sulfato de morfina:&lt;/b&gt; 10-20 mg como dosis inicial con una dosis adicional de 10 mg de ser
-necesario. La sedación y la depresión respiratoria pueden ser en potencia mortales. El
-consumo prolongado puede conducir a la dependencia. Para más detalles &amp;#128204;[[vaya al la sección de Medicamentos|Cuadro 1 Medicamentos]].
- &lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 5|Protocolo 5 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="36" name="Protocolo 5 Manejo" tags="" position="1246.6666666666667,541.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10106;. &lt;br/&gt;&lt;b&gt;Tratamiento de mantenimiento con agonistas opioides. &lt;/b&gt;&amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
-&lt;/h4&gt;
-&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  
-El tratamiento de mantenimiento con agonistas opioides requiere la
-presencia de un marco establecido y reglamentado a nivel nacional. Se
-caracteriza por la prescripción de agonistas opioides de acción prolongada
-(o agonistas parciales), como la metadona o la buprenorfina, en general,
-mediante administración diaria y supervisada. Hay pruebas fehacientes de
-que el tratamiento de mantenimiento con agonistas usando metadona o
-buprenorfina reduce eficazmente el consumo de drogas ilícitas, la
-propagación del VIH, la mortalidad y la criminalidad, y mejora la salud
-física, la salud mental y el funcionamiento social.
-&lt;/li&gt;
-&lt;li&gt;  
-&lt;b&gt;Seguimiento:&lt;/b&gt; Los medicamentos usados para el tratamiento de
-mantenimiento con agonistas opioides están expuestos al uso indebido y
-la desviación; en consecuencia, los programas deben utilizar diversos
-métodos para limitar el riesgo de desviación, como el consumo
-supervisado.
-&lt;/li&gt;
-&lt;li&gt;  
-Para más detalles, &amp;#128204;[[vaya al la sección de Medicamentos|Cuadro 1 Medicamentos]].
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 6|Protocolo 6 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="37" name="Protocolo 6 Manejo" tags="" position="1242.6666666666667,706.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastorno por el Consumo de Sustancias (SUS) - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-MANEJO. Protocolo &amp;#10107;. &lt;br/&gt;&lt;b&gt;Abstinencia de benzodiazepinas. &lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
-&lt;/h4&gt;
-&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  
-La abstinencia de benzodiazepinas se puede controlar al cambiar a una
-benzodiazepina de acción prolongada y reducir gradualmente el consumo
-de la sustancia en el transcurso de 8 a 12 semanas, conjuntamente con la
-prestación de apoyo psicosocial. Es posible una reducción más rápida solo
-si la persona está en internada en un hospital o un establecimiento de
-deshabituación.
-&lt;/li&gt;
-&lt;li&gt;  
-Si se presentan manifestaciones graves no controladas de la abstinencia
-de benzodiazepinas o se producen esas manifestaciones debido a una
-suspensión súbita o no planificada, consulte de inmediato a un
-especialista u otra persona experta disponible para comenzar un régimen
-de sedación con benzodiazepinas en dosis altas y para hospitalizar a la
-persona. Sea cauteloso con la dispensación sin supervisión de
-benzodiazepinas a pacientes desconocidos.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Protocolo 1|Protocolo 1 Manejo]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="38" name="Intervencion 2.1" tags="" position="1600.6666666666665,66.66666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Psicoeducación.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Los
-trastornos por el consumo de sustancias a menudo
-pueden ser tratados eficazmente y las personas pueden
-mejorar y mejoran.
-&lt;/li&gt;
-&lt;li&gt;Hablar
-acerca del consumo de sustancias puede producir
-sentimientos de turbación o vergüenza en muchas personas.
-Use siempre un enfoque libre de prejuicios cuando habla con
-las personas acerca del consumo de sustancias psicoactivas.
-Si las personas se sienten juzgadas, pueden estar menos
-abiertas a hablar con usted. Trate de no expresar sorpresa
-ante toda respuesta dada.
-&lt;/li&gt;
-&lt;li&gt;Comunique
-de manera confiable que es posible detener o
-reducir el consumo peligroso o nocivo de alcohol y aliente a
-la persona a volver si desea abordar más a fondo el
-problema.
-&lt;/li&gt;
-&lt;li&gt;La
-persona tiene mayores probabilidades de tener éxito en
-reducir o suspender el uso de sustancias si la decisión es
-suya.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="39" name="Intervencion 2.2" tags="" position="1601.6666666666665,180.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Entrevista motivacional
-(intervención breve).
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Las
-intervenciones breves usando entrevistas motivacionales
-constituyen un método para tratar el consumo de sustancias
-sin prejuicios. Alientan a la persona a reflexionar acerca de
-sus propias opciones en cuanto al consumo. Pueden usarse
-como parte de un encuentro muy breve para abordar los
-riesgos o el uso perjudicial de sustancias.
-&lt;/li&gt;
-&lt;li&gt;También se pueden
-usar como parte de un análisis más largo que abarque varias
-sesiones donde se abordan los patrones de dependencia del
-uso de sustancias; esto se denomina terapia de refuerzo
-motivacional.
-&lt;/li&gt;
-&lt;li&gt;Durante el análisis, es importante incluir todas
-las partes del proceso: expresar empatía y establecer una
-atmósfera de confianza, y también señalar las
-contradicciones en la descripción de los hechos y poner en
-tela juicio las creencias falsas.
-&lt;/li&gt;
-&lt;li&gt;Evite discutir con la persona.
-Debe sentir que el profesional está allí para apoyarla y no
-para criticarla. Si la persona no puede comprometerse a
-terminar su patrón perjudicial de consumo de sustancias en
-ese momento, analice por qué sucede esto, en lugar de
-forzar a la persona a decir lo que piensa que se espera que
-diga.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Técnicas
-para discusiones más a fondo:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;1. Proporcione &lt;b&gt;retroalimentación&lt;/b&gt; personalizada a la
-persona acerca de los riesgos asociados con su patrón de
-uso de sustancias, tengan o no un patrón de CONSUMO
-PERJUDICIAL o de DEPENDENCIA, y los daños específicos
-que pueden estar experimentando o causando a otros.&lt;/li&gt;
-  &lt;li&gt;2. Aliente al paciente a &lt;b&gt;asumir la responsabilidad&lt;/b&gt; de sus
-elecciones en cuanto al uso de sustancias y la elección de
-buscar o no ayuda. Haga esto preguntándole cuán
-preocupado está ÉL MISMO acerca de su consumo.&lt;/li&gt;
-  &lt;li&gt;3. Pregúntele a la persona las razones de su consumo de
-sustancias, incluso como una respuesta a otros problemas,
-como los de salud mental o factores estresantes
-específicos, y los beneficios del uso de sustancias que
-percibe, aunque solo sea a corto plazo.&lt;/li&gt;
-  &lt;li&gt;4. Pregunte acerca de su percepción de &lt;b&gt;las consecuencias
-tanto positivas como negativas de su consumo de
-sustancias psicoactivas &lt;/b&gt;y, de ser necesario, impugne
-cualquier exageración de los beneficios y subestimación
-de los riesgos y daños.&lt;/li&gt;
-  &lt;li&gt;5. Pregunte acerca de &lt;b&gt;las metas personales&lt;/b&gt; y si su
-consumo le está ayudando o impidiendo alcanzar esas
-metas.&lt;/li&gt;
-  &lt;li&gt;6. &lt;b&gt;Examine&lt;/b&gt; con la persona las afirmaciones acerca de su uso
-de sustancias, sus causas, consecuencias y las metas
-personales, a fin de permitir investigar incongruencias
-evidentes entre las consecuencias del uso de sustancias y
-las metas declaradas por la persona.&lt;/li&gt;
-  &lt;li&gt;7. &lt;b&gt;Aborde las opciones&lt;/b&gt; para un cambio basado en la
-elección de metas realistas y trate de encontrar un curso
-de acción mutuamente acordado.&lt;/li&gt;
-  &lt;li&gt;8. &lt;b&gt;Apoye a la persona para realizar estos cambios&lt;/b&gt;
-comunicándole su confianza en que podrá hacer cambios
-positivos en su vida, suministrándole información sobre
-los pasos a seguir según sea necesario (nuevo examen,
-desintoxicación, apoyo psicosocial) y proporcionándole
-materiales para llevarse a casa, si dispone de ellos.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Ejemplos de preguntas que puede hacer.&lt;/b&gt;Sin prejuicios,
-indague qué piensa la persona sobre su propio consumo de
-sustancias haciendo las siguientes preguntas con respecto a:
-  &lt;ul&gt;
-  &lt;li&gt;1. Las razones de su consumo de sustancias. (Pregunte:
-“¿Alguna vez ha pensado por qué consume [la sustancia]?”)&lt;/li&gt;
-  &lt;li&gt;2. Lo que percibe como beneficios de su uso. (Pregunte:
-“¿Qué le hace [la sustancia] a usted? ¿Le causa algún
-problema?”)&lt;/li&gt;
-    &lt;li&gt;3. Lo que percibe como daños reales y potenciales del
-consumo de sustancias. (Pregunte: “¿El consumo de [la
-sustancia] le ha causado algún daño? ¿Puede ver que le
-causará algún daño en el futuro?”)&lt;/li&gt;
-  &lt;li&gt;4. Lo que es más importante para la persona. (Pregunte:
-“¿Qué es más importante para usted en su vida?”)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="40" name="Intervencion 2.3" tags="" position="1605.6666666666665,290.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Estrategias para la reducción y la
-suspensión del consumo.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Pasos para reducir o terminar el consumo de todas las sustancias:&lt;/b&gt;Si la persona está interesada en la reducción de su
-consumo de sustancias psicoactivas, aborde los siguientes pasos
-con ella.
-  &lt;ul&gt;
-  &lt;li&gt;Identifique
-los factores desencadenantes del consumo y las
-formas de evitarlos. Por ejemplo: pubs/bares donde la gente
-está bebiendo o lugares donde la persona solía conseguir
-drogas, etc.&lt;/li&gt;
-  &lt;li&gt;Determine
-cuáles son las instigaciones emocionales al
-consumo y las formas de hacerles frente (por ejemplo,
-problemas en las relaciones, dificultades en el trabajo, etc.).&lt;/li&gt;
-&lt;li&gt;Aliente
-a la persona a que no tenga sustancias en casa.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="41" name="Grupos Especiales" tags="" position="1778.6666666666665,521" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Grupos especiales de población.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;table style=&quot;width:100%&quot; class=&quot;cuadro&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:center&quot;&gt;
-	&lt;b&gt;ADOLESCENTES&lt;/b&gt;
-	&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Cómo evaluar al adolescente:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Aclare
-la naturaleza confidencial de la discusión sobre la
-atención de salud, incluido en qué circunstancias se
-suministrará alguna información a los padres o los
-cuidadores del adolescente.&lt;/li&gt;
-  &lt;li&gt;Pregunte
-qué más sucede en la vida del adolescente.
-Identifique los problemas subyacentes más importantes para
-el adolescente. Tenga presente que los adolescentes quizás
-no puedan expresar plenamente lo que está molestándolos.&lt;/li&gt;
-  &lt;li&gt;Las
-preguntas de respuesta libre pueden ser útiles para obtener
-información en las siguientes áreas: hogar, educación y
-empleo, comidas, actividades, drogas y alcohol, sexualidad,
-seguridad, suicidio o depresión. Dé tiempo suficiente para el
-análisis. También evalúe la posibilidad de que existan otros
-trastornos de salud mental prioritarios. Si se identifica cualquier
-trastorno prioritario, &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_mcon&#39; target=&quot;_blank&quot;&gt;vaya al módulo Trastornos Mentales y Conductuales de la (del) Niña(o) y el Adolescente (MCON).&lt;/a&gt; &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Psicoeducación para el adolescente:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Proporcione
-al adolescente y sus padres información acerca
-de los efectos del alcohol y otras sustancias sobre la salud
-individual y el funcionamiento social.&lt;/li&gt;
-  &lt;li&gt;Promueva
-un cambio en el entorno y las actividades del
-adolescente, en lugar de concentrarse en el comportamiento del
-adolescente como un “problema”. Promueva la participación en
-la escuela o el trabajo y en las actividades que ocupan el tiempo
-del adolescente. Promueva la participación en actividades
-grupales que sean seguras y faciliten el desarrollo de las
-habilidades del adolescente y su contribución a su comunidad. Es
-importante que los adolescentes participen en actividades que les
-interesen.&lt;/li&gt;
-  &lt;li&gt;Aliente
-a los padres o los cuidadores a saber dónde está el
-adolescente, con quién está, qué está haciendo, cuándo
-volverán al hogar, y a esperar que el adolescente sea
-responsable de sus actividades.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;br /&gt;
-&lt;table style=&quot;width:100%&quot; class=&quot;cuadro&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:center&quot;&gt;
-	&lt;b&gt;MUJERES EN EDAD FECUNDA, EMBARAZADAS
-O QUE AMAMANTAN&lt;/b&gt;
-	&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Consumo de alcohol&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Recomiende
-a las mujeres &lt;b&gt;embarazadas&lt;/b&gt; o que están
-considerando la posibilidad de embarazarse que &lt;b&gt;eviten por
-completo el consumo de bebidas alcohólicas.&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;Informe
-a las mujeres que inclusive las cantidades pequeñas de
-alcohol consumidas a principios del embarazo pueden dañar al
-feto en desarrollo y que cantidades mayores de alcohol pueden
-dar lugar a un síndrome de problemas severos del desarrollo
-(síndrome alcohólico fetal).&lt;/li&gt;
-  &lt;li&gt;Recomiende
-a las mujeres que están &lt;b&gt;amamantando que
-eviten por completo el consumo de alcohol.&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;Dados
-los beneficios de la lactancia materna exclusiva (en
-particular en los 6 primeros meses), si las madres siguen
-consumiendo alcohol se les debe recomendar que limiten el
-consumo para reducir al mínimo el contenido de alcohol en
-la leche materna, por ejemplo, amamantar antes de
-consumir alcohol y no amamantar nuevamente hasta
-después de que los niveles sanguíneos de alcohol caigan a
-cero (dejando pasar aproximadamente 2 horas por bebida
-consumida, es decir, 4 horas si se ingirieron dos bebidas), o
-usar leche materna extraída antes de beber.&lt;/li&gt;
-  &lt;li&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;PRECAUCIÓN. &lt;/span&gt;&lt;b&gt;&lt;i&gt;A todas las madres con consumo perjudicial de
-sustancias e hijos pequeños se les debe ofrecer algún
-servicio de apoyo social que esté disponible, como
-visitas posnatales adicionales, capacitación en la
-crianza y atención infantil durante visitas médicas.&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Consumo de drogas&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Pregunte
-acerca del ciclo menstrual de la mujer e infórmele
-que el consumo de sustancias psicoactivas puede interferir
-con el ciclo menstrual, creando a veces la impresión falsa de
-que no es posible un embarazo.&lt;/li&gt;
-  &lt;li&gt;Trate
-los efectos perjudiciales de las drogas sobre el
-desarrollo fetal y asegúrese que la mujer tenga acceso a
-medidas anticonceptivas eficaces.&lt;/li&gt;
-  &lt;li&gt;Recomiende
-y apoye a las mujeres que están &lt;b&gt;embarazadas&lt;/b&gt;
-para que &lt;b&gt;dejen de consumir drogas&lt;/b&gt;. A las mujeres
-embarazadas dependientes de opioides en general se les
-debe recomendar la administración de un agonista opioide
-como la metadona.&lt;/li&gt;
-  &lt;li&gt;Someta
-a tamizaje a los bebés de madres con trastornos por
-el consumo de drogas a fin de detectar síntomas de
-abstinencia (también conocido como síndrome de
-abstinencia neonatal). El síndrome de abstinencia neonatal
-debido al consumo materno de opioides debe ser tratado
-con dosis bajas de opioides (como morfina) o barbitúricos.
-Para más detalles, puede consultar el manual &amp;#128204;&lt;a href=&#39;http://apps.who.int/iris/
-bitstream/10665/107130/1/9789241548731_eng.pdf&#39; target=&quot;_blank&quot;&gt;Guidelines for the identification and management of substance use and
-substance use disorders in pregnancy (Guía para la
-identificación y manejo del consumo de sustancias y los
-trastornos por el consumo de sustancias durante el
-embarazo)(en
-inglés)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Asesore
-y apoye a &lt;b&gt;madres que amamantan para que no
-consuman ninguna droga.&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;Informe
-y apoye a las madres con trastornos por el consumo
-de sustancias para que amamanten exclusivamente durante
-al menos los 6 primeros meses, a menos que haya
-recomendaciones de especialistas de no amamantar.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="42" name="Intervencion 2.5" tags="" position="1608.6666666666665,475.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Estrategias para impedir el daño
-causado por el consumo de
-drogas y tratar afecciones
-relacionadas.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Aliente
-a la persona a adoptar comportamientos menos
-peligrosos.&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Aconseje no conducir bajo la influencia de sustancias.&lt;/li&gt;
-  &lt;li&gt;Si la persona usa opioides, proporcione naloxona para ser
-usada por vía intramuscular o intranasal a miembros de la
-familia para que puedan tenerla y usarla si la persona
-sufre una sobredosis, mientras esperan que llegue ayuda
-o van en camino al hospital.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Si la persona se inyecta drogas:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Informe
-a la persona acerca de los riesgos del consumo de
-drogas por vía intravenosa, que incluyen: un mayor peligro
-de infecciones como la infección por el VIH/SIDA, las
-hepatitis B y C, infecciones cutáneas que pueden causar
-septicemia, endocarditis, abscesos espinales, meningitis y
-aun la muerte.&lt;/li&gt;
-  &lt;li&gt;Teniendo
-en cuenta que la persona no puede suspender el
-consumo de drogas inyectables de inmediato, suministre
-información sobre técnicas de inyección menos arriesgadas.
-Destaque la importancia de usar agujas y jeringas estériles
-cada vez que se inyecta y de no compartir nunca materiales
-de inyección con otras personas.&lt;/li&gt;
-  &lt;li&gt;Ofrezca
-información sobre cómo tener acceso a programas
-de intercambio de agujas y jeringas, si existen, o a otras
-fuentes de suministro de materiales de inyección.&lt;/li&gt;
-  &lt;li&gt;Promueva
-y ofrezca la realización de pruebas anuales (como
-mínimo) para detectar enfermedades víricas transmitidas por
-la sangre, como la infección por el VIH/SIDA y las hepatitis B
-y C.
-  &lt;ul&gt;
-  &lt;li&gt;Promueva la vacunación contra la hepatitis B.&lt;/li&gt;
-  &lt;li&gt;Garantice la disponibilidad de condones.&lt;/li&gt;
-  &lt;li&gt;Asegure la disponibilidad de tratamiento para las
-personas con infección por el VIH/SIDA o que padecen
-hepatitis.&lt;/li&gt;
-  &lt;/ul&gt;
-
-&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Tratamiento de comorbilidades:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Establezca
-un umbral bajo para someter a tamizaje a fin de
-detectar tuberculosis en las personas que tienen trastornos
-por el consumo de sustancias psicoactivas.&lt;/li&gt;
-  &lt;li&gt;Considere
-la realización de investigaciones y tratamiento de
-las enfermedades de transmisión sexual.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="43" name="Cuadro 1 Medicamentos" tags="" position="1618.3333333333333,716" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
-    &lt;/h4&gt;
-	
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Clase/Indicación&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&amp;#128204;[[BENZODIAZEPINAS]]. Para tratar la abstinencia de
-alcohol, la intoxicación con
-estimulantes y la psicosis&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[ANTAGONISTAS OPIOIDES]]. 
-Para tratar la sobredosis de
-opiáceos&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[VITAMINAS]]
-Para prevenir o tratar la
-encefalopatía de Wernicke&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[AGONISTAS OPIOIDES]].
-Para tratar la abstinencia y la
-dependencia de opioides&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[AGONISTAS ALFA-ADRENÉRGICOS]].
-Para tratar la abstinencia de
-opioides&lt;/li&gt;
-  &lt;li&gt;&amp;#128204;[[MEDICAMENTOS PARA PREVENIR LA RECAÍDA EN EL CONSUMO PERJUDICIAL DE ALCOHOL]].
-Para suprimir el deseo
-irreprimible de beber&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="44" name="Intervenciones" tags="" position="1398.6666666666667,252" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;
-&lt;h4 class=&quot;pregunta&quot;&gt;
-INTERVENCIONES PSICOSOCIALES
-&lt;/h4&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+A. PRINCIPIOS GENERALES
+&lt;/h3&gt;
 &lt;/center&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Psicoeducación|Intervencion 2.1]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Entrevista motivacional (intervención breve)|Intervencion 2.2]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Estrategias para la reducción y la suspensión del consumo|Intervencion 2.3]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Grupos de ayuda mutua|Intervencion 2.4]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Estrategias para impedir el daño causado por el consumo de drogas y tratar afecciones relacionadas|Intervencion 2.5]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Apoyo a los cuidadores|Intervencion 2.6]]
-&lt;/li&gt;
-&lt;li&gt;
-&amp;#128204;[[Ir a Grupos especiales de población|Grupos Especiales]]
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="45" name="Intervencion 2.4" tags="" position="1606.6666666666665,398.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Grupos de ayuda mútua.
-&lt;/h3&gt;&lt;/center&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Los
-grupos de ayuda mutua&lt;/b&gt; como Alcohólicos Anónimos,
-Narcóticos Anónimos o Recuperación Inteligente pueden ser
-sitios útiles para derivar a las personas con trastornos por el
-consumo de sustancias. Suministran información, actividades
-estructuradas y apoyo de pares en un ambiente libre de
-prejuicios. Investigue qué grupos de ayuda mutua están
-disponibles a nivel local.
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="46" name="Intervencion 2.6" tags="" position="1605.6666666666665,595.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Intervenciones Psicosociales. Apoyo a los cuidadores.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Apoyo a la familia y los cuidadores:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Analice
-con la familia de la persona o los cuidadores las
-repercusiones de los trastornos por el uso de sustancias en
-otros familiares, incluidos los niños.&lt;/li&gt;
-  &lt;li&gt;Suministre
-información y educación acerca de los trastornos
-por el consumo de sustancias.&lt;/li&gt;
-   &lt;li&gt;Ofrezca
-una evaluación de las necesidades personales,
-sociales y de salud mental de la familia y los cuidadores.
-Brinde tratamiento para cualquier trastorno de salud mental
-prioritario.&lt;/li&gt;
-   &lt;li&gt;Informe
-a los familiares y los cuidadores acerca de grupos de
-apoyo (si los hay) y otros recursos sociales, y ayúdeles a tener
-acceso a ellos.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; &lt;b&gt;VIH/TUBERCULOSIS/HEPATITIS
-y CONSUMO DE SUSTANCIAS&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Las personas que se inyectan drogas presentan una especial
-susceptibilidad a la infección por el VIH/SIDA y la hepatitis, en
-particular si no usan materiales estériles de inyección o tienen
-relaciones sexuales peligrosas a cambio de drogas; una vez
-infectadas, también tienen un pronóstico peor. La infección
-por el VIH/SIDA también aumenta el riesgo de la infección
-tuberculosa y la tuberculosis activa es una principal causa de
-muerte en las personas infectadas por el VIH o que tienen
-SIDA. Las personas que consumen bebidas alcohólicas y
-drogas en gran medida corren también un mayor riesgo de
-contraer tuberculosis. Por consiguiente, es bastante común
-que una persona que consume drogas, en particular heroína
-por vía intravenosa, presente una combinación de
-tuberculosis, infección por el VIH/SIDA y hepatitis al mismo
-tiempo.&lt;/li&gt;
-  &lt;li&gt;Los servicios que tratan a personas que consumen
-drogas y alcohol deben efectuar sistemáticamente
-pruebas a todas las que se inyectan drogas para detectar
-una posible infección por el VIH/SIDA y hepatitis, y
-deben tener un alto grado de sospecha de que pueda
-sufrir tuberculosis toda persona con tos, fiebre, sudores
-nocturnos o pérdida de peso.&lt;/li&gt;
-    &lt;li&gt;El tratamiento de la infección por el VIH/SIDA y la
-tuberculosis requiere tomar a diario los medicamentos, y
-cada día es importante. La supervisión directa del
-tratamiento puede mejorar la observancia terapéutica. Si la
-persona es también dependiente de opioides, proporcionar
-un tratamiento diario supervisado con metadona o
-buprenorfina en el mismo lugar y a la misma hora facilitará
-más la observancia terapéutica.&lt;/li&gt;
-  &lt;li&gt;Los tratamientos para la hepatitis se realizan todos los días
-o semanalmente. A los pacientes con hepatitis B o C se les
-debe recomendar evitar por completo el consumo de
-alcohol.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="47" name="BENZODIAZEPINAS" tags="" position="2046,453.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;BENZODIAZEPINAS.&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para tratar la abstinencia de
-alcohol, la intoxicación con
-estimulantes y la psicosis&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Diazepam
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;10-20 mg para las características observables de la
-abstinencia de alcohol o de intoxicación con
-estimulantes, cada 2 horas hasta que ya no sean
-observables las características de abstinencia de
-alcohol o de intoxicación con estimulantes, o la
-persona está ligeramente sedada. Dosis inferiores
-(hasta 10 mg cuatro veces al día) para la abstinencia
-de alcohol en un entorno de pacientes ambulatorios.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación y depresión respiratoria que pueden ser
-en potencia mortales. El uso prolongado puede
-conducir a la dependencia.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;&amp;#10060;No lo use en las personas que están sedadas.
-Tenga cuidado de la combinación con otros sedantes.
-Los pacientes no deben conducir. La duración del
-efecto puede ser prolongada en las personas con una
-hepatopatía grave. Supervise la dosificación para
-reducir al mínimo el riesgo de desviación (por ejemplo,
-vender el medicamento a otra persona).&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="48" name="ANTAGONISTAS OPIOIDES" tags="" position="1987.6666666666667,588.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;ANTAGONISTAS OPIOIDES&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para tratar la sobredosis de
-opiáceos&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128137;&lt;b&gt;Medicamento: &lt;/b&gt;Naloxona
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;0,4-2 mg por vía intravenosa, intramuscular,
-subcutánea o intranasal. Repita las dosis según sea
-necesario.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Puede causar malestar o síntomas de abstinencia.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt; (No se indican en el Manual MhGap.)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="49" name="VITAMINAS" tags="" position="1821,635" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;VITAMINAS&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para prevenir o tratar la
-encefalopatía de Wernicke&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Tiamina
-(Vitamina B1)
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;100 mg diarios por vía oral durante 5 días para
-prevenir la encefalopatía de Wernicke.
-100 mg—500 mg por vía intravenosa o
-intramuscular dos o tres veces al día durante 3-5
-días, para tratar la encefalopatía de Wernicke.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;(No se indican en el Manual MhGap.)&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;(No se indican en el Manual MhGap.)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="50" name="AGONISTAS OPIOIDES" tags="" position="1490,872.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;AGONISTAS OPIOIDES&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para tratar la abstinencia y la
-dependencia de opioides&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Metadona
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;
+&lt;li&gt;&lt;b&gt;I. Use habilidades de comunicación eficaces&lt;/b&gt;
 	&lt;ul&gt;
-	&lt;li&gt;&lt;b&gt;Abstinencia de opioides:&lt;/b&gt; Dosis inicial de
-metadona de 20 mg, con una dosis complementaria
-de 5-10 mg 4 horas después, de ser necesario.
+	&lt;li&gt;&amp;#128172;El uso de habilidades de comunicación eficaces permite a losprestadores de salud brindar atención de buena calidad a
+adultos, adolescentes y niños con trastornos mentales,
+neurológicos y por consumo de sustancias (MNS). Tenga en
+cuenta los siguientes consejos y habilidades básicas de
+comunicación.&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a Consejos para la Comunicación|Consejos Comunicacion]]&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;II. Promueva el respeto y la dignidad&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&amp;#128172;Las personas con trastornos MNS deben ser tratadas con respeto y dignidad, y de una manera culturalmente apropiada. 
+Como prestador de atención de salud, haga todo lo posible por
+respetar y promover la voluntad y la preferencia de las personas
+con trastornos MNS, y apoye y haga participar a esas personas 
+y a sus cuidadores de la manera más inclusiva. &lt;/li&gt;
+&lt;li&gt;Las personas con trastornos mentales, neurológicos y por consumo de sustancias a menudo son más vulnerables a sufrir violaciones de los
+derechos humanos. 
+&lt;/li&gt;
+&lt;li&gt;
+Por consiguiente, es esencial que en el
+entorno de atención de salud, los prestadores promuevan los
+derechos de las personas con esos trastornos de acuerdo con las
+normas internacionales sobre derechos humanos, incluida la
+Convención sobre los Derechos de las Personas con
+Discapacidad de las Naciones Unidas.(*)&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a Recomendaciones|Recomendaciones A]]&lt;/li&gt;
+	&lt;li&gt;(*) Para más información sobre la Convención de las Naciones
+Unidas sobre los Derechos de las Personas con Discapacidad
+puede consultar: &amp;#128204;&lt;a href=&#39;http://www.un.org/esa/socdev/enable/
+documents/tccconvs.pdf&#39; target=&quot;_blank&quot;&gt;clic aquí.&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+</tw-passagedata><tw-passagedata pid="4" name="B Elementos Esenciales" tags="" position="676,82" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;I. Evalúe la salud física&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Las personas con trastornos MNS corren un mayor peligro de
+muerte prematura causada por enfermedades prevenibles y, por
+consiguiente, siempre deben ser sometidas a una evaluación de
+su salud física como parte de un examen integral. Asegúrese de
+tomar nota de los antecedentes adecuados, entre los que se
+incluyen los antecedentes tanto de salud física como de
+trastornos mentales, neurológicos y por consumo de sustancias,
+seguidos de una evaluación de la salud física para detectar
+enfermedades concurrentes e instruir a la persona acerca de
+medidas preventivas. Siempre se deben emprender estas
+acciones con el consentimiento fundamentado de la persona. &lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a los Detalles de Esta Sección|BI Salud Fisica]]&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;II. Realice una evaluación para determinar si existe un trastorno mental, neurológico o por consumo de sustancias &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;La evaluación para determinar si existen trastornos MNS incluye los pasos indicados a continuación. Primero, se analiza la dolencia que se manifiesta, luego se elabora una historia clínica que incluya
+preguntas acerca de anteriores problemas mentales, neurológicos o por consumo de sustancias psicoactivas, problemas de salud general, antecedentes familiares de trastornos MNS y antecedentes
+psicosociales. Observe a la persona (examen del estado mental), formule un diagnóstico diferencial y determine el trastorno MNS. Como parte de la evaluación, efectúe un examen físico y solicite
+pruebas básicas de laboratorio según sea necesario. La evaluación se realiza con el consentimiento fundamentado de la persona. &lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a los Detalles de Esta Sección|BII Evaluacion]]&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;III. Trate los trastornos MNS&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Una vez efectuada la evaluación, siga el algoritmo de manejo indicado en la GI-mhGAP para tratar el trastorno MNS. Se señalan los pasos clave del manejo en el cuadro mostrado a continuación. &lt;/li&gt;
+	&lt;li&gt;&amp;#128204;[[Ir a los Detalles de Esta Sección|BIII Tratamiento]]&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+</tw-passagedata><tw-passagedata pid="5" name="Consejos Comunicacion" tags="" position="140,217" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+A. PRINCIPIOS GENERALES
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+I. Use habilidades de comunicación eficaces
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 1&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Cree un ambiente que facilite 
+la comunicación abierta &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Reúnase con la persona en un lugar privado, si fuera posible.&lt;/li&gt;
+	&lt;li&gt;Muéstrese cordial y realice las presentaciones de una manera  
+ culturalmente apropiada.&lt;/li&gt;
+	&lt;li&gt;Mantenga el contacto visual y muestre un lenguaje corporal 
+ y expresiones faciales que faciliten la confianza.&lt;/li&gt;
+	&lt;li&gt;Explique que la información abordada durante la visita se 
+ mantendrá confidencial y no se intercambiará sin  
+ autorización previa.&lt;/li&gt;
+	&lt;li&gt;Si los cuidadores están presentes, sugiera que desea hablar  
+ con la persona a solas (salvo que se trate de niños pequeños)  
+ y obtenga su consentimiento para compartir la información 
+ clínica.&lt;/li&gt;
+	&lt;li&gt;Cuando entreviste a una mujer joven, considere la posibilidad 
+ de que esté presente otra funcionaria o una cuidadora.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 2&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Haga participar a la persona &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Haga participar a la persona (y con su consentimiento, 
+a sus cuidadores y su familia) en todos los aspectos de la
+evaluación y el manejo tanto como sea posible. Esto incluye
+a niños, adolescentes y adultos mayores. &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 3&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Comience por escuchar&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Escuche activamente. Muéstrese comprensivo y sensible.
+&lt;/li&gt;
+	&lt;li&gt;Permítale a la persona hablar sin interrupción.
+&lt;/li&gt;
+	&lt;li&gt;Si los antecedentes son poco claros, sea paciente y pida un aclaración.
+&lt;/li&gt;
+	&lt;li&gt; Con los niños, use un lenguaje que puedan comprender. 
+ Por ejemplo, pregunte acerca de sus intereses (juguetes, 
+ amigos, la escuela, etc.).
+&lt;/li&gt;
+	&lt;li&gt;Con los adolescentes, transmita que usted comprende sus 
+ sentimientos y su situación&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 4&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Sea amistoso y respetuoso en todo
+momento y no juzgue a la persona&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Siempre sea respetuoso. &lt;/li&gt;
+	&lt;li&gt;No juzgue a las personas por sus comportamientos  
+ y apariencia.&lt;/li&gt;
+	&lt;li&gt;Manténgase tranquilo y paciente. &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 5&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Use buenas aptitudes verbales 
+de comunicación &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Use un lenguaje sencillo. Sea claro y conciso.
+&lt;/li&gt;
+	&lt;li&gt;Use preguntas de interpretación abierta, sintetice y  
+esclarezca los comentarios que usted haga.
+&lt;/li&gt;
+	&lt;li&gt;Resuma y repita los puntos clave.
+&lt;/li&gt;
+	&lt;li&gt;Permita que la persona haga preguntas acerca de la
+información suministrada.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;&amp;#128172;&lt;i&gt;CONSEJO PARA LA COMUNICACIÓN N° 6&lt;/i&gt;
+&lt;li&gt;&amp;#11088;&lt;b&gt;Responda con sensibilidad cuando las
+personas revelen experiencias difíciles
+(por ejemplo, acerca de agresión
+sexual, violencia o lesiones
+autoinfligidas)&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Muestre una sensibilidad mayor con los temas difíciles.
+&lt;/li&gt;
+	&lt;li&gt;Recuerde a la persona que lo que le dicen a usted se
+mantendrá confidencial.
+&lt;/li&gt;
+	&lt;li&gt;Reconozca que puede haber sido difícil para la persona
+revelar la información.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+</tw-passagedata><tw-passagedata pid="6" name="Recomendaciones A" tags="" position="289,306" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+A. PRINCIPIOS GENERALES
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+II. Promueva el respeto y la dignidad
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:green&quot;&gt;LO QUE DEBE HACER &lt;/span&gt;&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Trate a las personas con trastornos MNS con respeto
+ y dignidad&lt;/li&gt;
+	&lt;li&gt;Proteja la confidencialidad de las personas con
+trastornos MNS.&lt;/li&gt;
+	&lt;li&gt;Garantice la privacidad en el entorno clínico.&lt;/li&gt;
+	&lt;li&gt;Brinde siempre acceso a la información y explique los
+riesgos y los beneficios del tratamiento propuesto, porescrito si fuera posible.&lt;/li&gt;
+	&lt;li&gt;Asegúrese de que la persona otorgue su
+consentimiento al tratamiento.&lt;/li&gt;
+	&lt;li&gt;Promueva la autonomía y la vida independiente en la 
+comunidad. &lt;/li&gt;
+	&lt;li&gt;Dé a las personas con trastornos MNS acceso a
+opciones para tomar decisiones fundadas. &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:red&quot;&gt;LO QUE NO DEBE HACER&lt;/span&gt;&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;No discrimine a las personas con trastornos MNS.&lt;/li&gt;
+	&lt;li&gt;No pase por alto las prioridades o los deseos de las
+personas con trastornos MNS.&lt;/li&gt;
+	&lt;li&gt;No tome decisiones acerca, en nombre, o en vez de la
+persona con trastornos MNS.&lt;/li&gt;
+	&lt;li&gt;No use un lenguaje excesivamente técnico al explicar el
+tratamiento propuesto.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+      
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+</tw-passagedata><tw-passagedata pid="7" name="BI Salud Fisica" tags="" position="934,60" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+I. Evalúe la salud física
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Evaluación de la salud física&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Tome notas detalladas de los antecedentes y pregunte
+acerca de los factores de riesgo.&lt;/b&gt;Inactividad física, alimentación inapropiada, consumo
+perjudicial de tabaco, alcohol u otras sustancias,
+comportamientos peligrosos y enfermedades crónicas.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Realice un examen físico.&lt;/b&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt; Considere un diagnóstico diferencial.&lt;/b&gt;Descarte trastornos físicos y causas subyacentes de las  manifestaciones de MNS mediante las preguntas sobre los antecedentes, el examen físico y las pruebas básicas de laboratorio, según sea necesario y factible.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Detecte las comorbilidades.&lt;/b&gt;A menudo una persona puede tener al mismo tiempo más deun trastorno mental, neurológico o por consumo de sustancias. Es importante evaluar y tratar esto cuando ocurre.&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; Las personas con trastornos mentales graves tienen de
+2 a 3 veces más probabilidades de morir por 
+enfermedades prevenibles como las infecciones y los 
+trastornos cardiovasculares. Concéntrese en reducir el
+riesgo mediante la educación y el seguimiento. &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Manejo de la salud física &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Trate las comorbilidades existentes en simultáneo con el
+trastorno MNS. Derive o consulte a especialistas, de ser
+necesario.&lt;/li&gt;
+	&lt;li&gt;Instruya al paciente acerca de los factores de riesgo   
+ modificables a fin de prevenir las enfermedades y promueva 
+ un modo de vida saludable.&lt;/li&gt;
+	&lt;li&gt;Para apoyar la salud física de las personas con trastornos
+MNS, los prestadores de atención de salud deben:
+	  &lt;ul&gt;
+	  &lt;li&gt;Brindar asesoramiento acerca de la importancia de la 
+      actividad física y una alimentación saludable;
+	  &lt;/li&gt;Instruir a las personas acerca del consumo perjudicial de 
+     alcohol;
+	  &lt;li&gt;Promover el abandono del consumo de tabaco y el 
+    consumo de sustancias; 
+	  &lt;/li&gt;
+	  &lt;li&gt;Instruir acerca de otros comportamientos peligrosos (por 
+    ejemplo, relaciones sexuales sin protección);
+	  &lt;/li&gt;
+	  &lt;li&gt;Efectuar periódicamente exámenes de salud física y administrar vacunas;
+	  &lt;/li&gt;
+	  &lt;li&gt;preparar a las personas para los cambios del desarrollo  
+     durante la vida, como la pubertad y la menopausia, y  
+     prestarles el apoyo necesario; y
+	  &lt;/li&gt;
+	  &lt;li&gt;analizar planes para el embarazo y métodos de  
+    anticoncepción con las mujeres en edad fecunda.
+	  &lt;/li&gt;
+	  &lt;/ul&gt;
 	&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;Mantenimiento con opioides:&lt;/b&gt; dosis inicial de
-10-20 mg con una dosis complementaria de 10 mg
-de ser necesario, aumentando la dosis diaria 5 a 10
-mg cada pocos días de ser necesario, hasta que la
-persona ya no presente síntomas de abstinencia de
-opioides y no use opioides ilícitos. Mantenga la dosis
-hasta que esté preparado para cesar el tratamiento
-con agonistas opioides.
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+     
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+</tw-passagedata><tw-passagedata pid="8" name="BII Evaluacion" tags="" position="921,233" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+II. Realice una evaluación para determinar si existe un trastorno mental, 
+neurológico o por consumo de sustancias 
+&lt;/h3&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;La evaluación para determinar si existen trastornos MNS incluye los pasos indicados a continuación.&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Primero, se analiza la dolencia que se manifiesta.&lt;/li&gt;
+	&lt;li&gt;Luego se elabora una historia clínica que incluya
+preguntas acerca de anteriores problemas mentales, neurológicos o por consumo de sustancias psicoactivas, problemas de salud general, antecedentes familiares de trastornos MNS y antecedentes
+psicosociales.&lt;/li&gt;
+	&lt;li&gt;Observe a la persona (examen del estado mental), formule un diagnóstico diferencial y determine el trastorno MNS.&lt;/li&gt;
+	&lt;li&gt;Como parte de la evaluación, efectúe un examen físico y solicite
+pruebas básicas de laboratorio según sea necesario.&lt;/li&gt;
+	&lt;li&gt;La evaluación se realiza con el consentimiento fundamentado de la persona.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+      	  
+&lt;ul&gt;
+&lt;li&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}&lt;b&gt;HISTORIA CLÍNICA&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&amp;#10102; &lt;b&gt;Motivo de consulta&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;Síntoma o razón principal por el que la persona está solicitando atención.
+		&lt;/li&gt;
+		&lt;li&gt;Pregunte cuándo, por qué y cómo comenzó.
+		&lt;/li&gt;
+		&lt;li&gt;Es importante en esta etapa recopilar tanta información como sea posible acerca de los síntomas de la persona y su situación.
+		&lt;/li&gt;
+		 &lt;li&gt;&amp;#10071;Cuando se trata de niños y adolescentes, pregunte si tienen un cuidador y la naturaleza y calidad de la relación entre ellos.&lt;/li&gt;
+		&lt;/ul&gt;
 	&lt;/li&gt;
-  	&lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación, confusión, náuseas, vómitos,
-estreñimiento, posibles cambios hormonales,
-disminución del deseo sexual, alteraciones
-electrocardiográficas como intervalo QT
-prolongado o bradicardia, hipotensión, depresión
-respiratoria.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;Úsela con cuidado en pacientes con enfermedad
-cardíaca o respiratoria.&lt;/li&gt;
-  &lt;/ul&gt;
+	&lt;li&gt;&amp;#10103; &lt;b&gt;Antecedentes de MNS anteriores&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;  
+   Pregunte acerca de problemas similares en el pasado, hospitalizaciones o
+medicamentos psiquiátricos recetados para trastornos MNS y algún intento
+anterior de suicidio.
+		&lt;/li&gt;
+		&lt;li&gt; Investigue el consumo de tabaco, alcohol y sustancias.
+		&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10104; &lt;b&gt;Historia clínica general&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt; Pregunte acerca de problemas de salud física y los medicamentos usados.
+		&lt;/li&gt;
+		&lt;li&gt; Obtenga una lista de los medicamentos usados actualmente. 
+		&lt;/li&gt;
+		&lt;li&gt;Pregunte acerca de alergias a medicamentos.
+		&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10105; &lt;b&gt;Antecedentes familiares de trastornos MNS &lt;/b&gt;
+		&lt;ul&gt;
+		  &lt;li&gt;Indague acerca de posibles antecedentes familiares de trastornos MNS y pregunte si algún miembro de la familia tuvo síntomas similares o recibió tratamiento para un trastorno mental, neurológico o por consumo de sustancias psicoactivas.
+		  &lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10106; &lt;b&gt;Antecedentes psicosociales&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;Pregunte acerca de factores estresantes actuales, métodos para hacerles frente y apoyo social.
+		&lt;/li&gt;
+		&lt;li&gt;Pregunte acerca del funcionamiento socio-ocupacional actual (cómo
+está funcionando la persona en su hogar, en el trabajo y en sus relaciones).
+		&lt;/li&gt;
+		&lt;li&gt;Obtenga información básica sobre cómo y dónde vive la persona, su nivel educativo, sus antecedentes laborales, su estado civil y el número y las edades de sus hijos, sus ingresos y la estructura y condiciones de vida de la familia.
+		&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Buprenorphine
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Dosis inicial de 4-8 mg, aumentando 4 a 8 mg cada día
-según sea necesario hasta que la persona ya no
-presente síntomas de abstinencia de opioides y no use
-opioides ilícitos. Mantenga la dosis hasta que esté
-preparado para suspender el tratamiento con agonistas
-opioides.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación, mareos, ataxia, náuseas, vómitos,
-estreñimiento, depresión respiratoria.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;Úsela con precaución en personas con insuficiencia
-cardíaca congestiva, enfermedades respiratorias o
-hepatopatía. Potencial de abuso. La suspensión
-abrupta puede causar síntomas de abstinencia.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Sulfato
-de morfina
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;10-20 mg como dosis inicial, con una dosis
-adicional de 10 mg de ser necesario.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación y depresión respiratoria que ponen en
-peligro la vida. El uso prolongado puede conducir
-a la dependencia.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;&amp;#10060;No lo use en las personas que están sedadas. Tenga
-cuidado con la combinación con otros sedantes. La
-persona no debe conducir. Supervise la dosificación para
-reducir al mínimo el riesgo de desviación. Administre
-opioides de acción más prolongada, como metadona o
-buprenorfina, una vez al día a los pacientes ambulatorios
-cuando sea factible.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="51" name="AGONISTAS ALFA-ADRENÉRGICOS" tags="" position="1642,868.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;AGONISTAS ALFA-ADRENÉRGICOS&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para tratar la abstinencia de
-opioides&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Clonidina
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Comience con 0,1 mg 2 o 3 veces al día. Aumente
-según sea tolerada en dosis divididas para controlar
-los síntomas de abstinencia, hasta un máximo de 1
-mg/d.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación, mareo, desvanecimiento, cefalea,
-náuseas y vómitos, sensación de sequedad en la
-boca, estreñimiento, disfunción sexual,
-depresión, agitación, &lt;b&gt;presión arterial baja,
-taquicardia, bradicardia sinusal y bloqueo
-auriculoventricular.&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;Use con precaución en personas con enfermedades
-cardíacas, cerebrovasculares y hepáticas. Use dosis
-inferiores en los pacientes con enfermedades renales.
-Sea consciente del potencial de abuso. &lt;b&gt;Vigile
-estrechamente los signos vitales.&lt;/b&gt;&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;NO&lt;/b&gt; suspenda bruscamente el tratamiento ya que
-la abstinencia puede causar un rebote de hipertensión.
-Evite usarla en las mujeres embarazadas o que
-amamantan.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Lofexidina
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Comience con 0,4-0,6 mg dos veces al día.
-Aumente 0,4 a 0,8 mg/día según sea necesario.
-Dosis única máxima: 0,8 mg. Dosis diaria máxima:
-2,4 mg (divididos en 2-4 dosis).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación, mareo,&lt;b&gt; presión arterial baja,
-alteraciones electrocardiográficas como el
-intervalo QT prolongado y bradicardia
-sinusal.&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;Use con precaución en personas con enfermedades
-cardíacas, cerebrovasculares y renales. Evite usarla en
-pacientes con síndrome de QT prolongado o desorden
-metabólico, o cuando están tomando otros
-medicamentos que prolongan el intervalo QT.&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;Vigile estrechamente los signos vitales.
-NO &lt;/b&gt;suspenda la medicación bruscamente, ya que la
-abstinencia puede causar un rebote de hipertensión.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="52" name="MEDICAMENTOS PARA PREVENIR LA RECAÍDA EN EL CONSUMO PERJUDICIAL DE ALCOHOL" tags="" position="1796,865.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por Consumo de Sustancias - Manejo&quot;
---
-&lt;h4 class=&quot;pregunta&quot;&gt;
-    &amp;#127775;Intervenciones Farmacológicas. 
-    &lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;MEDICAMENTOS PARA PREVENIR LA RECAÍDA EN EL CONSUMO PERJUDICIAL DE ALCOHOL&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Para suprimir el deseo
-irreprimible de beber&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ul&gt;	  
 
 
 &lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Acamprosato
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Comience con 2 comprimidos de 333 mg por vía
-oral 3 veces por día durante 12 meses. Si la persona
-pesa menos de 60 kg, dé 2 comprimidos 2 veces por
-día durante 12 meses.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Diarrea, flatulencia, náuseas y vómitos, dolor
-abdominal, depresión, ansiedad, propensión al
-suicidio, prurito. Ocasionalmente se puede
-presentar un exantema maculopapular y, rara vez,
-reacciones cutáneas bullosas.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;En las personas con enfermedades renales moderadas,
-recete una dosis inferior, 333 mg por vía oral 3 veces
-por día.&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;CONTRAINDICADO&lt;/b&gt; en la enfermedad renal y la
-hepatopatía graves.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt;
+&lt;b&gt;&amp;#10071;Si sospecha que existe un trastorno MNS 
+prioritario, vaya al módulo o los módulos
+pertinentes para la evaluación.&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Recomendación: &amp;#128073;[[Ir a Evaluación de Trastornos de MNS.|Evaluar Trastornos]]&amp;#128072;
 &lt;/li&gt;
 &lt;/ul&gt;
+</tw-passagedata><tw-passagedata pid="9" name="BIII Tratamiento" tags="" position="661,277" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+III. Trate los trastornos MNS
+&lt;/h3&gt;
+&lt;/center&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Naltrexona
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Comience con 50 mg/día durante 6-12 meses. En la
-dependencia de opiáceos, asegúrese de que no haya
-habido ningún uso de opioides en los 7 últimos días
-(por ejemplo, mediante la administración de dosis de
-naloxona).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Sedación, mareo, náuseas y vómitos, dolor
-abdominal, insomnio, ansiedad, disminución de
-la energía, dolor articular y muscular. Monitoree
-la función hepática debido al riesgo de toxicidad
-hepática.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;Riesgo de &lt;b&gt;SOBREDOSIS MORTAL&lt;/b&gt; en los pacientes
-que usan opioides más de 24 horas después de su
-última dosis de naltrexona, debido a la pérdida rápida
-del efecto antagonista.&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;NO&lt;/b&gt; la use en los pacientes con insuficiencia
-hepática o hepatitis aguda.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt;Una vez efectuada la evaluación, siga el algoritmo de manejo indicado en la GI-mhGAP para tratar el trastorno MNS.
+Se señalan los pasos clave del manejo en el cuadro mostrado a continuación.   
 &lt;/li&gt;
 &lt;/ul&gt;
+      	  
+&lt;ul&gt;
+&lt;li&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Pasos&#39;}&lt;b&gt;PASOS DEL MANEJO DE TRASTORNOS MNS&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;i&gt;Muchos trastornos MNS son crónicos y requieren vigilancia y seguimiento a largo plazo. &lt;/i&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;i&gt;El manejo de un trastorno MNS en el transcurso del tiempo incluye los pasos indicados a continuación.&lt;/i&gt;&lt;/li&gt;
+	&lt;li&gt;&amp;#10102; &lt;b&gt; Elabore un plan de tratamiento en colaboración 
+con la persona y su cuidador. &lt;/b&gt;&amp;#128204;[[Ver Detalles|Paso 1]]
+		&lt;ul&gt;
+		&lt;li&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; El plan escrito de tratamiento debe incluir: &lt;/li&gt;
+		&lt;ul&gt;
+		&lt;li&gt;Intervenciones farmacológicas (si las hay),&lt;/li&gt;
+		&lt;li&gt;Intervenciones psicosociales,&lt;/li&gt;
+		&lt;li&gt;Derivaciones,&lt;/li&gt;
+		&lt;li&gt;Plan de seguimiento, y&lt;/li&gt;
+		&lt;li&gt;Tratamiento de todo trastorno físico concurrente o de otro tipo   de trastorno MNS.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10103;  Brinde siempre &lt;b&gt;intervenciones psicosociales&lt;/b&gt; a la persona y sus cuidadores. &amp;#128204;[[Ver Detalles|Paso 2]]
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10104; Trate el trastorno MNS usando &lt;b&gt;intervenciones  
+ farmacológicas&lt;/b&gt; cuando estén indicadas.&amp;#128204;[[Ver Detalles|Paso 3]]
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10105;&lt;b&gt;Derive al paciente&lt;/b&gt;  a especialistas o al hospital cuando esté indicado y sea factible.&amp;#128204;[[Ver Detalles|Paso 4]]
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10106; Asegúrese que se ha elaborado un plan apropiado 
+ de 
+&lt;b&gt;seguimiento.&lt;/b&gt; &amp;#128204;[[Ver Detalles|Paso 5]]
+	&lt;/li&gt;
+		&lt;li&gt;&amp;#10107;     &lt;b&gt;Trabaje de manera conjunta&lt;/b&gt; con el cuidador y la familia 
+al apoyar a la persona con un trastorno MNS. &amp;#128204;[[Ver Detalles|Paso 6]]
+	&lt;/li&gt;
+		&lt;li&gt;&amp;#10108; Fomente el establecimiento de &lt;b&gt;vínculos sólidos&lt;/b&gt; con los 
+sectores del empleo, la educación, los servicios sociales (incluida
+la vivienda) y otros sectores pertinentes. &amp;#128204;[[Ver Detalles|Paso 7]]
+	&lt;/li&gt;
+		&lt;li&gt;&amp;#10109;  Modifique los planes de tratamiento para los &lt;b&gt;grupos 
+especiales de población.&lt;/b&gt; &amp;#128204;[[Ver Detalles|Paso 8]]
+	&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;	  
+
+
+</tw-passagedata><tw-passagedata pid="10" name="Evaluar Trastornos" tags="" position="1094,226" size="100,100">&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+Módulo Atención y Prácticas Esenciales de Salud (APE)
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+B. ELEMENTOS ESENCIALES DE LA PRÁCTICA CLÍNICA DE SALUD MENTAL
+&lt;/h3&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;h3 class=&quot;titulo&quot;&gt;
+{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}EVALUACIÓN PARA TRASTORNOS DE MNS
+&lt;/h3&gt;
+&lt;/center&gt;
+
 
 &lt;ul&gt;
-&lt;li&gt;&amp;#128138;&lt;b&gt;Medicamento: &lt;/b&gt;Disulfiram
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Dosificación: &lt;/b&gt;Comience con 200-400 mg/día&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Efectos Secundarios: &lt;/b&gt;Somnolencia, mareos, cefalea, sofocación, sudor,
-sensación de sequedad en la boca, náuseas y
-vómitos, temblor, olor corporal nauseabundo,
-disfunción sexual. Rara vez, se pueden
-presentar reacciones psicóticas, dermatitis
-alérgica, neuritis periférica o daño de las
-células hepáticas. Las reacciones graves pueden
-causar confusión, colapso cardiovascular y la
-muerte.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Contraindicaciones / Precauciones: &lt;/b&gt;
-  &lt;ul&gt;
-	&lt;li&gt;Somnolencia, mareos, cefalea, sofocación, sudor,
-sensación de sequedad en la boca, náuseas y
-vómitos, temblor, olor corporal nauseabundo,
-disfunción sexual. Rara vez, &lt;b&gt;se pueden
-presentar reacciones psicóticas, dermatitis
-alérgica, neuritis periférica&lt;/b&gt; o daño de las
-células hepáticas. Las reacciones graves pueden
-causar &lt;b&gt;confusión, colapso cardiovascular y la
-muerte.&lt;/b&gt;&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;NO&lt;/b&gt; lo use con el alcohol, ya que las reacciones
-pueden poner en riesgo la vida o ser mortales.&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;NO&lt;/b&gt; lo use en las mujeres embarazadas o que
-amamantan.&lt;/li&gt;
-	&lt;li&gt;&amp;#10060;&lt;b&gt;CONTRAINDICADO&lt;/b&gt; en personas con hipertensión,
-enfermedades cardíacas, hepáticas o renales, con
-antecedentes de accidentes cerebrovasculares, psicosis
-o impulsividad, o en riesgo de suicidio.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;Evaluación para Trastornos de MNS&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&amp;#10102; &lt;b&gt;Examen físico&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt; Realice un examen físico específico guiado por la información encontrada durante la evaluación para determinar la presencia de trastornos MNS. &lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10103; &lt;b&gt;Examen del estado mental(*)&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;   Observe la apariencia y el comportamiento de la persona, su estado de
+ánimo y afectivo, el contenido de sus pensamientos y alguna posible
+alteración de la percepción y la cognición y hágale preguntas sobre todo
+esto. Vea los detalles en el Esquema principal conforme a los síntomas. &lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10104; &lt;b&gt;Diagnóstico diferencial.&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt; Considere el diagnóstico diferencial y descarte afecciones que se manifiestan con síntomas similares a los ahora observados.
 &lt;/li&gt;
-&lt;/ul&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10105; &lt;b&gt;Pruebas de laboratorio básicas.&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;  Solicite pruebas de laboratorio cuando estén indicadas y sean factibles, especialmente para descartar causas físicas. &lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&amp;#10106; &lt;b&gt;Determine el trastorno mental, neurológico o por 
+ consumo de sustancias.&lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt; Identifique el trastorno MNS usando el módulo o los módulos apropiados. &lt;/li&gt;
+		&lt;li&gt;  Determine si existen síntomas de otros trastornos MNS prioritarios (&amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/&#39; target=&quot;_blank&quot;&gt;Vaya a la página principal mhGap.&lt;/a&gt;). &lt;/li&gt;
+		&lt;li&gt;  
+ Siga el algoritmo de manejo y los protocolos de tratamiento apropiados. &lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;&lt;span style=&quot;color:red&quot;&gt;&amp;#128657;CONSEJO CLÍNICO:&lt;/span&gt; &lt;/b&gt;
+		&lt;ul&gt;
+		&lt;li&gt;  Cuando sospeche que existe un trastorno
+MNS, evalúe siempre la posibilidad
+de autolesión/suicidio (SUI). &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_autolesion&#39; target=&quot;_blank&quot;&gt;Vaya al módulo Autolesión / Suicidio (SUI).&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;	  
 
-&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
-&lt;table style=&quot;width:100%&quot;&gt;
-  &lt;tr&gt;
-    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link , label : &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
-    &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;</tw-passagedata><tw-passagedata pid="53" name="Consumo" tags="" position="2041.6666666666667,45.666666666666664" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Seguimiento.&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Seguimiento. CONSUMO DE SUSTANCIAS EN CURSO.
-&lt;/h3&gt;&lt;/center&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Elabore estrategias para reducir el daño.
-&lt;/li&gt;
-&lt;li&gt;Trate los problemas de salud.
-&lt;/li&gt;
-&lt;li&gt;Elabore estrategias para reducir el uso.
-&lt;/li&gt;
-&lt;li&gt;Organice la desintoxicación o el tratamiento de
-mantenimiento si el paciente está de acuerdo.
-&lt;/li&gt;
-&lt;li&gt;Examine y contacte a la persona con frecuencia.
-&lt;/li&gt;
-&lt;/ul&gt;
-
+&lt;span style=&quot;font-size:small&quot;&gt;  
+(*)&lt;b&gt;El examen del estado mental adaptado para no especialistas puede incluir:&lt;/b&gt; comportamiento y apariencia = los síntomas y signos relacionados con la forma en que se ven y actúan las personas; estado de ánimo
+y afectivo = los síntomas y signos relacionados con el control y la expresión de las emociones o los sentimientos; contenido del pensamiento = los síntomas y signos relacionados con los temas abarcados en los
+pensamientos, incluidos los delirios, la paranoia, la suspicacia y la ideación suicida; alteración de la percepción = percepciones sensoriales que se producen en ausencia del estímulo (externo) apropiado (por ejemplo,
+alucinaciones auditivas o visuales)(la persona puede o no tener conocimiento de la naturaleza irreal de la percepción); alteración de la cognición = los síntomas, signos y resultados clínicos indicativos de un trastorno de
+las capacidades y procesos mentales relacionados con la atención, la memoria, el juicio, el razonamiento, la resolución de problemas, la toma de decisiones, la comprensión y la integración de estas funciones.
+&lt;/span&gt;
+&lt;br /&gt;
 &lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
 &lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
@@ -2803,36 +726,27 @@ mantenimiento si el paciente está de acuerdo.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="54" name="Suspension Reciente" tags="" position="2069.6666666666665,178.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Seguimiento.&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Seguimiento. SUSPENSIÓN RECIENTE DEL CONSUMO
-O CAMBIO A UN CONSUMO
-NO PERJUDICIAL.&lt;/h3&gt;&lt;/center&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="11" name="Paso 1" tags="" position="136,427" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10102; Planificación del tratamiento
+&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Considere realizar pruebas de orina para
-confirmar la abstinencia.
+&lt;li&gt;
+Examine y determine metas del tratamiento que respeten la 
+ voluntad y las preferencias del paciente en cuanto a la 
+ atención.
 &lt;/li&gt;
-&lt;li&gt;Proporcione retroalimentación positiva para
-promover el mantenimiento del uso no
-perjudicial o la abstinencia.
+&lt;li&gt;
+Incluya al cuidador después de obtener el consentimiento de 
+la persona.
 &lt;/li&gt;
-&lt;li&gt;Trate otros problemas médicos.
-&lt;/li&gt;
-&lt;li&gt;Considere administrar medicamentos para
-prevenir recaídas en la dependencia de alcohol
-y de opiáceos.
-&lt;/li&gt;
-&lt;li&gt;Considere recurrir a terapias psicosociales que
-previenen las recaídas y a grupos de ayuda
-mutua.
-&lt;/li&gt;
-&lt;li&gt;Apoye los factores de que reducen el riesgo de
-recaída, como la vivienda y empleo.
+&lt;li&gt;
+Promueva la autovigilancia de los síntomas y explique
+cuándo se debe solicitar atención con urgencia. 
 &lt;/li&gt;
 &lt;/ul&gt;
-
+   
+&lt;br /&gt;
 &lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
 &lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
@@ -2840,29 +754,122 @@ recaída, como la vivienda y empleo.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="55" name="Suspension Prolongada" tags="" position="2095.6666666666665,299.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Seguimiento.&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;Seguimiento.SUSPENSIÓN PROLONGADA
-O CONSUMO NO PERJUDICIAL.&lt;/h3&gt;&lt;/center&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="12" name="Paso 2" tags="" position="284,427" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10103; Intervenciones psicosociales 
+&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Considere realizar ocasionalmente pruebas de
-orina para confirmar la no utilización.
+&lt;li&gt;&lt;b&gt;A. Psicoeducación.&lt;/b&gt; Suministre a la persona información acerca del trastorno MNS, en especial sobre:
+	&lt;ul&gt;
+	&lt;li&gt;Cuál es el trastorno, la evolución y los resultados espera-
+dos;&lt;/li&gt;
+	&lt;li&gt;Los tratamientos disponibles para el trastorno y los  
+ beneficios esperados;&lt;/li&gt;
+	&lt;li&gt;La duración del tratamiento;&lt;/li&gt;
+	&lt;li&gt;La importancia de cumplir el tratamiento, incluido lo que 
+ puede hacer la persona (por ejemplo, tomar medicamentos 
+ o realizar intervenciones psicológicas pertinentes, como los 
+ ejercicios de relajación) y qué pueden hacer los cuidadores 
+ para ayudarla a cumplir las indicaciones del tratamiento;&lt;/li&gt;
+	&lt;li&gt;Posibles efectos secundarios (a corto y a largo plazo) de
+todo medicamento prescrito, que la persona debe vigilar,
+al igual que sus cuidadores; y&lt;/li&gt;
+	&lt;li&gt;La posible participación de asistentes sociales, encargados 
+ de los casos, agentes comunitarios de salud u otros miem-
+ bros de confianza de la comunidad.&lt;/li&gt;
+	&lt;li&gt;Consulte la sección de “Manejo” del módulo o los módulos pertinentes para obtener información específica sobre el trastorno MNS.&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Retroalimentación positiva.
-&lt;/li&gt;
-&lt;li&gt;Apoye los factores que reducen el riesgo de
-padecer recaídas (como la vivienda y el empleo).
-&lt;/li&gt;
-&lt;li&gt;Trate otros problemas médicos.
-&lt;/li&gt;
-&lt;li&gt;Promueva la participación en grupos de ayuda
-mutua.
-&lt;/li&gt;
-&lt;li&gt;Examine a la persona con menos frecuencia.&lt;/li&gt;
 &lt;/ul&gt;
+    
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;B. Reduzca el estrés y fortalezca los apoyos sociales.&lt;/b&gt; Aborde los factores psicosociales estresantes actuales:
+	&lt;ul&gt;
+	&lt;li&gt;Detecte y aborde los problemas psicosociales pertinentes que 
+       causan estrés a la persona o repercuten en su vida, incluidos:    
+       problemas familiares y de relaciones, problemas económicos    
+       o vinculados con el empleo, la ocupación, los medios de vida,    
+       la vivienda, el acceso a la seguridad y los servicios básicos, la 
+       estigmatización y la discriminación, etc.&lt;/li&gt;
+	&lt;li&gt;Ayude a la persona a controlar el estrés mediante métodos
+tales como las técnicas de resolución de problemas.&lt;/li&gt;
+	&lt;li&gt;Evalúe y aborde toda situación de maltrato o abuso (por
+ejemplo, la violencia doméstica), y de descuido (por ejemplo,
+de niños o ancianos). Examine con la persona la posibilidad de
+derivarla a un organismo confiable de protección o a una red
+informal de protección. Póngase en contacto con la asistencia
+legal y los recursos de la comunidad, según proceda.&lt;/li&gt;
+		&lt;li&gt;Identifique los familiares que pueden prestar apoyo y haga 
+ que participen tanto como sea posible y apropiado.&lt;/li&gt;
+	&lt;li&gt;Fortalezca los apoyos sociales y trate de reactivar las redes
+de relaciones sociales de la persona.&lt;/li&gt;
+	&lt;li&gt;Determine las actividades sociales anteriores que, si se
+reiniciaran, podrían prestar apoyo psicosocial directo o
+indirecto (por ejemplo, reuniones familiares, visitas a vecinos,
+actividades de la comunidad, actividades religiosas, etc.).&lt;/li&gt;
+		&lt;li&gt;Enseñe cómo abordar el estrés, por ejemplo, mediante 
+ técnicas de relajación.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;	
 
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;C. Promueva el funcionamiento adecuado 
+en las actividades diarias&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Preste apoyo a la persona para que, en la medida de lo
+posible, continúe sus actividades sociales, educativas y
+ocupacionales ordinarias. &lt;/li&gt;
+	&lt;li&gt;Facilite su participación en actividades económicas.&lt;/li&gt;
+	&lt;li&gt;Ofrezca capacitación en habilidades para la vida 
+ y en habilidades sociales, de ser necesario.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;	
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;D.  Tratamiento psicológico&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Los tratamientos psicológicos son intervenciones que 
+ normalmente requieren dedicarles un tiempo considerable y 
+ suelen ser suministrados por especialistas capacitados. No 
+ obstante, pueden ser realizados eficazmente por trabajadores 
+ no especializados, capacitados y supervisados, y mediante la 
+ autoayuda guiada (por ejemplo, con el uso de programas  
+ electrónicos sobre salud mental o libros de autoayuda).&lt;/li&gt;
+	&lt;li&gt;Las intervenciones que se señalan a continuación se describen
+brevemente en el glosario.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Ejemplos de intervención:&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Activación conductual.&lt;b&gt;Recomendado para:&lt;/b&gt;DEP&lt;/li&gt;
+	&lt;li&gt;Capacitación en técnicas de relajación.&lt;b&gt;Recomendado para:&lt;/b&gt;DEP&lt;/li&gt;
+	&lt;li&gt;Orientación para la resolución de problemas.&lt;b&gt;Recomendado para:&lt;/b&gt;DEP&lt;/li&gt;
+	&lt;li&gt;Terapia cognitivo conductual (TCC).&lt;b&gt;Recomendado para:&lt;/b&gt;DEP, MCON, SUS, PSI&lt;/li&gt;
+	&lt;li&gt;Terapia de manejo de contingencias.&lt;b&gt;Recomendado para:&lt;/b&gt;SUS&lt;/li&gt;
+	&lt;li&gt;Orientación o terapia familiar.&lt;b&gt;Recomendado para:&lt;/b&gt;PSI, SUS&lt;/li&gt;
+	&lt;li&gt;Terapia interpersonal (TIP).&lt;b&gt;Recomendado para:&lt;/b&gt;DEP&lt;/li&gt;
+	&lt;li&gt;Terapia de refuerzo motivacional.&lt;b&gt;Recomendado para:&lt;/b&gt;SUS&lt;/li&gt;
+	&lt;li&gt;Formación en habilidades para padres.&lt;b&gt;Recomendado para:&lt;/b&gt;MCON&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;	
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Módulos Relacionados (Se abrirán en pestañas nuevas):&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/Depresion_DEP&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Módulo de Depresión (DEP).&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_mcon&#39; target=&quot;_blank&quot;&gt;vaya al módulo Trastornos Mentales y Conductuales de la (del) Niña(o) y el Adolescente (MCON).&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_sus&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo Trastornos por el Consumo de Sustancias (SUS).&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI).&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt; 
+  
+
+
+&lt;br /&gt;
 &lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
 &lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;
@@ -2870,74 +877,313 @@ mutua.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;br /&gt;</tw-passagedata><tw-passagedata pid="56" name="Consumo Cronico" tags="" position="1850.6666666666667,359.6666666666667" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Trastornos por el Consumo de Sustancias (SUS) - Seguimiento.&quot;
---
-&lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
-&amp;#128588;SIGNOS DE CONSUMO CRÓNICO DE SUSTANCIAS Y ESTUDIOS QUE SE DEBEN CONSIDERAR.&lt;/h3&gt;&lt;/center&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="13" name="Paso 3" tags="" position="436,427" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10104; Intervenciones farmacológicas
+&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SIGNOS DE CONSUMO EXCESIVO Y CRÓNICO DE ALCOHOL:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Hepatopatía:&lt;/b&gt;
-examine para detectar piel y ojos ictéricos (amarillos), bordes hepáticos
-palpables y dolorosos (en la hepatopatía temprana), nevos aráneos (vasos sanguíneos
-similares a arañas visibles en la superficie de la piel), ascitis (abdomen distendido lleno de
-líquido) y estado mental alterado (encefalopatía hepática).&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Daño
-cerebeloso:&lt;/b&gt; Indague si hay problemas de equilibrio, al caminar, en la coordinación
-de los movimientos y nistagmo.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Estudios:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Enzimas hepáticas: las enzimas hepáticas elevadas y el amoníaco elevado
-indican una hepatopatía.&lt;/li&gt;
-  &lt;li&gt;Recuento sanguíneo completo: determine si hay anemia macrocítica y
-recuento plaquetario bajo.&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt;
+ Siga las directrices sobre psicofarmacología incluidas en
+cada módulo.
+&lt;/li&gt;
+&lt;li&gt;
+Use intervenciones farmacológicas cuando disponga de
+ellas y cuando estén indicadas en el algoritmo de manejo
+y el cuadro proporcionados. 
+&lt;/li&gt;
+&lt;li&gt;
+Al seleccionar los medicamentos esenciales apropiados,
+considere el perfil de efectos secundarios de los medicamentos (a corto y largo plazo), la eficacia del tratamiento anterior, las interacciones medicamentosas o las interaccionesentre los medicamentos y la enfermedad.
+&lt;/li&gt;
+&lt;li&gt;
+Consulte el formulario farmacológico nacional o el 
+formulario de la OMS, según sea necesario. 
+&lt;/li&gt;
+&lt;li&gt;
+Instruya a la persona acerca de los riesgos y los beneficios
+del tratamiento, los posibles efectos secundarios, la duración del tratamiento y la importancia de observarlo rigurosamente.
+&lt;/li&gt;
+&lt;li&gt;
+Obre con cautela cuando proporcione medicación a 
+grupos especiales como las personas mayores, los pacien-
+tes con enfermedades crónicas, las mujeres durante el
+embarazo o la lactancia, y los niños y los adolescentes.
+Consulte a un especialista según sea necesario. 
+&lt;/li&gt;
+&lt;/ul&gt;
+     
+
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="14" name="Paso 4" tags="" position="586,426" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10105;  Derivación a un especialista 
+u hospital de ser necesario
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+ Manténgase alerta para detectar situaciones que puedan 
+requerir la derivación a un especialista o a un hospital, poejemplo, la ausencia de respuesta al tratamiento, efectos
+secundarios graves de intervenciones farmacológicas,
+trastornos físicos o MNS concomitantes, y el riesgo de
+autolesión o suicidio.
+&lt;/li&gt;
+&lt;/ul&gt;
+   
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="15" name="Paso 5" tags="" position="737,426" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10106; Seguimiento
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+Organice una visita del paciente al consultorio para el  
+ seguimiento después de la evaluación inicial.
+&lt;/li&gt;
+&lt;li&gt;
+Después de cada visita, programe una cita para el seguimiento e insista en la importancia de la atención.Haga la cita para un momento que sea mutuamente conveniente.
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Programe visitas de seguimiento inicial con mayor  
+ frecuencia hasta que los síntomas empiecen 
+ a responder al tratamiento.&lt;/b&gt; Una vez que los síntomas 
+ comiencen a mejorar, programe citas menos frecuentes pero 
+ periódicas.
 &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SIGNOS DE CONSUMO CRÓNICO DE DROGAS:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Dificultad
-para cuidar de sí mismo, dentición deficiente, infecciones cutáneas parasitarias,
-como piojos o sarna, y desnutrición.&lt;/li&gt;
-  &lt;li&gt;Signos
-de inyección: busque sitios de inyección en los brazos o las piernas, con marcas
-visibles tanto nuevas como viejas. Pregúntele a la persona dónde se inyecta e inspeccione
-los sitios para asegurarse de que no hay ningún signo de infección local.&lt;/li&gt;
-&lt;li&gt;Complicaciones
-de salud comunes con el consumo de drogas inyectables: las personas que
-se inyectan drogas están expuestas a un riesgo mayor de contraer infecciones, como la
-infección por el VIH/SIDA, las hepatitis B y C y la tuberculosis. También corren un alto
-riesgo de sufrir infecciones cutáneas en los sitios de inyección. En algunos casos, las
-infecciones se pueden difundir a través de la sangre y causar septicemia, endocarditis,
-abscesos vertebrales, meningitis e inclusive la muerte.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Estudios:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Tamizaje para detectar drogas en la orina: en los casos de urgencia, se debe
-efectuar el tamizaje para detectar drogas en la orina siempre que se sospeche la
-presencia de intoxicación, abstinencia o sobredosis, especialmente cuando la persona
-no puede informar lo que ha ingerido.&lt;/li&gt;
-  &lt;li&gt;Si la persona se ha estado inyectando drogas, ofrezca efectuar pruebas serológicas
-para detectar virus transmitidos por la sangre, la infección por el VIH/SIDA y la
-hepatitis B y C, etc.&lt;/li&gt;
-  &lt;li&gt;Si la persona ha tenido relaciones sexuales sin protección, ofrezca efectuar pruebas
-para detectar infecciones de transmisión sexual, incluidas la infección por el VIH/SIDA,
-sífilis, clamidiasis, gonorrea e infección por el virus del papiloma humano (VPH).&lt;/li&gt;
-  &lt;li&gt;Solicite una prueba para detectar tuberculosis, muestras de esputo y una
-radiografía de tórax si sospecha la presencia de tuberculosis. Investigue signos y
-síntomas como la tos productiva crónica, fiebres, escalofríos y pérdida de peso.&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;En cada sesión de seguimiento, evalúe: &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;La respuesta al tratamiento, los efectos secundarios de 
+    la medicación y la observancia al tratamiento  
+    farmacológico y a las intervenciones psicosociales.&lt;/li&gt;
+	&lt;li&gt;El estado general de salud (asegúrese de vigilar con 
+     regularidad el estado de salud física).&lt;/li&gt;
+	&lt;li&gt;El autocuidado (por ejemplo, la alimentación, la higiene,  
+    la vestimenta) y el funcionamiento de la persona en su  
+     propio entorno.&lt;/li&gt;
+	&lt;li&gt;El autocuidado (por ejemplo, la alimentación, la higiene,  
+    la vestimenta) y el funcionamiento de la persona en su  
+     propio entorno.&lt;/li&gt;
+	&lt;li&gt;El autocuidado (por ejemplo, la alimentación, la higiene,  
+    la vestimenta) y el funcionamiento de la persona en su  
+     propio entorno.&lt;/li&gt;
+	&lt;li&gt;Problemas psicosociales o cambios en las condiciones de 
+     vida que puedan afectar su manejo.&lt;/li&gt;
+	&lt;li&gt;La comprensión y las expectativas del tratamiento por 
+     parte de la persona y del cuidador. Corrija cualquier idea 
+     errónea.&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;/ul&gt;
+ 
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Durante todo el período de seguimiento:&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Reconozca todo progreso hacia las metas del 
+    tratamiento y refuerce el cumplimiento de la terapia. &lt;/li&gt;
+	&lt;li&gt;Mantenga un contacto periódico con la persona (y con su cuidador, cuando corresponda). Si es factible, asigne  
+a un trabajador de la comunidad u otra persona confia- 
+ble de la comunidad (por ejemplo, un familiar) para que  
+apoye a la persona. &lt;/li&gt;
+	&lt;li&gt;Explique que la persona puede regresar al consultorio 
+ en cualquier momento entre las visitas de seguimiento  
+ de ser necesario (por ejemplo, cuando hay efectos  
+ secundarios de medicamentos, etc.).&lt;/li&gt;
+	&lt;li&gt;Tenga un plan de acción para cuando la persona no 
+ asista a las citas.&lt;/li&gt;
+	&lt;li&gt;Use recursos de la familia y la comunidad para 
+ comunicarse con las personas que no han regresado  
+ para el seguimiento periódico.&lt;/li&gt;
+	&lt;li&gt;Consulte a un especialista si la persona no mejora o 
+  empeora.&lt;/li&gt;
+	&lt;li&gt;Documente los aspectos clave de las interacciones con la  
+ persona y la familia en las notas sobre el caso.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;
+ Vaya a la sección de “Manejo” del módulo 
+o los módulos pertinentes para información sobre 
+el seguimiento específico del trastorno.&lt;/b&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="16" name="Paso 6" tags="" position="886,424" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10107;  Participación de los cuidadores 
+&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;
+Cuando sea apropiado y con el consentimiento de la
+persona tratada, incluya al cuidador o a un familiar en la
+atención de la persona.
+&lt;/li&gt;
+&lt;li&gt;
+Reconozca que puede ser difícil cuidar a personas con
+trastornos MNS.
+&lt;/li&gt;
+&lt;li&gt;
+Explique al cuidador la importancia de respetar la dignidad
+y los derechos de la persona con un trastorno MNS.
+&lt;/li&gt;
+&lt;li&gt;
+ Identifique las repercusiones psicosociales para los 
+ cuidadores. 
+&lt;/li&gt;
+&lt;li&gt;
+Determine las necesidades del cuidador a fin de garantizar 
+ el apoyo y los recursos necesarios para la vida familiar, el 
+ empleo, las actividades sociales y la salud.
+&lt;/li&gt;
+&lt;li&gt;
+Promueva la participación en grupos de autoayuda y de apoyo familiar, cuando existan.
+&lt;/li&gt;
+&lt;li&gt;
+Con el consentimiento de la persona, mantenga a los
+ cuidadores informados acerca del estado de salud de la 
+ persona, incluidos temas relacionados con la evaluación, 
+ el  tratamiento, el seguimiento y cualquier posible efecto 
+ colateral. 
+&lt;/li&gt;
+&lt;/ul&gt;
+   
+   
+  
+  
+  
+   
+ 
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="17" name="Paso 7" tags="" position="1036,425" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10108; Enlaces con otros sectores 
+&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;
+ Para garantizar una atención integral y basada en la 
+evaluación inicial, vincule a la persona con servicios de 
+empleo y de educación, y con servicios sociales (incluidos 
+los concernientes a la vivienda) y otros sectores  
+ pertinentes.
+&lt;/li&gt;
+&lt;/ul&gt;
+   
+&lt;br /&gt;
+&lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
+&lt;table style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
+    &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;</tw-passagedata><tw-passagedata pid="18" name="Paso 8" tags="" position="1186,426" size="100,100">&lt;h3 class=&quot;titulo&quot;&gt;
+&amp;#10109; Grupos de población especiales
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;NIÑOS Y ADOLESCENTES&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Investigue una posible exposición a factores adversos,
+como la violencia y el descuido, que puedan afectar la
+salud mental y el bienestar.&lt;/li&gt;
+	&lt;li&gt;Evalúe las necesidades de los cuidadores.&lt;/li&gt;
+	&lt;li&gt;Trate a los adolescentes que pudieran venir solos para 
+conseguir ayuda, aunque no estén acompañados por
+padres o tutores. Obtenga el consentimiento fundamentado
+del adolescente.&lt;/li&gt;
+		&lt;li&gt;Brinde oportunidades al niño o al adolescente para que
+expresen sus inquietudes en privado.&lt;/li&gt;
+	&lt;li&gt;Adapte su lenguaje al nivel de comprensión del niño o el
+adolescente. &lt;/li&gt;
+	&lt;li&gt;Indague acerca de los recursos disponibles dentro de la 
+familia, la escuela y la comunidad.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;MUJERES DURANTE EL EMBARAZO 
+O LA LACTANCIA&lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt; Si la mujer está en edad fecunda, pregunte:
+	  &lt;ul&gt;
+	  &lt;li&gt;
+	  Si está amamantando,
+	  &lt;/li&gt;
+	  &lt;li&gt;
+	  Si está embarazada y,
+	  &lt;/li&gt;
+	  &lt;li&gt;
+	  Si está embarazada, cuándo menstruó por última vez.
+	  &lt;/li&gt;
+	  &lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Sirva de enlace con el especialista en salud materna para
+organizar la atención.&lt;/li&gt;
+	&lt;li&gt;Considere la consulta con un especialista en salud mental,
+si lo hay.&lt;/li&gt;
+		&lt;li&gt;Obre con cautela con las intervenciones farmacológicas;
+verifique la toxicidad para el feto y el traspaso de fármacos a la leche materna. Consulte a un especialista según sea
+necesario.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+   
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ADULTOS MAYORES &lt;/b&gt;
+	&lt;ul&gt;
+	&lt;li&gt;Aborde los factores psicosociales estresantes que son
+particularmente pertinentes para la persona, respetando
+su necesidad de autonomía.&lt;/li&gt;
+	&lt;li&gt; Determine y trate los problemas de salud física  
+ concurrentes y aborde los déficits sensoriales (como la 
+ disminución de la agudeza visual o la audición deficiente) 
+ con dispositivos apropiados (por ejemplo, una lupa, 
+ audífonos).&lt;/li&gt;
+	&lt;li&gt;Use dosis inferiores de los medicamentos. &lt;/li&gt;
+		&lt;li&gt;Prevea un mayor riesgo de interacciones medicamentosas.&lt;/li&gt;
+	&lt;li&gt;Aborde las necesidades de los cuidadores.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+     
+
+ 
+  
+  
+&lt;br /&gt;
 &lt;h4 class=&quot;titulo&quot;&gt;&amp;#128681;Fin de esta Ruta&lt;/h4&gt;
 &lt;table style=&quot;width:100%&quot;&gt;
   &lt;tr&gt;

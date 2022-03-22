@@ -82,7 +82,7 @@ span.listacirculo {
                         La depresión generalmente se presenta junto con otros trastornos MNS así como con enfermedades físicas.
                     </li>
                     <li>
-                        El manejo de síntomas que no satisfagan plenamente los criterios para clasificar el trastorno como depresión es abordado en el módulo Otros padecimientos de salud mental importantes. Vaya al módulo OTR. 
+                        El manejo de síntomas que no satisfagan plenamente los criterios para clasificar el trastorno como depresión es abordado en el módulo Otros padecimientos de salud mental importantes. &#128204;<a href='/modulo_otros_transtornos' target="_blank">Vaya al Módulo de Otros Transtornos (OTR).</a> 
                     </li>
                 </ul>
             </td>
@@ -95,7 +95,7 @@ span.listacirculo {
         </tr>
     </table>
 </center>
-
+    
     <br />
 
     <!-- Tabla Manifestaciones comunes -->

@@ -1,11 +1,11 @@
-<!DOCTYPE html><html><head><title>Módulo Depresión (DEP)</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
+<!DOCTYPE html><html><head><title>modulo_dep</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>.small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backstage .panel h2{margin:0}#backstage .panel h2 button{text-align:left;background:none;border:none;width:100%;font-weight:400;text-transform:uppercase;font-size:70%;letter-spacing:.075em;font-size:11px;padding:0 8px}#backstage .panel h2 button:before{content:"\25BA";display:inline-block;width:1.25em}#backstage .panel h2 button:hover{color:#495057}#backstage .panel.open h2 button:before{content:"\25BC"}
 #backstage table.history td.actions{width:2.5em}#backstage table.history td.go{border-right:1px solid #000}
 #backstage ul.tabs{list-style:none;margin:8px;padding:0;display:flex;border:1px solid #000;font-size:12px}#backstage ul.tabs li{flex-grow:1;border-right:1px solid #000;text-align:center}#backstage ul.tabs li:last-child{border-right:none}#backstage ul.tabs li button{color:#000;text-decoration:none;display:block;width:100%;height:28px;padding:8px;border:none;border-radius:0}#backstage ul.tabs li button.active{background:#000;color:#dee2e6}#backstage .tab-content{max-height:calc(100vh - $backstage-tab-height);overflow:auto}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}body.backstage-visible #backdrop{justify-content:flex-start;max-width:67vw}#backstage{position:fixed;top:0;right:0;bottom:0;width:33vw;max-height:100vh;font-size:18px;background:#dee2e6;color:#000;transform:translateX(100%);box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%}#backstage:before{content:"";position:absolute;z-index:2;top:calc(50% - 25px);right:calc(100% - 4px);height:50px;width:4px;background:#dee2e6}@media screen and (max-width:425px){#backstage{width:calc(100vw - 25px)}}#backstage.open{transform:none}#backstage .toggle-visibility{position:absolute;z-index:1;top:calc(50% - 25px);right:100%;width:25px;height:50px;padding:0;background:#dee2e6;color:#000;border:none;border-top-left-radius:25px;border-bottom-left-radius:25px;border-top-right-radius:0;border-bottom-right-radius:0;box-shadow:inset 2px 0 3px rgba(0,0,0,.25);font-size:18px}#backstage button{color:#000;background:transparent;padding:8px;border-radius:16px;border:1px solid #000}#backstage button:hover{background:#e9ecef}#backstage p{padding:0 8px}#backstage li,#backstage p,#backstage td{font-size:12px}#backstage input,#backstage select{color:#000;background:transparent;border:1px solid #000;padding:8px}#backstage table{background:transparent;table-layout:fixed;border-collapse:collapse;width:calc(100% - 16px);margin:8px}#backstage th{text-align:left}#backstage td{position:relative;border:1px solid #000;padding:8px;vertical-align:top}#backstage td:first-child{border-left:none}#backstage td:last-child{border-right:none}#backstage td button,#backstage td input{background:none;border:none;border-radius:0;position:absolute;top:0;left:0;bottom:0;width:100%;padding:8px}#backstage textarea{background:transparent;border:1px solid #000;color:#000;padding:8px;width:100%;height:7.75em}#backstage .block{display:block;margin:8px;width:calc(100% - 16px)}#backstage .disabled{color:#868e96}#backstage .indented-input{margin-left:calc(10em + 8px);font-size:12px}#backstage .input-group{display:flex;align-items:center}#backstage .input-group label:first-child{text-align:right;margin-right:8px;width:10em}#backstage .input-group input,#backstage .input-group select{flex-grow:1}#backstage .segmented-button{display:flex}#backstage .segmented-button button{border-left:none;border-radius:0;margin:0;flex-grow:1}#backstage .segmented-button button:first-child{border-left:1px solid #000;border-top-left-radius:16px;border-bottom-left-radius:16px}#backstage .segmented-button button:last-child{border-top-right-radius:16px;border-bottom-right-radius:16px}#backstage .segmented-button .fixed{flex-grow:0;min-width:24px}#backstage .tab-content{max-height:calc(100vh - 28px);overflow:auto}
 .fade-in{opacity:0;animation:fade-in 1s ease-out forwards}.fade-out{animation:fade-in 1s ease-out reverse forwards}.skip-animation{animation-delay:0s!important}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
 #page .warnings{list-style-type:none;padding-left:0;margin-left:0}
 .small-caps{text-transform:uppercase;font-size:70%;letter-spacing:.075em}#backdrop{min-height:100vh;align-items:center}#backdrop,#page{display:flex;justify-content:center}#page{flex-direction:column;width:40em;min-height:calc(100vh - 2em);max-width:calc(100vw - 2em);line-height:150%;margin:1em;padding:4em 4em 2em;position:relative}#page article{flex-grow:1;display:flex}#page article>:first-child{margin-top:0;width:100%}#page footer,#page header{display:flex}#page footer>div,#page header>div{flex-grow:1}#page footer p,#page header p{margin:.5em 0 0}#page footer .center,#page header .center{text-align:center}#page footer .right p,#page header .right p{text-align:right}#page header{margin-top:0}#page header.has-content{border-bottom:1px solid #000}#page header.has-content+article>article>div>p:first-child,#page header.has-content+article>div>p:first-child{margin-top:1em}#page footer{margin-bottom:0}#page footer.has-content{border-top:1px solid #000}#page hr{border:none}#page hr:after{content:"* \A0   * \A0   *";display:block;text-align:center}#page .error,#page .warning{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu Cantarell,Helvetica Neue,sans-serif;font-size:80%;background:#fff5f5;color:#c92a2a;padding:.5em;border-left:4px solid #ffa8a8;position:relative;margin-bottom:1em;overflow:auto}#page .error :first-child,#page .warning :first-child{margin-top:0}#page .error :last-child,#page .warning :last-child{margin-bottom:0}#page .error a,#page .warning a{color:#c92a2a}#page .warning{background:#fff9db;color:#e67700}#page .warning a{color:#e67700}#page .fork p{display:flex;flex-direction:column;width:100%}#page .fork p a{display:block;flex-grow:1;text-align:center;padding:.5em}@media screen and (max-width:768px){#page{margin:0;width:100vw;max-width:100vw;min-height:100vh;padding:1em}}#spinner{position:absolute;bottom:0;right:0;opacity:0;transition:opacity .25s ease-in-out;pointer-events:none}#spinner.visible{display:block;opacity:1}
-*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="Módulo Depresión (DEP)" startnode="1" creator="Twine" creator-version="2.3.16" ifid="D73DA5EB-FA12-42D9-8748-799EF1E9BFEA" zoom="1" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
+*{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%;height:auto}input[type=text],select{padding:.25em}pre{white-space:pre-wrap}tw-storydata{display:none}</style></head><body><form id="cb-validation" action="javascript:void(0)"><button id="cb-validation-tester" hidden></button> <button id="cb-block-enter-key" hidden></button><div id="backdrop"><div id="page" aria-live="polite"><header><div class="left"></div><div class="center"></div><div class="right"></div></header><article></article><ul class="warnings"></ul><footer><div class="left"></div><div class="center"></div><div class="right"></div></footer><div id="spinner"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDEwMCAxMDAiPgogICAgPHJlY3QgeD0iMzEiIHk9IjE0IiB3aWR0aD0iMzgiIGhlaWdodD0iNzIiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI4IiBmaWxsPSJ3aGl0ZSIgLz4KCTxyZWN0IHg9IjM1IiB5PSIxOCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjY0IiByeD0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2U9ImJsYWNrIiAvPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMjAiIHN0cm9rZT0iYmxhY2siIGZpbGw9IndoaXRlIiBzdHJva2Utd2lkdGg9IjJweCIgLz4KCTxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIzNyIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIycHgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0KICAgICAgICAgICAgYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIgogICAgICAgICAgICBiZWdpbj0iMHMiCiAgICAgICAgICAgIGR1cj0iMjBzIgogICAgICAgICAgICB0eXBlPSJyb3RhdGUiCiAgICAgICAgICAgIGZyb209IjAgNTAgNTAiCiAgICAgICAgICAgIHRvPSIzNjAgNTAgNTAiCiAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIgogICAgICAgIC8+Cgk8L2xpbmU+Cgk8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjQyIiB5Mj0iNTAiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMnB4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxhbmltYXRlVHJhbnNmb3JtCiAgICAgICAgICAgIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIKICAgICAgICAgICAgYmVnaW49IjBzIgogICAgICAgICAgICBkdXI9IjEyMHMiCiAgICAgICAgICAgIHR5cGU9InJvdGF0ZSIKICAgICAgICAgICAgZnJvbT0iMCA1MCA1MCIKICAgICAgICAgICAgdG89IjM2MCA1MCA1MCIKICAgICAgICAgICAgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiCiAgICAgICAgLz4KCTwvbGluZT4KPC9zdmc+" width="40" height="40" alt=""></div></div></div></form><tw-storydata name="modulo_dep" startnode="1" creator="Twine" creator-version="2.3.16" ifid="D73DA5EB-FA12-42D9-8748-799EF1E9BFEA" zoom="0.6" format="Chapbook" format-version="1.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.listacirculo {
   background: #8b1061;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -41,44 +41,52 @@ $vinculoOtroModulo: &quot;http://mhgap.analisis.info&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;
-Módulo Depresión (DEP) - Panorama Breve
+Módulo Depresión (DEP)
 &lt;/h3&gt;
 &lt;h3&gt;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} 
-[[Ir a Evaluación]]&lt;/h3&gt;
+[[Clic para Comenzar la Evaluación|Ir a Evaluación]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
- &lt;li&gt;¿Sufre la persona depresión?&lt;/li&gt;
- &lt;li&gt;¿Hay otras explicaciones para los síntomas?&lt;/li&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+
+&lt;ul&gt;Panorama Breve:
+ &lt;li&gt;&lt;b&gt;¿Sufre la persona depresión?&lt;/b&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;¿Hay otras explicaciones para los síntomas?&lt;/b&gt;&lt;/li&gt;
  &lt;ul&gt;
  	&lt;li&gt;Descarte posibles trastornos físicos.&lt;/li&gt;
 	&lt;li&gt;Descarte la existencia de antecedentes de manía.&lt;/li&gt;
 	&lt;li&gt;Descarte reacciones normales a una pérdida importante reciente.&lt;/li&gt;
  &lt;/ul&gt;
- &lt;li&gt;Investigue otros trastornos MNS prioritarios.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Investigue otros trastornos MNS prioritarios.&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Ir a Manejo]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;}[[Clic para Continuar con el Manejo|Ir a Manejo]]&lt;/h3&gt;
 &lt;/center&gt;
-&lt;ul&gt;
- &lt;li&gt;Protocolos de manejo&lt;/li&gt;
+&lt;span style=&quot;font-size:small&quot;&gt;
+&lt;ul&gt;Panorama Breve:
+ &lt;li&gt;&lt;b&gt;Protocolos de manejo&lt;/b&gt;&lt;/li&gt;
  &lt;ol&gt;
  	&lt;li&gt;Depresión&lt;/li&gt;
 	&lt;li&gt;Episodio depresivo en el trastorno bipolar.&lt;/li&gt;
 	&lt;li&gt;Grupos especiales de población&lt;/li&gt;
  &lt;/ol&gt;
- &lt;li&gt;Intervenciones psicosociales&lt;/li&gt;
- &lt;li&gt;¿Intervenciones farmacológicas&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Intervenciones psicosociales&lt;/b&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Intervenciones farmacológicas.&lt;/b&gt; &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;  &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;center&gt;
-&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}#[[Ir a Seguimiento]]&lt;/h3&gt;
+&lt;h3&gt;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Seguimiento&#39;}[[Clic para Continuar con el Seguimiento|Ir a Seguimiento]]&lt;/h3&gt;
 &lt;/center&gt;
+
+
+
 
 [note]
 &lt;a href=&quot;https://www.flaticon.es/iconos-gratis/evaluacion&quot; title=&quot;evaluación iconos&quot;&gt;Evaluación iconos creados por Freepik - Flaticon&lt;/a&gt;
 
 &lt;a href=&quot;https://www.flaticon.es/iconos-gratis/evaluacion&quot; title=&quot;evaluación iconos&quot;&gt;Evaluación iconos creados por Eucalyp - Flaticon&lt;/a&gt;
 &lt;a href=&quot;https://www.flaticon.es/iconos-gratis/ciclo&quot; title=&quot;ciclo iconos&quot;&gt;Ciclo iconos creados por Eucalyp - Flaticon&lt;/a&gt;
-</tw-passagedata><tw-passagedata pid="2" name="Ir a Evaluación" tags="" position="978,50" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="2" name="Ir a Evaluación" tags="" position="1058,30" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Manifestaciones Comunes de la Depresión
@@ -148,7 +156,7 @@ niños/adolescentes, &lt;a href=&#39;{$vinculoOtroModulo}/modulo_mcon&#39; targe
 &lt;/li&gt;
 &lt;/ul&gt;
 
-</tw-passagedata><tw-passagedata pid="4" name="Ir a Seguimiento" tags="" position="595,81" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="4" name="Ir a Seguimiento" tags="" position="811.6666666666667,64.33333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 Recomendaciones sobre la Frecuencia de Contacto
@@ -176,7 +184,7 @@ Mantenga inicialmente un contacto periódico por teléfono, mediante visitas a d
   &lt;/tr&gt;
 &lt;/table&gt;
 
-</tw-passagedata><tw-passagedata pid="5" name="Ir a Módulo OTR" tags="" position="786,172" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
+</tw-passagedata><tw-passagedata pid="5" name="Ir a Módulo OTR" tags="" position="1024.3333333333333,222" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
 --
 
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;Es improbable que sea depresión&lt;/h3&gt;
@@ -191,7 +199,7 @@ Mantenga inicialmente un contacto periódico por teléfono, mediante visitas a d
 
 
 
-</tw-passagedata><tw-passagedata pid="6" name="Ir a Pregunta 1.2" tags="" position="1040,259" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="6" name="Ir a Pregunta 1.2" tags="" position="1273.3333333333333,40.66666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 
 &amp;#11088;&lt;b&gt;¿Tiene o tuvo la persona varios de los otros síntomas siguientes
@@ -247,7 +255,7 @@ durante al menos dos semanas?&lt;/b&gt;
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ir a Módulo OTR]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Pregunta 1.3]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="7" name="Ir a Pregunta 1.3" tags="" position="1044,407" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="7" name="Ir a Pregunta 1.3" tags="" position="1405.6666666666667,45.333333333333314" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &amp;#11088;&lt;b&gt;¿Tiene la persona considerable dificultad en el  funcionamiento diario en el ámbito personal, familiar, social, educativo, ocupacional o de otro tipo?&lt;/b&gt;
@@ -259,7 +267,7 @@ durante al menos dos semanas?&lt;/b&gt;
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ir a Módulo OTR]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Pregunta 1.4]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="8" name="Ir a Pregunta 1.4" tags="" position="1039,540" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="8" name="Ir a Pregunta 1.4" tags="" position="1534,40" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;Considere la posible existencia de DEPRESIÓN&lt;/h3&gt;
@@ -278,7 +286,7 @@ Una persona con depresión puede tener síntomas psicóticos como delirios o alu
     &amp;nbsp;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 2|Ir al Paso 2]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="9" name="Ir al Paso 2" tags="" position="673,697" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="9" name="Ir al Paso 2" tags="" position="1148,310.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -296,7 +304,7 @@ de los síntomas?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Pregunta 2.1]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="10" name="Ir a Antecedentes de Mania" tags="" position="597,848" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="10" name="Ir a Antecedentes de Mania" tags="" position="810.3333333333334,399.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
  ¿HAY ANTECEDENTES DE MANÍA?
@@ -333,7 +341,7 @@ de los síntomas?
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Episodio Depresivo]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="11" name="Ir a Pregunta 2.1" tags="" position="748,847" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="11" name="Ir a Pregunta 2.1" tags="" position="1441.3333333333335,347" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;TRATE LA ENFERMEDAD FÍSICA&lt;/h3&gt;
@@ -349,7 +357,7 @@ de los síntomas?
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ningun Tratamiento]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Antecedentes de Mania]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="12" name="Ningun Tratamiento" tags="" position="927,695" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="12" name="Ningun Tratamiento" tags="" position="1533.6666666666667,186.66666666666663" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;No es necesario ningún tratamiento.&lt;/h3&gt;
 &lt;br/&gt;
@@ -363,7 +371,7 @@ de los síntomas?
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;{back link, label: &#39;Devolverse&#39;}&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;{restart link, label: &#39;Reiniciar Ruta&#39;}&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="13" name="Ir a Pregunta 2.2" tags="" position="523,998" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="13" name="Ir a Pregunta 2.2" tags="" position="698,904.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &amp;#11088;&lt;b&gt;¿HA SUFRIDO UNA PÉRDIDA IMPORTANTE (POR EJEMPLO, DUELO POR EL
@@ -377,7 +385,7 @@ FALLECIMIENTO DE UN ALLEGADO) DENTRO DE LOS SEIS ÚLTIMOS MESES? &lt;/b&gt;
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ir a Depresion Probable]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Pregunta 2.3]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="14" name="Ir a Episodio Depresivo" tags="" position="673,998" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="14" name="Ir a Episodio Depresivo" tags="" position="1019.6666666666667,478" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;Es probable que sea un 
@@ -397,7 +405,7 @@ Las personas con un episodio depresivo en el trastorno bipolar corren el riesgo 
     &amp;nbsp;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 3, Protocolo 2|Manejo Protocolo 2]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="15" name="Manejo Protocolo 2" tags="" position="887,1045" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Manejo&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="15" name="Manejo Protocolo 2" tags="" position="1332.0000000000002,496.66666666666663" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;center&gt;
@@ -408,7 +416,7 @@ MANEJO. PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt;Depre
 &lt;ul&gt;
 &lt;li&gt;Consulte a un especialista.
 &lt;/li&gt;
-&lt;li&gt;Si no dispone de inmediato de un especialista, continúe el tratamiento para la depresión [[Manejo Protocolo 1]]. Sin embargo, NUNCA recete antidepresivos solos sin un estabilizador del estado de ánimo como el litio, la carbamazepina o el valproato porque los antidepresivos pueden conducir a la manía en personas con trastorno bipolar &lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI)&lt;/a&gt; .
+&lt;li&gt;Si no dispone de inmediato de un especialista, continúe el tratamiento para la depresión &amp;#128204;[[Manejo Protocolo 1]]. Sin embargo, NUNCA recete antidepresivos solos sin un estabilizador del estado de ánimo como el litio, la carbamazepina o el valproato porque los antidepresivos pueden conducir a la manía en personas con trastorno bipolar &amp;#128204;&lt;a href=&#39;{$vinculoOtroModulo}/modulo_psi&#39; target=&quot;_blank&quot;&gt;Vaya al Módulo de Psicosis (PSI)&lt;/a&gt; .
 &lt;/li&gt;
 &lt;li&gt;
   Si se presentaran síntomas de manía, dígale a la persona y a los cuidadores que suspendan de inmediato el antidepresivo y regresen para recibirayuda. 
@@ -422,7 +430,7 @@ MANEJO. PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt;Depre
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="16" name="Ir a Depresion Probable" tags="" position="431,1435" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="16" name="Ir a Depresion Probable" tags="" position="1429.3333333333335,1001.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;Es probable que sea DEPRESIÓN&lt;/h3&gt;
@@ -436,7 +444,7 @@ MANEJO. PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt;Depre
     &amp;nbsp;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir al Paso 3, Protocolo 1|Ir al Paso 3 Protocolo 1]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="17" name="Ir a Pregunta 2.3" tags="" position="519,1116" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="17" name="Ir a Pregunta 2.3" tags="" position="882.3333333333334,847.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 
 &amp;#11088;&lt;b&gt;¿Está presente alguno de los síntomas siguientes?&lt;/b&gt;
@@ -473,7 +481,7 @@ MANEJO. PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;2&lt;/span&gt;Depre
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ir a Pregunta 2.4]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Depresion Probable]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="18" name="Ir al Paso 3 Protocolo 1" tags="" position="264,1316" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación / Manejo&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="18" name="Ir al Paso 3 Protocolo 1" tags="" position="1382.3333333333335,796" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación / Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -518,7 +526,7 @@ PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt;Depresión.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Ir a Seguimiento|Ir a Seguimiento]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="19" name="Ir a Pregunta 2.4" tags="" position="511,1277" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
+</tw-passagedata><tw-passagedata pid="19" name="Ir a Pregunta 2.4" tags="" position="1051,857" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/evaluacion32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Evaluación&quot;
 --
 &lt;center&gt;
 &amp;#11088;&lt;b&gt;¿Tiene la persona antecedentes de depresión?&lt;/b&gt;
@@ -531,7 +539,7 @@ PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt;Depresión.
     &lt;td style=&quot;text-align:left&quot;&gt;&amp;#128073;[[Responder NO|Ningun Tratamiento ir a OTR]]&amp;#128072;&lt;/td&gt;
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;#128073;[[Responder SI|Ir a Depresion Probable]]&amp;#128072;&lt;/td&gt;
   &lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="20" name="Ningun Tratamiento ir a OTR" tags="" position="816,1399" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
+&lt;/table&gt;</tw-passagedata><tw-passagedata pid="20" name="Ningun Tratamiento ir a OTR" tags="" position="1237.6666666666667,932.3333333333333" size="100,100">config.header.left:&quot;Módulo Depresión (DEP) - Ir a Módulo OTR&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;&amp;#128172;No es necesario ningún tratamiento para la depresión.&lt;/h3&gt;
 &lt;h3 class=&quot;titulo&quot;&gt;&amp;#128077;Fin de esta Ruta&lt;/h3&gt;
@@ -540,7 +548,7 @@ PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt;Depresión.
 &lt;br/&gt;&lt;br/&gt;
 
 &lt;center&gt; &amp;#128172; Te recomendamos: 
- {link to: &#39;{$vinculoOtroModulo}/modulo_otros_transtornos&#39;, label: &#39;Ir al Módulo de Otros Transtornos.&#39;}.&lt;/center&gt;</tw-passagedata><tw-passagedata pid="21" name="Recomendaciones 2.1" tags="" position="22,1165" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+ {link to: &#39;{$vinculoOtroModulo}/modulo_otros_transtornos&#39;, label: &#39;Ir al Módulo de Otros Transtornos.&#39;}.&lt;/center&gt;</tw-passagedata><tw-passagedata pid="21" name="Recomendaciones 2.1" tags="" position="27,798.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -576,7 +584,7 @@ Los pensamientos de autolesión o suicidio son comunes. Si se detectan estos pen
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="22" name="Recomendaciones 2.2" tags="" position="21,1278" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="22" name="Recomendaciones 2.2" tags="" position="176,876.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -601,7 +609,7 @@ Reactive la red de relaciones sociales anteriores de la persona.Identifique acti
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="23" name="Recomendaciones 2.3" tags="" position="21,1384" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="23" name="Recomendaciones 2.3" tags="" position="337.6666666666667,912.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -642,11 +650,11 @@ Explique a la persona y al cuidador que estas actividades pueden todas ayudar a 
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="24" name="Recomendaciones 2.5" tags="" position="26,1604" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="24" name="Recomendaciones 2.5" tags="" position="611,1064" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
-&amp;#127775;MANEJO. INTERVENCIONES FARMACOLÓGICAS
+&amp;#127775;MANEJO. INTERVENCIONES FARMACOLÓGICAS. &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
 &lt;/h4&gt;
 &amp;#127774;&lt;b&gt;Considere la posibilidad de
 administrar antidepresivos&lt;/b&gt;
@@ -708,7 +716,7 @@ Los antidepresivos pueden aumentar la ideación suicida, especialmente en los ad
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="25" name="Recomendaciones 2.4" tags="" position="22,1494" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="25" name="Recomendaciones 2.4" tags="" position="460.33333333333337,975.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -742,7 +750,7 @@ En Pensamiento saludable: &lt;a href=&#39;http://iris.paho.org/xmlui/bitstream/h
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="26" name="Medicacion Grupos Especiales" tags="" position="26,1754" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="26" name="Medicacion Grupos Especiales" tags="" position="137.66666666666669,1064" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -816,7 +824,7 @@ seguimiento con frecuencia para prevenir una sobredosis.
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="27" name="Antidepresivos" tags="" position="169,1755" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="27" name="Antidepresivos" tags="" position="859,1098.3333333333333" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Manejo&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -915,7 +923,7 @@ codeína y tramadol (reduce el efecto de estos medicamentos).
     &lt;td style=&quot;text-align:right&quot;&gt;&amp;nbsp;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="28" name="Manejo Protocolo 1" tags="" position="706,1193" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Manejo&quot;
+</tw-passagedata><tw-passagedata pid="28" name="Manejo Protocolo 1" tags="" position="856,644.6666666666666" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/manejo32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Manejo&quot;
 --
 &lt;center&gt;
 &lt;h4 class=&quot;pregunta&quot;&gt;
@@ -923,15 +931,15 @@ MANEJO. PROTOCOLO &lt;span class=&quot;listacirculo&quot;&gt;1&lt;/span&gt;Depre
 &lt;/h4&gt;
 &lt;/center&gt;
 &lt;ul&gt;
-&lt;li&gt;Proporcione psicoeducación a la persona y a sus cuidadores.[[Ver Recomendaciones|Recomendaciones 2.1]]
+&lt;li&gt;Proporcione psicoeducación a la persona y a sus cuidadores.&amp;#128204;[[Ver Recomendaciones|Recomendaciones 2.1]]
 &lt;/li&gt;
-&lt;li&gt;Reduzca el estrés y fortalezca los apoyos sociales.[[Ver Recomendaciones|Recomendaciones 2.2]]
+&lt;li&gt;Reduzca el estrés y fortalezca los apoyos sociales.&amp;#128204;[[Ver Recomendaciones|Recomendaciones 2.2]]
 &lt;/li&gt;
-&lt;li&gt;Promueva el funcionamiento adecuado en las actividades diarias y en la vida de la comunidad. [[Ver Recomendaciones|Recomendaciones 2.3]]
+&lt;li&gt;Promueva el funcionamiento adecuado en las actividades diarias y en la vida de la comunidad. &amp;#128204;[[Ver Recomendaciones|Recomendaciones 2.3]]
 &lt;/li&gt;
-&lt;li&gt;Considere la administración de antidepresivos. [[Ver Recomendaciones|Recomendaciones 2.5]]
+&lt;li&gt;Considere la administración de antidepresivos. &amp;#128204;[[Ver Intervenciones Farmacológicas|Recomendaciones 2.5]]  &amp;#10071;&lt;span style=&quot;color:red&quot;&gt;Solamente las puede realizar un Médico.&lt;/span&gt;
 &lt;/li&gt;
-&lt;li&gt; Si es factible, considere la derivación del paciente para que reciba alguno de los siguientes tratamientos psicológicos breves: activación conductual, terapia cognitivo conductual, terapia interpersonal y orientación para la resolución de problemas. [[Ver Recomendaciones|Recomendaciones 2.4]]
+&lt;li&gt; Si es factible, considere la derivación del paciente para que reciba alguno de los siguientes tratamientos psicológicos breves: activación conductual, terapia cognitivo conductual, terapia interpersonal y orientación para la resolución de problemas. &amp;#128204;[[Ver Recomendaciones|Recomendaciones 2.4]]
 &lt;/li&gt;
 &lt;li&gt;&amp;#10060;NO trate los síntomas con tratamientos ineficaces, por ejemplo, inyecciones de vitaminas.&lt;/li&gt;
 &lt;li&gt;Efectúe un seguimiento periódico.
@@ -1093,7 +1101,7 @@ médicos concurrentes.
   &lt;/tr&gt;
 &lt;/table&gt;
 
-</tw-passagedata><tw-passagedata pid="34" name="Continuar Medicacion" tags="" position="302,622" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="34" name="Continuar Medicacion" tags="" position="227,585.3333333333334" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 La persona NO ha estado libre de síntomas durante un período de 9 a 12 meses.
@@ -1112,7 +1120,7 @@ La persona NO ha estado libre de síntomas durante un período de 9 a 12 meses.
   &lt;/tr&gt;
 &lt;/table&gt;
 
-</tw-passagedata><tw-passagedata pid="35" name="Disminuya Dosis" tags="" position="452,624" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
+</tw-passagedata><tw-passagedata pid="35" name="Disminuya Dosis" tags="" position="562,554" size="100,100">config.header.left:&quot;{embed image: &#39;imgs/seguimiento32.png&#39;, alt: &#39;Evaluación&#39;} Módulo Depresión (DEP) - Seguimiento&quot;
 --
 &lt;center&gt;&lt;h3 class=&quot;titulo&quot;&gt;
 La persona ha estado libre de síntomas durante un período de 9 a 12 meses.
